@@ -15,6 +15,23 @@
 
 ---
 
+1 Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection,WSDM 2020.FewEvent数据集链接: https://github.com/231sm/Low_Resource_KBP
+2 Exploring Pre-trained Language Models for Event Extraction and Generation，ACL2019
+3 One for All: Neural Joint Modeling of Entities and Events,AAAI2019
+4 Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction, EMNLP2019
+5 Zero-Shot Transfer Learning for Event Extraction [HuangL,ACL2018]
+6 Joint Event Extraction via Recurrent Neural Networks, NAACL-HLT 2016
+7 Joint Entity and Event Extraction with Generative Adversarial Imitation Learning[T Zhang, H Ji, etc.] 
+8 Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks[Y Chen, 2015]
+9 Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction,一种针对中文金融事件抽取的端到端文档
+
+
+综述论文：
+1 An Overview of Event Extraction from Text [F Hogenboom .etc ]
+2 元事件抽取研究综述 (Survey on Meta-event Extraction). 
+
+
+
 
 ## Surveys(综述论文)
 [:arrow_up:](#table-of-contents)
