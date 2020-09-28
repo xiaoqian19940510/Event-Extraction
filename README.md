@@ -1,7 +1,24 @@
 # Event-Extraction（事件抽取资料综述总结）更新中...
 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
 
-## 事件抽取的定义
+
+# Table of Contents 目录
+
+- [Define（综述论文）](#Define)
+- [Surveys（综述论文）](#Surveys)
+- [Shallow Learning Models（浅层学习模型）](#Shallow-Learning-Models)
+- [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
+- [Datasets（数据集）](#Datasets)
+- [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
+- [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
+- [Tools and Repos（工具与资源）](#tools-and-repos)
+</p></blockquote></details>
+
+---
+
+
+## Define(事件抽取的定义)
+[:arrow_up:](#Define)
 
 ### Closed-domain
 
@@ -111,24 +128,11 @@ deciding whether a pair of stories discuss the same topic.
 The first two tasks mainly focus on event detection; and the rest three tasks are for event clustering. While the relation between the five tasks is evident, each requires a distinct evaluation process and encourages different approaches to address the particular problem.
 
 
-# Table of Contents 目录
-
-- [Surveys（综述论文）](#Surveys)
-- [Shallow Learning Models（浅层学习模型）](#Shallow-Learning-Models)
-- [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
-- [Datasets（数据集）](#Datasets)
-- [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
-- [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
-- [Tools and Repos（工具与资源）](#tools-and-repos)
-</p></blockquote></details>
-
----
-
 
 
 
 ## Surveys(综述论文)
-[:arrow_up:](#table-of-contents)
+[:arrow_up:](#Surveys)
 
 ### 事件抽取综述
 
@@ -246,7 +250,7 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 
 
 
-###Few-shot or zero-shot
+### Few-shot or zero-shot
 
 #### 2019
  <details/>
