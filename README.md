@@ -252,12 +252,33 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 
 ### Few-shot or zero-shot
 
-#### 2019
+#### 2020
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
 </p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Viet Lai, Franck Dernoncourt, Thien Huu Nguyen
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, 2020(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+
+</p></blockquote></details>
+
+#### 2018
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+</p></blockquote></details>
+
+
 
 
 ### 中文事件抽取
@@ -266,8 +287,49 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a href="https://arxiv.org/abs/1907.11692">Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692"> A Hybrid Character Representatin for Chinese Event Detection, IJCNLP 2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Xi Xiangyu ; Zhang Tong ; Ye Wei ; Zhang Jinglei ; Xie Rui ; Zhang Shikun
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Event Detection with Trigger-Aware Lattice Neural Network, EMNLP 2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Ning Ding, Ziran Li, Zhiyuan Liu, Haitao Zheng, Zibo Lin
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP 2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
+</p></blockquote></details>
+
+
+#### 2018
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+</p></blockquote></details>
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Nugget Proposal Networks for Chinese Event Detection, ACL 2018(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
+</p></blockquote></details>
+
+#### 2016
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">A convolution bilstm neural network model for chinese event extraction,NLPCC 2016(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+
 </p></blockquote></details>
 
 
