@@ -10,8 +10,8 @@ Closed-domain event extraction uses predefined event schema to discover and extr
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">Event mention:a phrase or sentence describing an event, including a trigger and several arguments.</summary><blockquote><p align="justify">
-。
+<a >Event mention</summary><blockquote><p align="justify">
+ a phrase or sentence describing an event, including a trigger and several arguments.
 </p></blockquote></details>
 
 
