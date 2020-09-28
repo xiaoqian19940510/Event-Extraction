@@ -4,24 +4,38 @@
 ##事件抽取的定义
 （1） Closed-domain
 Closed-domain event extraction uses predefined event schema to discover and extract desired events of particular type from text. An event schema contains several event types and their corresponding event structures. We use the ACE terminologies to introduce an event structure as follows:
+
 Event mention:a phrase or sentence describing an event, including a trigger and several arguments.
+
 Event trigger:the main word that most clearly expresses an event occurrence, typically a verb or a noun.
+
 Event argument:an entity mention, temporal expression or value that serves as a participant or attribute with a specific role in an event.
+
 Argument role:the relationship between an argument to the event in which it participants.
 
 D.Ahn [the stages of event extraction] first proposed to divide the ACE event extraction task into four subtasks: trigger detection, event/trigger type identification, event argument detection, and argument role identification. 
+
 Event mention: a phrase or sentence within which an event is described, including a trigger and arguments.
+
 Event trigger: the main word that most clearly expresses the occurrence of an event (An ACE event trigger is typically a verb or a noun).
+
 Event argument: an entity mention, temporal expression or value (e.g. Job-Title) that is involved in an event (viz., participants).
+
 Argument role: the relationship between an argument to the event in which it participates.
 
 （2） Open domain
 Without predefined event schemas, open-domain event extraction aims at detecting events from texts and in most cases, also clustering similar events via extracted event key-words. Event keywords refer to those words/phrases mostly describing an event, and sometimes keywords are further divided into triggers and arguments.
+
 Story segmentation: detecting the boundaries of a story from news articles.
+
 First story detection: detecting the story that discuss anew topic in the stream of news.
+
 Topic detection: grouping the stories based on the topics they discuss.
+
 Topic tracking: detecting stories that discuss a previously known topic.
+
 Story link detection: deciding whether a pair of stories discuss the same topic.
+
 The first two tasks mainly focus on event detection; and the rest three tasks are for event clustering. While the relation between the five tasks is evident, each requires a distinct evaluation process and encourages different approaches to address the particular problem.
 
 
