@@ -1,7 +1,7 @@
 # Event-Extraction（事件抽取资料综述总结）更新中...
 近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
 
-##事件抽取的定义
+## 事件抽取的定义
 
 （1） Closed-domain
 
@@ -130,7 +130,7 @@ One common application of text mining is event extraction,which encompasses dedu
 [:arrow_up:](#table-of-contents)
 
 
-###事件抽取
+### 事件抽取
 
 #### 2020
  <details/>
@@ -164,7 +164,7 @@ The identification of complex semantic structures such as events and entity rela
 
 
 
-###事件检测
+### 事件检测
 
 #### 2019
  <details/>
@@ -186,7 +186,7 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 </p></blockquote></details>
 
 
-###中文事件抽取
+### 中文事件抽取
 
 
 #### 2019
@@ -198,7 +198,7 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 
 
 
-###半监督\远程监督事件抽取
+### 半监督\远程监督事件抽取
 
 #### 2019
  <details/>
@@ -207,17 +207,7 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
 </p></blockquote></details>
 
-###开放域事件抽取
-
-#### 2019
- <details/>
-<summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
-</p></blockquote></details>
-
-
-###多语言事件抽取
+### 开放域事件抽取
 
 #### 2019
  <details/>
@@ -227,8 +217,7 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 </p></blockquote></details>
 
 
-
-###数据生成
+### 多语言事件抽取
 
 #### 2019
  <details/>
@@ -237,7 +226,18 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
 </p></blockquote></details>
 
-###阅读理解式事件抽取
+
+
+### 数据生成
+
+#### 2019
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+</p></blockquote></details>
+
+### 阅读理解式事件抽取
 
 
 #### 2019
