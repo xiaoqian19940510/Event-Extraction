@@ -17,41 +17,96 @@ Closed-domain event extraction uses predefined event schema to discover and extr
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">Event trigger:the main word that most clearly expresses an event occurrence, typically a verb or a noun.</summary><blockquote><p align="justify">
-。
+<a >Event trigger</summary><blockquote><p align="justify">
+the main word that most clearly expresses an event occurrence, typically a verb or a noun.
 </p></blockquote></details>
 
 
-Event mention:a phrase or sentence describing an event, including a trigger and several arguments.
 
-Event trigger:the main word that most clearly expresses an event occurrence, typically a verb or a noun.
+<details/>
+<summary/>
+<a >Event argument</summary><blockquote><p align="justify">
+an entity mention, temporal expression or value that serves as a participant or attribute with a specific role in an event.
+</p></blockquote></details>
 
-Event argument:an entity mention, temporal expression or value that serves as a participant or attribute with a specific role in an event.
 
-Argument role:the relationship between an argument to the event in which it participants.
+<details/>
+<summary/>
+<a >Argument role</summary><blockquote><p align="justify">
+the relationship between an argument to the event in which it participants.
+</p></blockquote></details>
+
+
+
 
 D.Ahn [the stages of event extraction] first proposed to divide the ACE event extraction task into four subtasks: trigger detection, event/trigger type identification, event argument detection, and argument role identification. 
 
-Event mention: a phrase or sentence within which an event is described, including a trigger and arguments.
+<details/>
+<summary/>
+<a >Event mention</summary><blockquote><p align="justify">
+a phrase or sentence within which an event is described, including a trigger and arguments.
+</p></blockquote></details>
 
-Event trigger: the main word that most clearly expresses the occurrence of an event (An ACE event trigger is typically a verb or a noun).
 
-Event argument: an entity mention, temporal expression or value (e.g. Job-Title) that is involved in an event (viz., participants).
+<details/>
+<summary/>
+<a >Event trigger</summary><blockquote><p align="justify">
+the main word that most clearly expresses the occurrence of an event (An ACE event trigger is typically a verb or a noun).
+</p></blockquote></details>
 
-Argument role: the relationship between an argument to the event in which it participates.
+<details/>
+<summary/>
+<a >Event argument</summary><blockquote><p align="justify">
+an entity mention, temporal expression or value (e.g. Job-Title) that is involved in an event (viz., participants).
+</p></blockquote></details>
+
+<details/>
+<summary/>
+<a >Argument role</summary><blockquote><p align="justify">
+the relationship between an argument to the event in which it participates.
+</p></blockquote></details>
+
+
 
 ### Open domain
+
 Without predefined event schemas, open-domain event extraction aims at detecting events from texts and in most cases, also clustering similar events via extracted event key-words. Event keywords refer to those words/phrases mostly describing an event, and sometimes keywords are further divided into triggers and arguments.
 
-Story segmentation: detecting the boundaries of a story from news articles.
 
-First story detection: detecting the story that discuss anew topic in the stream of news.
 
-Topic detection: grouping the stories based on the topics they discuss.
+<details/>
+<summary/>
+<a >Story segmentation</summary><blockquote><p align="justify">
+detecting the boundaries of a story from news articles.
+</p></blockquote></details>
 
-Topic tracking: detecting stories that discuss a previously known topic.
 
-Story link detection: deciding whether a pair of stories discuss the same topic.
+<details/>
+<summary/>
+<a >First story detection</summary><blockquote><p align="justify">
+detecting the story that discuss anew topic in the stream of news.
+</p></blockquote></details>
+
+
+<details/>
+<summary/>
+<a >Topic detection</summary><blockquote><p align="justify">
+grouping the stories based on the topics they discuss.
+</p></blockquote></details>
+
+<details/>
+<summary/>
+<a >Topic tracking</summary><blockquote><p align="justify">
+detecting stories that discuss a previously known topic.
+</p></blockquote></details>
+
+
+<details/>
+<summary/>
+<a >Story link detection</summary><blockquote><p align="justify">
+deciding whether a pair of stories discuss the same topic.
+</p></blockquote></details>
+
 
 The first two tasks mainly focus on event detection; and the rest three tasks are for event clustering. While the relation between the five tasks is evident, each requires a distinct evaluation process and encourages different approaches to address the particular problem.
 
