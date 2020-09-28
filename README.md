@@ -3,9 +3,24 @@
 
 ## 事件抽取的定义
 
-（1） Closed-domain
+### Closed-domain
 
 Closed-domain event extraction uses predefined event schema to discover and extract desired events of particular type from text. An event schema contains several event types and their corresponding event structures. We use the ACE terminologies to introduce an event structure as follows:
+
+
+<details/>
+<summary/>
+<a href="https://arxiv.org/pdf/2008.00364.pdf">Event mention:a phrase or sentence describing an event, including a trigger and several arguments.</summary><blockquote><p align="justify">
+。
+</p></blockquote></details>
+
+
+<details/>
+<summary/>
+<a href="https://arxiv.org/pdf/2008.00364.pdf">Event trigger:the main word that most clearly expresses an event occurrence, typically a verb or a noun.</summary><blockquote><p align="justify">
+。
+</p></blockquote></details>
+
 
 Event mention:a phrase or sentence describing an event, including a trigger and several arguments.
 
@@ -25,7 +40,7 @@ Event argument: an entity mention, temporal expression or value (e.g. Job-Title)
 
 Argument role: the relationship between an argument to the event in which it participates.
 
-（2） Open domain
+### Open domain
 Without predefined event schemas, open-domain event extraction aims at detecting events from texts and in most cases, also clustering similar events via extracted event key-words. Event keywords refer to those words/phrases mostly describing an event, and sometimes keywords are further divided into triggers and arguments.
 
 Story segmentation: detecting the boundaries of a story from news articles.
