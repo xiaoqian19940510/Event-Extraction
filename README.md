@@ -209,43 +209,57 @@ One common application of text mining is event extraction,which encompasses dedu
 #### 2020
  <details/>
 <summary/>
-  <a href="https://transacl.org/ojs/index.php/tacl/article/view/1853">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM2020(<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
-Event detection (ED), a sub-task of event extraction, involves identifying triggers and categorizing event mentions. Existing methods primarily rely upon supervised learning and require large-scale labeled event datasets which are unfortunately not readily available in many real-life applications. In this paper, we consider and reformulate the ED task with limited labeled data as a Few-Shot Learning problem. We propose a Dynamic-Memory-Based Prototypical Network (DMB-PN), which exploits Dynamic Memory Network (DMN) to not only learn better prototypes for event types, but also produce more robust sentence encodings for event mentions. Differing from vanilla prototypical networks simply computing event prototypes by averaging, which only consume event mentions once, our model is more robust and is capable of distilling contextual information from event mentions for multiple times due to the multi-hop mechanism of DMNs. The experiments show that DMB-PN not only deals with sample scarcity better than a series of baseline models but also performs more robustly when the variety of event types is relatively large and the instance quantity is extremely small.
-
+  <a >Event Extraction as Definitation Comprehension, arxiv 2020(<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
+动机：提出一种新颖的事件提取方法，为模型提供带有漂白语句的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
+主要思想：提出了一种新的事件抽取方法，该方法考虑了通过漂白语句的注释准则；提出了一个多跨度的选择模型，该模型演示了事件抽取方法的可行性以及零样本或少样本设置的可行性。
+数据集：ACE 2005
 </p></blockquote></details>
 
 
 
  <details/>
 <summary/>
-  <a href="https://openreview.net/forum?id=H1eA7AEtvS">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD2020 (<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
-The existing event classification (EC) work primarily focuseson the traditional supervised learning setting in which models are unableto extract event mentions of new/unseen event types. Few-shot learninghas not been investigated in this area although it enables EC models toextend their operation to unobserved event types. To fill in this gap, inthis work, we investigate event classification under the few-shot learningsetting. We propose a novel training method for this problem that exten-sively exploit the support set during the training process of a few-shotlearning model. In particular, in addition to matching the query exam-ple with those in the support set for training, we seek to further matchthe examples within the support set themselves. This method providesmore training signals for the models and can be applied to every metric-learning-based few-shot learning methods. Our extensive experiments ontwo benchmark EC datasets show that the proposed method can improvethe best reported few-shot learning models by up to 10% on accuracyfor event classification.
+  <a>Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 (<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
+动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件提取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
+ 
+主要思想：依靠公共新闻API的标题，我们提出一种方法来过滤不相关的标题并初步进行事件抽取。价格和文本均被反馈到3D卷积神经网络，以学习事件与市场动向之间的相关性。
+数据集：NYTf、FT、TG
 </p></blockquote></details>
 
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a>One for All: Neural Joint Modeling of Entities and Events, AAAI2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+
 </p></blockquote></details>
 
  <details/>
 <summary/>
-  <a href="http://papers.nips.cc/paper/8812-xlnet-generalized-autoregressive-pretraining-for-language-understanding">Cross-lingual Structure Transfer for Relation and Event Extraction(<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
-The identification of complex semantic structures such as events and entity relations, already a challenging Information Extraction task, is doubly difficult from sources written in under-resourced and under-annotated languages. We investigate the suitability of cross-lingual structure transfer techniques for these tasks. We exploit relation- and event-relevant language-universal features, leveraging both symbolic (including part-of-speech and dependency path) and distributional (including type representation and contextualized representation) information. By representing all entity mentions, event triggers, and contexts into this complex and structured multilingual common space, using graph convolutional networks, we can train a relation or event extractor from source language annotations and apply it to the target language. Extensive experiments on cross-lingual relation and event transfer among English, Chinese, and Arabic demonstrate that our approach achieves performance comparable to state-of-the-art supervised models trained on up to 3,000 manually annotated mentions: up to 62.6% F-score for Relation Extraction, and 63.1% F-score for Event Argument Role Labeling. The event argument role labeling model transferred from English to Chinese achieves similar performance as the model trained from Chinese. We thus find that language-universal symbolic and distributional representations are complementary for cross-lingual structure transfer.
+  <a>Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction(<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
+任务:与其他研究不同，该任务被定义为：事件框架填充：也就是论元检测+识别
+ 
+不同点有：不需要触发词检测;文档级的抽取;论元有重叠
+
+动机:解码论元需要一定顺序，先后有关
+
+主要思想:发布数据集，具有特性：arguments-scattering and multi-event,先对事件是否触发进行预测；然后，按照一定顺序先后来分别解码论元
+
+数据集:ten years (2008-2018) Chinese financial announcements：ChFinAnn;Crawling from http://www.cninfo.com.cn/new/index
 </p></blockquote></details>
 
 
 
-
-### 事件检测
-
-#### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a>HMEAE: Hierarchical Modular Event Argument Extraction, EMNLP 2019 short(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+任务:事件角色分类
+ 
+动机:论元的类型（如PERSON）会给论元之间的关联带来影响
+
+数据集:ACE 2005；TAC KBP 2016
 </p></blockquote></details>
+
+
 
 
 
