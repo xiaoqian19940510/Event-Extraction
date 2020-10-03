@@ -260,6 +260,16 @@ One common application of text mining is event extraction,which encompasses dedu
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a>Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet, EMNLP 2019 short(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+动机：事件抽取对于许多实际应用非常有用，例如新闻摘要和信息检索。但是目前很流行的自动上下文抽取（ACE）事件抽取程序仅定义了非常有限且粗糙的事件模式，这可能不适合实际应用。 FrameNet是一种语言语料库，它定义了完整的语义框架和框架间的关系。由于FrameNet中的框架与ACE中的事件架构共享高度相似的结构，并且许多框架实际上表达了事件，因此，我们建议基于FrameNet重新定义事件架构。
+
+主要思想：（1）提取FrameNet中表示事件的所有框架，并利用框架与框架之间的关系建立事件模式的层次结构。（2）适当利用全局信息（例如事件间关系）和事件抽取必不可少的局部特征（例如词性标签和依赖项标签）。基于一种利用事件抽取结果的多文档摘要无监督抽取方法，我们实行了一种图排序。
+
+数据集：ACE 2005，FrameNet 1.7 corpus
+</p></blockquote></details>
+
 
 
 
