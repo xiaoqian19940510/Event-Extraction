@@ -213,6 +213,8 @@ One common application of text mining is event extraction,which encompasses dedu
 (<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
 动机：在最近的工作中，当确定事件类型（触发器分类）时，大多数方法要么是仅基于模式（pattern），要么是仅基于特征。此外，以往的工作在识别和文类论元的时候，忽略了论元之间的关系，只是孤立的考虑每个候选论元。
  
+ ![image](https://github.com/xiaoqian19940510/text-classification-surveys/blob/master/picture1.png)
+ 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
  
 主要思想：在本文中，我们同时使用‘模式’和‘特征’来识别和分类‘事件触发器’。 此外，我们使用正则化方法对候选自变量之间的关系进行建模，以提高自变量识别的性能。 我们的方法称为基于正则化的模式平衡方法。
