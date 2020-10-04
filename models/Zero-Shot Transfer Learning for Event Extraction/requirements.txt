@@ -1,0 +1,2 @@
+theano==0.8
+scikit-learn
