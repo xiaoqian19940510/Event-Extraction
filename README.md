@@ -277,23 +277,14 @@ One common application of text mining is event extraction,which encompasses dedu
 </p></blockquote></details>
 
 
+
+
+
+
+
+
+
 #### 2018
- <details/>
-<summary/>
-  <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018 </a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
-(<a href="https://github.com/wilburOne/ZeroShotEvent">Github</a>)</summary><blockquote><p align="justify">
-动机：以前大多数受监督的事件提取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
- 
- ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
- 
-主要思想：每个事件都有由候选触发词和论元组成的结构，同时这个结构具有和事件类型及论元相一致的预定义的名字和标签。 我们增加了事件类型以及事件信息片段的语义代表( semantic representations)，并根据目标本体中定义的事件类型和事件信息片段的语义相似性来决定事件的类型
-
-数据集：ACE2005
-
-Keywords: Zero-Shot Transfer
-
-</p></blockquote></details>
-
 
  <details/>
 <summary/>
@@ -351,11 +342,115 @@ Keywords: dbRNN
 
 </p></blockquote></details>
 
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018 </a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+(<a href="https://github.com/wilburOne/ZeroShotEvent">Github</a>)</summary><blockquote><p align="justify">
+动机：以前大多数受监督的事件提取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：每个事件都有由候选触发词和论元组成的结构，同时这个结构具有和事件类型及论元相一致的预定义的名字和标签。 我们增加了事件类型以及事件信息片段的语义代表( semantic representations)，并根据目标本体中定义的事件类型和事件信息片段的语义相似性来决定事件的类型
+
+数据集：ACE2005
+
+Keywords: Zero-Shot Transfer
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by<i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：我们提供了一个名为DCFEE的框架，该框架可以从被自动标记过的训练数据中抽取文档级事件。我们使用一个序列标记模型来自动抽取句子级事件，并且提出了一个关键事件检测模型和一个论元填充策略，进而从文档中提取整个事件。
+
+数据集：Chinese financial event dataset
+
+Keywords: Automatically Labelled, Chinese Financial EE
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//blender.cs.illinois.edu/paper/imitation2019.pdf" >Joint Entity and Event Extraction with Generative Adversarial Imitation Learning, CCL 2016 </a> by<i> Tongtao Zhang and Heng Ji and Avirup Sil
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机:我们提出了一种基于生成对抗的模仿学习的实体与事件抽取框架，这种学习是一种使用生成对抗网络（GAN）的逆强化学习方法。该框架的实际表现优于目前最先进的方法。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：在本文中，我们提出了一种动态机制——逆强化学习，直接评估实体和事件提取中实例的正确和错误标签。 我们为案例分配明确的分数，或者根据强化学习（RL）给予奖励，并采用来自生成对抗网络（GAN）的鉴别器来估计奖励价值。
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D18-1156" >Joint Multiple Event Extraction via Attention-based Graph Information Aggregration, EMNLP 2018 </a> by<i> Liu, Xiao and Luo, Zhunchen and Huang, Heyan
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/lx865712528/EMNLP2018-JMEE/">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：比提取单个事件更困难。在以往的工作中，由于捕获远距离的依赖关系效率很低，因此通过顺序建模的方法在对事件之间的联系进行建模很难成功。本文提出了一种新的框架来解决这个问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：本文提出JMEE模型（Jointly Multiple Events Extraction），面向的应用是从一个句子中抽取出多个事件触发器和参数（arguments）。JMEE模型引入了syntactic shortcut arcs来增强信息流并且使用基于attention的GCN建模图数据。实验结果表明本文的方法和目前最顶级的方法相比，有着可以媲美的效果。
+
+数据集：ACE2005
+
+Keywords: JMEE
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/N18-2058/" >Semi-supervised event extraction with paraphrase clusters, NAACL 2018</a> by<i> Ferguson, James and Lockard, Colin and Weld, Daniel and Hajishirzi, Hannaneh
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件提取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：
+我们通过详细的事件描述自动生成被标记过的训练数据，然后用这些数据进行事件触发词识别。具体来说，首先，将提及该事件的片段聚集在一起，形成一个聚类。然后用每个聚类中的简单示例来给整个聚类贴一个标签。最后，我们将新示例与原始训练集结合在一起，重新训练事件抽取器。
+
+
+数据集：ACE2005, TAC-KBP 2015
+
+Keywords: Semi-supervised
+
+</p></blockquote></details>
 
 
 
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=http%3A//www.cips-cl.org/static/anthology/CCL-2016/CCL-16-081.pdf" >Jointly multiple events extraction via attention-based graph information aggregation, EMNLP 2018 </a> by<i> Xiao Liu, Zhunchen Luo‡ and Heyan Huang
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+任务:
+触发词分类；论元分类
 
+动机:
+论元的语法依存关系
 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+用GCN增强论元之间的依存关系
+用自注意力来增强触发词分类的效果
+
+数据集：ACE2005
+
+</p></blockquote></details>
 
 
 
