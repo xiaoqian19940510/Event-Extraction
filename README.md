@@ -219,6 +219,8 @@ One common application of text mining is event extraction,which encompasses dedu
 
 数据集：ACE2005
 
+Keywords: Embedding & Pattern features, Regularization method
+
 </p></blockquote></details>
 
 
