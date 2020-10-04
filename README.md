@@ -27,14 +27,14 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
 <details/>
 <summary/>
-<a >Event mention</summary><blockquote><p align="justify">
+<a >事件提及</summary><blockquote><p align="justify">
 描述事件的短语或句子，包括触发词和几个参数。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a >Event trigger</summary><blockquote><p align="justify">
+<a >事件触发词</summary><blockquote><p align="justify">
 最清楚地表达事件发生的主要词，尤指动词或名词。
 </p></blockquote></details>
 
@@ -42,14 +42,14 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
 <details/>
 <summary/>
-<a >Event argument</summary><blockquote><p align="justify">
+<a >事件论元</summary><blockquote><p align="justify">
  一个实体,时间表达式，作为参与者的值和在事件中具有特定角色的属性。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a >Argument role</summary><blockquote><p align="justify">
+<a >论元角色</summary><blockquote><p align="justify">
  论元与它所参与的事件之间的关系。
 </p></blockquote></details>
 
@@ -58,28 +58,26 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a >Event mention</summary><blockquote><p align="justify">
+<a >事件提及</summary><blockquote><p align="justify">
  描述事件的短语或句子，包括触发词和参数。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a >Event trigger</summary><blockquote><p align="justify">
+<a >事件触发词</summary><blockquote><p align="justify">
  最清楚地表示事件发生的主要词(ACE事件触发词通常是动词或名词)。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a >Event argument</summary><blockquote><p align="justify">
-an entity mention, temporal expression or value (e.g. Job-Title) that is involved in an event (viz., participants).
+<a >事件论文</summary><blockquote><p align="justify">
  在事件(即参与者)中涉及的实体提及、时间表达或值(例如工作头衔)。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a >Argument role</summary><blockquote><p align="justify">
-the relationship between an argument to the event in which it participates.
+<a >论元角色</summary><blockquote><p align="justify">
  论元和事件同参与者之间的关系。
 </p></blockquote></details>
 
@@ -91,35 +89,34 @@ the relationship between an argument to the event in which it participates.
 
 <details/>
 <summary/>
-<a >Story segmentation</summary><blockquote><p align="justify">
-detecting the boundaries of a story from news articles.
+<a >故事分割</summary><blockquote><p align="justify">
  从新闻中检测故事的边界。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a >First story detection</summary><blockquote><p align="justify">
+<a >第一个故事检测</summary><blockquote><p align="justify">
  检测新闻流中讨论新话题的故事。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a >Topic detection</summary><blockquote><p align="justify">
+<a >话题检测</summary><blockquote><p align="justify">
  根据讨论的主题将故事分组。
 </p></blockquote></details>
 
 <details/>
 <summary/>
-<a >Topic tracking</summary><blockquote><p align="justify">
+<a >话题追踪</summary><blockquote><p align="justify">
  检测讨论先前已知话题的故事。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a >Story link detection</summary><blockquote><p align="justify">
+<a >故事链检测</summary><blockquote><p align="justify">
 决定两个故事是否讨论同一个主题。
 </p></blockquote></details>
 
@@ -455,13 +452,17 @@ Keywords: Knowledge-driven Tree-LSTM
   <a >One for All: Neural Joint Modeling of Entities and Events, AAAI 2019 </a> by<i> Trung Minh Nguyen∗ Alt Inc.
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
-动机：
+事件提取之前的工作主要关注于对事件触发器和参数角色的预测，将实体提及视为由人工注释器提供的。
+这是不现实的，因为实体提到通常是由一些现有工具包预测的，它们的错误可能会传播到事件触发器和参数角色识别。
+最近很少有研究通过联合预测实体提及、事件触发器和参数来解决这个问题。
+然而，这种工作仅限于使用离散的工程特征来表示单个任务及其交互的上下文信息。
+在这项工作中，我们提出了一个新的模型来联合执行实体提及，事件触发和论点的预测基于共享的隐藏表示从深度学习。
+实验证明了该方法的优点，导致了最先进的性能事件提取。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
 
-主要思想：
 
-数据集：
+数据集：ACE 2005 
 
 </p></blockquote></details>
 
@@ -830,6 +831,9 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
 </p></blockquote></details>
+
+
+
 
 
 
