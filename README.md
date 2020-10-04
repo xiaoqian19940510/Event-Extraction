@@ -4,10 +4,9 @@
 
 # Table of Contents 目录
 
-- [Define（综述论文）](#Define)
+- [Define（事件抽取的定义）](#Define)
 - [Surveys（综述论文）](#Surveys)
-- [Shallow Learning Models（浅层学习模型）](#Shallow-Learning-Models)
-- [Deep Learning Models（深度学习模型）](#Deep-Learning-Models)
+- [Models（模型）](#Models)
 - [Datasets（数据集）](#Datasets)
 - [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
 - [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
@@ -175,7 +174,7 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 
 
-## Deep Learning Models（深度学习模型）
+## Models（模型）
 [:arrow_up:](#table-of-contents)
 
 
@@ -1112,25 +1111,6 @@ Keywords: Training on multiple languages using a combination of both language-de
 
 ### 数据生成
 
-#### 2017
- <details/>
-<summary/>
-  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by<i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
-(<a href="https://link.zhihu.com/?target=https%3A//github.com/acl2017submission/event-data">Github</a>)</summary><blockquote><p align="justify">
- 
-动机：手动标记的训练数据成本太高，事件类型覆盖率低且规模有限，这种监督的方法很难从知识库中抽取大量事件。
-
- ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
-
-主要思想：1）提出了一种按重要性排列论元并且为每种事件类型选取关键论元或代表论元方法。2）仅仅使用关键论元来标记事件，并找出关键词。3）用外部语言知识库FrameNet来过滤噪声触发词并且扩展触发词库。
-
-数据集：ACE2005
-
-Keywords: Data Generation, Distant Supervision
-
-</p></blockquote></details>
-
-
 
 #### 2019
  <details/>
@@ -1186,6 +1166,25 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 </p></blockquote></details>
 
 
+#### 2017
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by<i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/acl2017submission/event-data">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：手动标记的训练数据成本太高，事件类型覆盖率低且规模有限，这种监督的方法很难从知识库中抽取大量事件。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：1）提出了一种按重要性排列论元并且为每种事件类型选取关键论元或代表论元方法。2）仅仅使用关键论元来标记事件，并找出关键词。3）用外部语言知识库FrameNet来过滤噪声触发词并且扩展触发词库。
+
+数据集：ACE2005
+
+Keywords: Data Generation, Distant Supervision
+
+</p></blockquote></details>
+
+
 
 ### 阅读理解式事件抽取
 
@@ -1209,16 +1208,6 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 
 
 
-
-
-## Shallow Learning Models(浅层学习模型)
-[:arrow_up:](#table-of-contents)
-
-#### 2017
-
-
-
-
 ## Data（数据）
 [:arrow_up:](#table-of-contents)
 
@@ -1232,21 +1221,67 @@ ACE 2005多语种训练语料库包含了用于2005年自动内容抽取(ACE)技
 </p></blockquote></details>
 
 
+<details/>
+<summary/> <a href="https://link.zhihu.com/?target=http%3A//www.aclweb.org/old_anthology/W/W15/W15-0812.pdf">Rich ERE</a></summary><blockquote><p align="justify">
+Rich ERE扩展了实体、关系和事件本体，并扩展了什么是taggable的概念。
+Rich ERE还引入了事件跳跃的概念，以解决普遍存在的事件共引用的挑战，特别是关于在文档内和文档之间的事件提及和事件参数粒度变化，从而为创建(分层的或嵌套的)跨文档的事件表示铺平了道路。
+ 
+</p></blockquote></details>
+
+
+
+<details/>
+<summary/> <a href="https://link.zhihu.com/?target=https%3A//tac.nist.gov//2015/KBP/Event/index.html">TAC2015</a></summary><blockquote><p align="justify">
+TAC KBP事件跟踪的目标是提取关于事件的信息，以便这些信息适合作为知识库的输入。轨迹包括用于检测和链接事件的事件块任务，以及用于提取属于同一事件的事件参数和链接参数的事件参数(EA)任务。2015年TAC KBP赛事轨迹分为5个子任务
+</p></blockquote></details>
+
+
+<details/>
+<summary/> <a href="https://link.zhihu.com/?target=https%3A//tac.nist.gov/2017/KBP/">KBP2017</a></summary><blockquote><p align="justify">
+TAC知识库填充(KBP)的目标是开发和评估从非结构化文本中填充知识库的技术。
+KBP包括为KBP开发特定组件和功能的组件跟踪，以及称为“冷启动”的端到端KB构建任务，该任务通过在技术成熟时集成选定的组件从头开始构建KB。
+与在冷启动KB任务中执行的功能相比，组件跟踪中所需的功能可以“更多”，也可以“更少”。
+组件轨道比冷启动“更多”，因为每个轨道可能探索未立即集成到冷启动任务中的试点任务;
+他们是“少”,将组件集成到一个KB需要额外协调与和解各个组件之间的不匹配,这样KB符合知识库模式(例如,知识库不能断言一个实体是一个事件的“地方”如果它还断言,实体是一个“人”)。
+</p></blockquote></details>
+
+
+DataSet: Genia2011 dataset, Spainish ERE Corpus, Wikipedia article, BioNLP Cancer Genetics (CG) Shared Task 2013
+
+
+
+#### Chinese Corpus
+
+<details/>
+<summary/> <a href="https://link.zhihu.com/?target=https%3A//catalog.ldc.upenn.edu/LDC2006T06">ACE2005 Chinese Corpus</a></summary><blockquote><p align="justify">
+ACE 2005多语种训练语料库包含了用于2005年自动内容抽取(ACE)技术评价的完整的英语、阿拉伯语和汉语训练数据集。
+语料库由语言数据联盟(LDC)为实体、关系和事件注释的各种类型的数据组成，该联盟得到了ACE计划的支持和LDC的额外帮助。
+</p></blockquote></details>
+
+
+
+
 ## Future Research Challenges（未来研究挑战）
 [:arrow_up:](#table-of-contents)
 
 
 
 #### 数据层面
+领域数据难构造，标注成本大
 
+生成标注数据 or 无标注式事件抽取论元
 
 
 #### 模型层面
 
+pipeline方式存在错误信息的传递，如何减小错误信息传递
+
+论元之间的关联关系的有效利用
 
 
 #### 性能评估层面
 
+无标注数据的评价指标设计
 
 
 
