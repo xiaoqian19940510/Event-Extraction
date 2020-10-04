@@ -372,7 +372,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P16-1025/" >Liberal Event Extraction and Event Schema Induction, CCL 2016 </a> by<i> Lifu Huang, Taylor Cassidy, Xiaocheng Feng, Heng Ji, Clare R. Voss, Jiawei Han, Avirup Sil
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P16-1025/" >Liberal Event Extraction and Event Schema Induction, AACL 2016 </a> by<i> Lifu Huang, Taylor Cassidy, Xiaocheng Feng, Heng Ji, Clare R. Voss, Jiawei Han, Avirup Sil
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
 动机：结合了象征式的（例如抽象含义表示）和分布式的语义来检测和表示事件结构，并采用同一个类型框架来同时提取事件类型和论元角色并发现事件模式。这种模式的提取性能可以与被预定义事件类型标记过的大量数据训练的监督模型相媲美。 
@@ -387,6 +387,36 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 数据集：ERE (Entity Relation Event)
 
 </p></blockquote></details>
+
+
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/N16-1049/" >Joint Learning Templates and Slots for Event Schema Induction, NAACL 2016 </a> by<i> Lei Sha, Sujian Li, Baobao Chang, Zhifang Sui
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/shenglih/normalized_cut/tree/master">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：我们提出了一个联合实体驱动模型，这种模型可以根据同一句子中模板和各种信息槽（例如attribute slot和participate slot）的限制，同时学习模板和信息槽。这样的模型会得到比以前的方法更好的结果。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：为了更好地建立实体之间的内在联系的模型，我们借用图像分割中的标准化切割作为聚类标准。同时我们用模板之间的约束以及一个句子中的信息槽之间的约束来改善AESI结果。
+
+
+数据集：MUC-4
+
+</p></blockquote></details>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
