@@ -315,6 +315,43 @@ Keywords: Embedding & Pattern features, Regularization method
 
 
 
+#### 2015
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P15-1017" >Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks, ACL2015 </a> by<i> Yubo Chen, Liheng Xu, Kang Liu, Daojian Zeng and Jun Zhao 
+(<a>Github</a>)</summary><blockquote><p align="justify">
+任务：给定候选实体的位置；完成触发词识别，触发词分类，论元识别，论元分类
+ 
+动机：在于一个句子中可能会有多个事件，如果只用一个池化将导致多个事件的句子级特征没有区别。因此引入动态多池化
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：采用动态多池化的方式，以trigger和candidate作为分隔符[-trigger-candidate-]，将句子池化成三段；动机在于一个句子中可能会有多个事件，如果只用一个池化将导致多个事件的句子级特征没有区别。将任务目标转换成句子分类任务，从而完成任务。
+ 
+
+数据集：ACE2005
+
+keywords: DMCNN, CNN, Dynamic Multi-Pooling
+
+</p></blockquote></details>
+
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P15-1019/" >Generative Event Schema Induction with Entity Disambiguation, AACL2015 </a> by<i> Kiem-Hieu Nguyen, Xavier Tannier, Olivier Ferret, Romaric Besançon
+(<a>Github</a>)</summary><blockquote><p align="justify">
+动机：以往文献中的方法仅仅使用中心词来代表实体，然而除了中心词，别的元素也包含了很多重要的信息。这篇论文提出了一种事件模式归纳的生成模型来解决这个问题。
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：模式归纳是指从没有被标记的文本中无监督的学习模板（一个模板定义了一个与实体的语义角色有关的特定事件的类型）。想法是：基于事件模板中相同角色对应的这些实体的相似性，将他们分组在一起。例如，在有关恐怖袭击的语料库中，可以将要被杀死，要被攻击的对象的实体组合在一起，并以名为VICTIM的角色为它们的特征。
+
+数据集：ACE2005
+
+keywords: DMCNN, CNN, Dynamic Multi-Pooling
+
+</p></blockquote></details>
 
 
 
