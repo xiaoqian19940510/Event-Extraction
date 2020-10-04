@@ -215,6 +215,8 @@ One common application of text mining is event extraction,which encompasses dedu
   <a >Event Extraction as Definitation Comprehension, arxiv 2020(<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
 动机：提出一种新颖的事件提取方法，为模型提供带有漂白语句的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
  
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+  
 主要思想：提出了一种新的事件抽取方法，该方法考虑了通过漂白语句的注释准则；提出了一个多跨度的选择模型，该模型演示了事件抽取方法的可行性以及零样本或少样本设置的可行性。
 
 数据集：ACE 2005
@@ -228,20 +230,99 @@ One common application of text mining is event extraction,which encompasses dedu
   <a>Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 (<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
 动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件提取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
  
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+  
 主要思想：依靠公共新闻API的标题，我们提出一种方法来过滤不相关的标题并初步进行事件抽取。价格和文本均被反馈到3D卷积神经网络，以学习事件与市场动向之间的相关性。
+
 数据集：NYTf、FT、TG
 </p></blockquote></details>
 
+
+
+
 #### 2019
+
+
  <details/>
 <summary/>
-  <a>One for All: Neural Joint Modeling of Entities and Events, AAAI2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-1522" >Exploring Pre-trained Language Models for Event Extraction and Geenration, ACL 2019</a> by<i> Yang, Sen and Feng, Dawei and Qiao, Linbo and Kan, Zhigang and Li, Dongsheng
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+ACE事件抽取任务的传统方法通常依赖被手动注释过的数据，但是手动注释数据非常耗费精力并且也限制了数据集的规模。我们提出了一个方法来克服这个问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：
+本文提出了一个基于预训练语言模型的框架，该框架包含一个作为基础的事件抽取模型以及一种生成被标记事件的方法。我们提出的事件抽取模型由触发词抽取器和论元抽取器组成，论元抽取器用前者的结果进行推理。此外，我们根据角色的重要性对损失函数重新进行加权，从而提高了论元抽取器的性能。
+
+数据集：ACE2005
+
+Keywords: Context-aware word representation, LSTM, Tensor layer
 
 </p></blockquote></details>
 
+
  <details/>
 <summary/>
-  <a>Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction(<a href="https://github.com/zihangdai/xlnet">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-1276/" >Open Domain Event Extraction Using Neural Latent Variable Models, ACL2019 </a> by<i> Xiao Liu and Heyan Huang and Yue Zhang
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/lx865712528/ACL2019-ODEE">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+我们考虑开放领域的事件提取，即从新闻集群中抽取无约束的事件类型的任务。结果表明，与最新的事件模式归纳方法相比，这种无监督模型具有更好的性能。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+以前关于生成模式归纳的研究非常依赖人工生成的指标特征，而我们引入了由神经网络产生的潜在变量来获得更好的表示能力。我们设计了一种新颖的图形模型，该模型具有潜在的事件类型矢量以及实体的文本冗余特征，而这些潜在的事件类型矢量来自全局参数化正态分布的新闻聚类。
+
+数据集：GNBusiness
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-3006/" >Rapid Customization for Event Extraction, ACL 2019 </a> by<i> Yee Seng Chan, Joshua Fasching, Haoling Qiu, Bonan Min
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/BBN-E/Rapid-customization-events-acl19">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+从文本中获取事件发生的时间、地点、人物以及具体做了什么是很多应用程序（例如网页搜索和问题解答）的核心信息抽取任务之一。本文定义了一种快速自定义事件抽取功能的系统，用于查找新的事件类型以及他们的论元。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+为了能够提抽新类型的事件，我们提出了一种新颖的方法：让用户通过探索无注释的语料库来查找，扩展和过滤事件触发词。然后，系统将自动生成相应级别的事件注释，并训练神经网络模型以查找相应事件。
+
+数据集：ACE2005
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by<i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+从资源不足以及注释不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+通过使用卷积神经网络，将所有实体信息片段、事件触发词、事件背景放入一个复杂的、结构化的多语言公共空间，然后我们可以从源语言注释中训练一个事件抽取器，并将它应用于目标语言。
+
+数据集：ACE2005
+
+</p></blockquote></details>
+
+
+
+ <details/>
+<summary/>
+   <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1032/" >Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP2019 </a> by<i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
 任务:与其他研究不同，该任务被定义为：事件框架填充：也就是论元检测+识别
  
 不同点有：不需要触发词检测;文档级的抽取;论元有重叠
@@ -254,21 +335,137 @@ One common application of text mining is event extraction,which encompasses dedu
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1585" >Entity, Relation, and Event Extraction with Contextualized Span Representations, CCL 2016 </a> by<i> David Wadden, Ulme Wennberg, Yi Luan, Hannaneh Hajishirzi
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/dwadden/dygiepp">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+许多信息提取任务（例如被命名的实体的识别，关系提取，事件抽取和共指消解）都可以从跨句子的全局上下文或无局部依赖性的短语中获益。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：
+（1）将事件提取作为附加任务执行，并在事件触发词与其论元的关系图形中进行跨度更新。
+（2）在多句子BERT编码的基础上构建跨度表示形式。
+
+数据集：ACE2005
+
+</p></blockquote></details>
+
+
 
  <details/>
 <summary/>
-  <a>HMEAE: Hierarchical Modular Event Argument Extraction, EMNLP 2019 short(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1584/">HMEAE: Hierarchical Modular Event Argument Extraction, EMNLP 2019 short(<a href="https://link.zhihu.com/?target=https%3A//github.com/thunlp/HMEAE">Github</a>)</summary><blockquote><p align="justify">
 任务:事件角色分类
  
 动机:论元的类型（如PERSON）会给论元之间的关联带来影响
 
-数据集:ACE 2005；TAC KBP 2016
+数据集:ACE 2005
+</p></blockquote></details>
+
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1041/" >Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction, EMNLP 2019 </a> by<i> Rujun Han, Qiang Ning, Nanyun Peng
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+事件之间的时间关系的提取是一项重要的自然语言理解（NLU）任务，可以使许多下游任务受益。我们提出了一种事件和时间关系的联合抽取模型，该模型可以进行共享表示学习和结构化预测。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：
+（1）提出了一个同时进行事件和时间关系抽取的联合模型。这样做的好处是：如果我们使用非事件之间的NONE关系训练关系分类器，则它可能具有修正事件抽取错误的能力。
+（2）通过在事件抽取和时间关系抽取模块之间首次共享相同的上下文嵌入和神经表示学习器来改进事件的表示。
+
+数据集：TB-Dense and MATRES datasets
+
 </p></blockquote></details>
 
 
  <details/>
 <summary/>
-  <a>Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet, EMNLP 2019 short(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1027/" >Open Event Extraction from Online Text using a Generative Adversarial Network, EMNLP 2019 </a> by<i> Rui Wang, Deyu Zhou, Yulan He
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+提取开放域事件的结构化表示的方法通常假定文档中的所有单词都是从单个事件中生成的，因此他们通常不适用于诸如新闻文章之类的长文本。为了解决这些局限性，我们提出了一种基于生成对抗网络的事件抽取模型，称为对抗神经事件模型（AEM）。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+
+主要思想：
+AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜在事件的模式。鉴别符用于区分原始文档和从潜在事件中重建的文档。鉴别器的副产品是鉴别器网络生成的特征允许事件抽取的可视化。
+
+数据集：Twitter, and Google datasets
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by<i> Aida Mostafazadeh Davani etal.
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+将事件提取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+根据是否为仇恨罪标记每篇文章的任务被定义为多实例学习（MIL）问题。我们通过使用文章所有句子中嵌入的信息来确定文章是否报道了仇恨犯罪。在一组带注释的文章上测试了模型之后，我们将被训练过的模型应用于联邦调查局没有报道过的城市，并对这些城市中仇恨犯罪的发生频率进行了下界估计。
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.ijcai.org/proceedings/2019/753" >Extracting entities and events as a single task using a transition-based neural model, IJCAI 2019 </a> by<i> Zhang, Junchi and Qin, Yanxia and Zhang, Yue and Liu, Mengchi and Ji, Donghong
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/zjcerwin/TransitionEvent">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+事件抽取任务包括许多子任务：实体抽取，事件触发词抽取，元素角色抽取。传统的方法是使用pipeline的方式解决这些任务，没有利用到任务间相互关联的信息。已有一些联合学习的模型对这些任务进行处理，然而由于技术上的挑战，还没有模型将其看作一个单一的任务，预测联合的输出结构。本文提出了一个transition-based的神经网络框架，以state-transition的过程，递进地预测复杂的联合结构。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+使用transition-based的框架，通过使用递增的output-building行为的state-transition过程，构建一个复杂的输出结构。在本文中我们设计了一个transition系统以解决EE问题，从左至右递增地构建出结构，不使用可分的子任务结构。本文还是第一个使transition-based模型，并将之用于实体和事件的联合抽取任务的研究。模型实现了对3个子任务完全的联合解码，实现了更好的信息组合。
+
+数据集：ACE2005
+
+Keywords: Context-aware word representation, LSTM, Tensor layer
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/N19-1145/" >Biomedical Event Extraction based on Knowledge-driven Tree-LSTM, CCL 2016 </a> by<i> Diya Li, Lifu Huang, Heng Ji, Jiawei Han
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+生物医学领域的事件抽取比一般新闻领域的事件抽取更具挑战性，因为它需要更广泛地获取领域特定的知识并加深对复杂情境的理解。为了更好地对上下文信息和外部背景知识进行编码，我们提出了一种新颖的知识库（KB）驱动的树结构长短期记忆网络（Tree-LSTM）框架。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+该框架合并了两种功能：（1）抓取上下文背景的依赖结构（2）（2）通过实体链接从外部本体获得实体属性（类型和类别描述）。
+
+数据集：Genia dataset
+
+Keywords: Knowledge-driven Tree-LSTM
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+ <a href="https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/document/8643786" >Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet, EMNLP 2019 short</a> by<i> Wei Li , Dezhi Cheng, Lei He, Yuanzhuo Wang, Xiaolong Jin
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
 动机：事件抽取对于许多实际应用非常有用，例如新闻摘要和信息检索。但是目前很流行的自动上下文抽取（ACE）事件抽取程序仅定义了非常有限且粗糙的事件模式，这可能不适合实际应用。 FrameNet是一种语言语料库，它定义了完整的语义框架和框架间的关系。由于FrameNet中的框架与ACE中的事件架构共享高度相似的结构，并且许多框架实际上表达了事件，因此，我们建议基于FrameNet重新定义事件架构。
 
 主要思想：（1）提取FrameNet中表示事件的所有框架，并利用框架与框架之间的关系建立事件模式的层次结构。（2）适当利用全局信息（例如事件间关系）和事件抽取必不可少的局部特征（例如词性标签和依赖项标签）。基于一种利用事件抽取结果的多文档摘要无监督抽取方法，我们实行了一种图排序。
@@ -277,9 +474,20 @@ One common application of text mining is event extraction,which encompasses dedu
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a >One for All: Neural Joint Modeling of Entities and Events, AAAI 2019 </a> by<i> Trung Minh Nguyen∗ Alt Inc.
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
 
+主要思想：
 
+数据集：
+
+</p></blockquote></details>
 
 
 
