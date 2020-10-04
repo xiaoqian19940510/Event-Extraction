@@ -1,0 +1,33 @@
+1	life	be born	person	be born	be born	be born	be born	time	place
+2	life	marry	person	marry	marry	marry	marry	time	place
+3	life	divorce	person	divorce	divorce	divorce	divorce	time	place
+4	life	injure	agent	victim	instrument	injure	injure	time	place
+5	life	die	agent	victim	instrument	die	die	time	place
+6	movement	transport	agent	artifact	vehicle	price	origin	destination	time
+7	transaction	transfer ownership	buyer	seller	beneficiary	artifact	price	time	place
+8	transaction	transfer money	giver	recipient	beneficiary	money	time	place
+9	business	start organization	agent	organization	start organization	start organization	start organization	time	place
+10	business	merge organization	organization	merge organization	merge organization	merge organization	merge organization	time	place
+11	business	declare bankruptcy	organization	declare bankruptcy	declare bankruptcy	declare bankruptcy	declare bankruptcy	time	place
+12	business	end organization	organization	end organization	end organization	end organization	end organization	time	place
+13	conflict	attack	attacker	target	instrument	attack	attack	time	place
+14	conflict	demonstrate	demonstrate	demonstrate	demonstrate	entity	time	place
+15	contact	meet	meet	meet	meet	entity	time	place
+16	contact	phone write	phone write	phone write	phone write	phone write	entity	time
+17	personell	start position	person	entity	position	start position	start position	time	place
+18	personell	end position	person	entity	position	end position	end position	time	place
+19	personell	nominate	person	agent	position	nominate	nominate	time	place
+20	personell	elect	person	entity	position	elect	elect	time	place
+21	justice	arrest jail	person	agent	crime	arrest jail	arrest jail	time	place
+22	justice	release parole	person	entity	crime	release parole	release parole	time	place
+23	justice	trial hearing	defendant	prosecutor	adjudicator	crime	trial hearing	time	place
+24	justice	charge indict	defendant	prosecutor	adjudicator	crime	charge indict	time	place
+25	justice	sue	plaintiff	defendant	adjudicator	sue	crime	time	place
+26	justice	convict	defendant	adjudicator	crime	convict	convict	time	place
+27	justice	sentence	defendant	adjudicator	crime	sentence	sentence	sentence	time	place
+28	justice	fine	entity	adjudicator	money	crime	fine	time	place
+29	justice	execute	person	agent	crime	execute	execute	time	place
+30	justice	extradite	agent	person	destination	origin	crime	time
+31	justice	acquit	defendant	adjudicator	crime	acquit	acquit	time	place
+32	justice	appeal	defendant	prosecutor	adjudicator	crime	appeal	time	place
+33	justice	pardon	defendant	adjudicator	crime	pardon	pardon	time	place
