@@ -4,10 +4,10 @@
 
 # Table of Contents 目录
 
-- [Define（事件抽取的定义）](#define)
-- [Surveys（综述论文）](#surveys)
+- [Define(事件抽取的定义)](#define)
+- [Surveys(综述论文)](#surveys)
 - [Models（模型）](#Models)
-- [Datasets（数据集）](#Datasets)
+- [Datasets(数据集)](#Datasets)
 - [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
 - [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
 - [Tools and Repos（工具与资源）](#tools-and-repos)
