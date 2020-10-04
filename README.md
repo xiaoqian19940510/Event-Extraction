@@ -224,6 +224,23 @@ Keywords: Embedding & Pattern features, Regularization method
 </p></blockquote></details>
 
 
+#### 2018
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018 </a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+(<a href="https://github.com/wilburOne/ZeroShotEvent">Github</a>)</summary><blockquote><p align="justify">
+动机：以前大多数受监督的事件提取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：每个事件都有由候选触发词和论元组成的结构，同时这个结构具有和事件类型及论元相一致的预定义的名字和标签。 我们增加了事件类型以及事件信息片段的语义代表( semantic representations)，并根据目标本体中定义的事件类型和事件信息片段的语义相似性来决定事件的类型
+
+数据集：ACE2005
+
+Keywords: Zero-Shot Transfer
+
+</p></blockquote></details>
+
 
 #### 2020
  <details/>
