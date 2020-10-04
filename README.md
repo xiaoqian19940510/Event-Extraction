@@ -842,27 +842,64 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2020
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
+  <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020</a> by<i> Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+ 事件检测(ED)是事件提取的一个子任务，涉及到识别触发器和对提到的事件进行分类。
+现有的方法主要依赖于监督学习，并需要大规模的标记事件数据集，不幸的是，这些数据集在许多实际应用中并不容易获得。
+在这篇论文中，我们考虑并重新制定了一个有限标记数据的教育任务作为一个少镜头的学习问题。
+我们提出了一个基于动态记忆的原型网络(DMB-PN)，它利用动态记忆网络(DMN)不仅可以更好地学习事件类型的原型，还可以为提到事件生成更健壮的句子编码。
+传统的原型网络只使用一次事件提及次数，通过平均计算事件原型，与之不同的是，由于DMNs的多跳机制，我们的模型更加健壮，能够从多次提及的事件中提取上下文信息。
+实验表明，与一系列基线模型相比，DMB-PN不仅能更好地解决样本稀缺问题，而且在事件类型变化较大、实例数量极小的情况下性能更强。
+ 
 </p></blockquote></details>
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Viet Lai, Franck Dernoncourt, Thien Huu Nguyen
+   <a href="https://arxiv.org/abs/1907.11692">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020</a> by<i> 	Viet Dac Lai, Franck Dernoncourt, Thien Huu Nguyen
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 现有的事件分类(EC)的工作主要集中在传统的监督学习设置，其中模型无法提取的事件提到新的/看不见的事件类型。
+尽管EC模型能够将其操作扩展到未观察到的事件类型，但在这一领域还没有研究过少量的射击学习。
+为了填补这一空白，在本研究中，我们调查了在少镜头学习设置下的事件分类。
+针对这一问题，我们提出了一种新的训练方法，即在训练过程中扩展利用支持集。
+特别地，除了将查询示例与用于训练的支持集中的示例进行匹配之外，我们还试图进一步匹配支持集中本身的示例。
+该方法为模型提供了更多的训练信号，可应用于各种基于度量学习的少镜头学习方法。
+我们在两个EC基准数据集上的广泛实验表明，该方法可以提高事件分类准确率达10%
+ 
 </p></blockquote></details>
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, 2020(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+   <a href="https://arxiv.org/abs/1907.11692">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, LREC 2020</a> by<i> Bonan Min, Yee Seng Chan, Lingjun Zhao
+(<a>Github</a>)</summary><blockquote><p align="justify">
+
+在大量的文本中自动分析事件对于情境意识和决策是至关重要的。
+以前的方法将事件提取视为“一刀切”，并预先定义了本体。
+所建立的提取模型用于提取本体中的类型。
+这些方法不能很容易地适应新的事件类型或感兴趣的新领域。
+为了满足以事件为中心的个性化信息需求，本文引入了少镜头事件提及检索(EMR)任务:给定一个由少量事件提及组成的用户提供的查询，返回在语料库中找到的相关事件提及。
+这个公式支持“按例查询”，这大大降低了指定以事件为中心的信息需求的门槛。
+检索设置还支持模糊搜索。
+我们提供了一个利用现有事件数据集(如ACE)的评估框架。
+我们还开发了一个连体网络方法，并表明它的性能比特别检索模型在少镜头EMR设置。
 
 </p></blockquote></details>
+
+
 
 #### 2018
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+  <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018</a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+ 以前的大多数事件提取研究都严重依赖于从注释的事件提到中衍生出来的特性，因此如果不进行注释就不能应用于新的事件类型。
+在这项工作中，我们重新审视事件提取，并将其建模为一个接地问题。
+我们设计一个可转让的神经结构,映射事件提到和类型共同到一个共享语义空间使用神经网络结构和组成,每个事件提到的类型可以由所有候选人的最亲密的类型。
+通过利用(1)一组现有事件类型可用的手工注释和(2)现有事件本体，我们的框架应用于新的事件类型而不需要额外的注释。
+在现有事件类型(如ACE、ERE)和新事件类型(如FrameNet)上的实验证明了我们的方法的有效性。
+对于23种新的事件类型，我们的zero-shot框架实现了可以与最先进的监督模型相比较的性能，该模型是从500个事件提到的注释中训练出来的。
+ 
 </p></blockquote></details>
 
 
@@ -1156,8 +1193,18 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a href="https://www.aclweb.org/anthology/D19-1068/" >Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019</a> by<i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+注释数据的缺乏给事件检测带来了巨大的挑战。
+跨语言教育旨在解决这一挑战，通过在不同语言之间传递知识，提高性能。
+但是，以前用于ED的跨语言方法对并行资源有严重依赖，这可能限制了它们的适用性。
+在本文中，我们提出了一种跨语言的ED的新方法，证明了并行资源的最小依赖性。
+具体来说，为了构建不同语言之间的词汇映射，我们设计了一种上下文依赖的翻译方法;
+为了解决语序差异问题，我们提出了一种用于多语言联合训练的共享句法顺序事件检测器。
+通过在两个标准数据集上的大量实验，研究了该方法的有效性。
+实证结果表明，我们的方法在执行不同方向的跨语言迁移和解决注解不足的情况下是有效的。
+
 </p></blockquote></details>
 
 
@@ -1179,7 +1226,9 @@ The scarcity in annotated data poses a great challenge for event detection (ED).
 
 <details/>
 <summary/> <a href="https://catalog.ldc.upenn.edu/LDC2006T06">ACE2005 English Corpus</a></summary><blockquote><p align="justify">
-ACE 2005 Multilingual Training Corpus contains the complete set of English, Arabic and Chinese training data for the 2005 Automatic Content Extraction (ACE) technology evaluation. The corpus consists of data of various types annotated for entities, relations and events by the Linguistic Data Consortium (LDC) with support from the ACE Program and additional assistance from LDC.
+ACE 2005多语种训练语料库包含了用于2005年自动内容抽取(ACE)技术评价的完整的英语、阿拉伯语和汉语训练数据集。
+语料库由语言数据联盟(LDC)为实体、关系和事件注释的各种类型的数据组成，该联盟得到了ACE计划的支持和LDC的额外帮助。
+ 
 </p></blockquote></details>
 
 
