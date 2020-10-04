@@ -295,6 +295,90 @@ Keywords: Zero-Shot Transfer
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1712.03665.pdf" >Scale up event extraction learning via automatic training data generation, AAAI 2018</a> by<i> Zeng, Ying and Feng, Yansong and Ma, Rong and Wang, Zheng and Yan, Rui and Shi, Chongde and Zhao, Dongyan
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：现有的训练数据必须通过专业领域知识以及大量的参与者来手动生成，这样生成的数据规模很小，严重影响训练出来的模型的质量。因此我们开发了一种自动生成事件抽取训练数据的方法。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：我们提出了一种基于神经网络和线性规划的事件抽取框架，该模型不依赖显式触发器，而是使用一组关键论元来表征事件类型。这样就去不需要明确识别事件的触发因素，进而降低了人力参与的需求。
+
+数据集：Wikipedia article
+
+Keywords: Data Generation, Distant Supervision
+
+</p></blockquote></details>
+
+
+<details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by<i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：我们提供了一个名为DCFEE的框架，该框架可以从被自动标记过的训练数据中抽取文档级事件。我们使用一个序列标记模型来自动抽取句子级事件，并且提出了一个关键事件检测模型和一个论元填充策略，进而从文档中提取整个事件。
+
+数据集：Chinese financial event dataset
+
+Keywords: Automatically Labelled, Chinese Financial EE
+
+</p></blockquote></details>
+
+
+<details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=http%3A//shalei120.github.io/docs/sha2018Joint.pdf" >Jointly Extraction Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction, AAAI 2018 </a> by<i> Sha, Lei and Qian, Feng and Chang, Baobao and Sui, Zhifang
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：传统的事件抽取很大程度上依赖词汇和句法特征，需要大量的人工工程，并且模型通用性不强。另一方面，深度神经网络可以自动学习底层特征，但是现有的网络却没有充分利用句法关系。因此本文在对每个单词建模时，使用依赖桥来增强它的信息表示。说明在RNN模型中同时应用树结构和序列结构比只使用顺序RNN具有更好的性能。另外，利用张量层来同时捕获论元之间的关系以及其在事件中的角色。实验表明，模型取得了很好地效果。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+（1）实现了事件触发词以及Argument的联合抽取，避开了Pipeline方法中错误的触发词识别结果会在网络中传播的问题；同时联合抽取的过程中，有可能通过元素抽取的步骤反过来纠正事件检测的结果。
+（2）将元素的互信息作为影响元素抽取结果的因素。
+（3）在构建模型的过程中使用了句法信息。
+
+数据集：ACE2005
+
+Keywords: dbRNN
+
+</p></blockquote></details>
+
+
+
+
+
+
+
+
+
+#### 2017
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by<i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/acl2017submission/event-data">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：手动标记的训练数据成本太高，事件类型覆盖率低且规模有限，这种监督的方法很难从知识库中抽取大量事件。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：1）提出了一种按重要性排列论元并且为每种事件类型选取关键论元或代表论元方法。2）仅仅使用关键论元来标记事件，并找出关键词。3）用外部语言知识库FrameNet来过滤噪声触发词并且扩展触发词库。
+
+数据集：ACE2005
+
+Keywords: Data Generation, Distant Supervision
+
+</p></blockquote></details>
+
+
+
 
 #### 2016
  <details/>
@@ -408,15 +492,24 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/N16-1034" >Joint Event Extraction via Recurrent Neural Networks, NAACL 2016 </a> by<i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+任务:给定实体标签；通过序列标注识别触发词和论元
 
+动机:论元之间有着相关关系，某些论元已经识别出来可能会导致一些论元共现,RNN减少错误传播
 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
 
+主要思想:使用RNN来标注要素，通过记忆矩阵来增强要素之间的关联。
 
+数据集：ACE2005
 
+Keywords: RNN, Joint Event Extraction
 
-
-
-
+</p></blockquote></details>
 
 
 
