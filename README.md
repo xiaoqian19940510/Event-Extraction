@@ -4,8 +4,8 @@
 
 # Table of Contents 目录
 
-- [Define（事件抽取的定义）](#Define)
-- [Surveys（综述论文）](#Surveys)
+- [Define（事件抽取的定义）](#define)
+- [Surveys（综述论文）](#surveys)
 - [Models（模型）](#Models)
 - [Datasets（数据集）](#Datasets)
 - [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
@@ -17,7 +17,7 @@
 
 
 ## Define(事件抽取的定义)
-[:arrow_up:](#Define)
+[:arrow_up:](#define)
 
 ### Closed-domain
 
@@ -124,7 +124,7 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 
 ## Surveys(综述论文)
-[:arrow_up:](#Surveys)
+[:arrow_up:](#surveys)
 
 ### 事件抽取综述
 
