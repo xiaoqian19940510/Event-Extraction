@@ -314,6 +314,82 @@ Keywords: Embedding & Pattern features, Regularization method
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/C16-1114" >Leveraging Multilingual Training for Limited Resource Event Extraction, COLING 2016 </a> by<i> Hsi, Andrew and Yang, Yiming and Carbonell, Jaime and Xu, Ruochen
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：迄今为止，利用跨语言培训来提高性能的工作非常有限。因此我们提出了一种新的事件抽取方法。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：在本文中，我们提出了一种新颖的跨语言事件抽取方法，该方法可在多种语言上进行训练，并利用依赖于语言的特征和不依赖于语言的特征来提高性能。使用这种系统，我们旨在同时利用可用的多语言资源（带注释的数据和引入的特征）来克服目标语言中的注释稀缺性问题。 从经验上我们认为，我们的方法可以极大地提高单语系统对中文事件论元提取任务的性能。 与现有工作相比，我们的方法是新颖的，我们不依赖于使用高质量的机器翻译的或手动对齐的文档，这因为这种需求对于给定的目标语言可能是无法满足的。
+
+数据集：ACE2005
+
+Keywords: Training on multiple languages using a combination of both language-dependent and language-independent features
+
+</p></blockquote></details>
+
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=http%3A//www.cips-cl.org/static/anthology/CCL-2016/CCL-16-081.pdf" >Event Extraction via Bidirectional Long Short-Term Memory Tensor Neural Network, CCL 2016 </a> by<i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+
+数据集：ACE2005
+
+Keywords: Context-aware word representation, LSTM, Tensor layer
+
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P18-1145.pdf" >A convolution bilstm neural network model for chinese event extraction, NLPCC 2016 </a> by<i> Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/sanmusunrise/NPNs">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：在中文的事件抽取中，以前的方法非常依赖复杂的特征工程以及复杂的自然语言处理工具。本文提出了一种卷积双向LSTM神经网络，该神经网络将LSTM和CNN结合起来，可以捕获句子级和词汇信息，而无需任何人为提供的特征。
+
+
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：首先使用双向LSTM将整个句子中的单词的语义编码为句子级特征，不做任何句法分析。然后，我们利用卷积神经网络来捕获突出的局部词法特征来消除触发器的歧义，整个过程无需来自POS标签或NER的任何帮助。
+
+数据集：ACE2005， KBP2017 Corpus
+
+</p></blockquote></details>
+
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P16-1025/" >Liberal Event Extraction and Event Schema Induction, CCL 2016 </a> by<i> Lifu Huang, Taylor Cassidy, Xiaocheng Feng, Heng Ji, Clare R. Voss, Jiawei Han, Avirup Sil
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：结合了象征式的（例如抽象含义表示）和分布式的语义来检测和表示事件结构，并采用同一个类型框架来同时提取事件类型和论元角色并发现事件模式。这种模式的提取性能可以与被预定义事件类型标记过的大量数据训练的监督模型相媲美。 
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：我们试图将事件触发器和事件论元聚类，每个聚类代表一个事件类型。 我们将分布的相似性用于聚类的距离度量。分布假设指出，经常出现在相似语境中的单词往往具有相似的含义。
+
+两个基本假设：1）出现在相似的背景中并且有相同作用的事件触发词往往具有相似的类型。2）除了特定事件触发器的词汇语义外，事件类型还取决于其论元和论元的作用，以及上下文中与触发器关联的其他单词。
+
+
+数据集：ERE (Entity Relation Event)
+
+</p></blockquote></details>
+
+
+
 
 #### 2015
  <details/>
