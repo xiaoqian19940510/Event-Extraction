@@ -1,0 +1,75 @@
+# train config
+msg_info: 'bert_dp04'
+random_seed: 2942435
+num_epochs: 100
+batch_size: 32
+init_lr: 0.0012
+decay_lr: 0.8
+minimum_lr: 0.0002
+patience: 60
+grad_clipping: 10.0
+unk_ratio: 0.5
+weight_decay: 5e-5
+
+
+# embedding config
+use_sentence_vec: true
+
+sent_vec_project: 0
+sent_vec_project_activation: 'linear'
+#dp_sent_vec: 0.55
+# concat sentence vector after BiLSTM 
+# if cat_sent_after_rnn is false, we concat sent_vec and word_embed, before BiLSTM
+cat_sent_after_rnn: false
+encoder_project:  0 #200
+# use random initialized word embedding
+random_word_embed: false
+# use pre-trained word embedding
+use_pretrain_embed: true
+# tuning pre-trained embedding
+pretrain_embed_tune: true
+
+word_embed_trainable: true
+word_embed_dim: 100
+word_project_dim: 200
+
+use_char_rnn: true
+char_embed_dim: 40
+char_rnn_dim: 40
+
+dp_emb: 0.43
+
+use_pos: false
+pos_embed_dim: 30
+
+
+# LSTM and stack LSTM config
+use_rnn_encoder: true
+encoder_layer: 1
+rnn_dim: 140
+dp_rnn: 0.23
+
+grn_dim: 180
+grn_steps: 5
+
+lmda_rnn_dim: 120
+part_ent_rnn_dim: 100
+action_rnn_dim: 60
+out_rnn_dim: 60
+dp_state: 0.15
+dp_state_h: 0.1
+dp_buffer: 0.
+dp_stack: 0.15
+
+# output config
+output_hidden_dim: 160
+dp_out: 0.2
+
+# for tree rnn config
+action_embed_dim: 50
+trigger_embed_dim: 20
+entity_embed_dim: 20
+argument_embed_dim: 20
+edge_embed_dim: 30
+
+use_arg_type_tree: true
