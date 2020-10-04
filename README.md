@@ -1207,6 +1207,37 @@ Keywords: Data Generation, Distant Supervision
 </p></blockquote></details>
 
 
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1905.05529" >Entity-relation extraction as multi-turn question answering, ACL2019</a> by<i> Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li, Arianna Yuan, Duo Chai, Mingxin Zhou, Jiwei Li
+(<a>Github</a>)</summary><blockquote><p align="justify">
+提出了一种新的实体-关系抽取的范式。
+我们把任务作为多向问答的问题,也就是说,实体和关系的提取转化为确定答案的任务从上下文。
+这种多轮QA形式化有几个关键的优点:首先，问题查询为我们想要识别的实体/关系类编码重要的信息;
+其次，QA为实体与关系的联合建模提供了一种自然的方式;
+第三，它允许我们开发良好的机器阅读理解(MRC)模型。
+在ACE和CoNLL04语料库上的实验表明，提出的范式显著优于之前的最佳模型。
+我们能够在所有的ACE04、ACE05和CoNLL04数据集上获得最先进的结果，将这三个数据集上的SOTA结果分别提高到49.4(+1.0)、60.2(+0.6)和68.9(+2.1)。
+此外，我们构建了一个新开发的中文数据集恢复，它需要多步推理来构建实体依赖关系，而不是以往数据集的三元提取的单步依赖关系提取。
+提出的多轮质量保证模型在简历数据集上也取得了最好的效果。
+
+</p></blockquote></details>
+
+
+
+#### 2019
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/1706.04115" >Zero-shot relation extraction via reading comprehension, CoNLL 2017</a> by<i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+通过将一个或多个自然语言问题与每个关系槽相关联，可以将关系提取简化为回答简单的阅读理解问题。
+减少有几个好处:我们可以(1)学习relation-extraction模型通过扩展最近神经阅读理解技术,(2)为这些模型相结合构建大训练集关系专用众包与远方监督问题,甚至(3)zero-shot学习通过提取新关系类型,只有指定的测试时间,我们没有标签的训练例子。
+在Wikipedia填槽任务上的实验表明，该方法可以高精度地将已知关系类型的新问题概括为新问题，并且在较低的精度水平下，零命中率地概括为不可见的关系类型是可能的，这为该任务的未来工作设置了标准。
+
+</p></blockquote></details>
+
+
 
 ## Data（数据）
 [:arrow_up:](#table-of-contents)
@@ -1246,7 +1277,10 @@ KBP包括为KBP开发特定组件和功能的组件跟踪，以及称为“冷�
 </p></blockquote></details>
 
 
-DataSet: Genia2011 dataset, Spainish ERE Corpus, Wikipedia article, BioNLP Cancer Genetics (CG) Shared Task 2013
+<details/>
+<summary/> <a>others</a></summary><blockquote><p align="justify">
+Genia2011 dataset, Spainish ERE Corpus, Wikipedia article, BioNLP Cancer Genetics (CG) Shared Task 2013
+</p></blockquote></details>
 
 
 
