@@ -1,0 +1,17 @@
+{
+  "num_layers": 1,
+  "hidden_size": 100,
+  "art_filter_sizes": [2, 3],
+  "art_num_filters": 10,
+  "pretrain": true,
+  "attention_size": 200,
+  "embedding_size": 300,
+  "learning_rate": 0.00009,
+  "keep_ratio": 0.66,
+  "epochs": 30,
+  "entity_keep_ratio": 0.75,
+  "entity_learning_rate": 0.0001,
+  "entity_num_filters": 3,
+  "batch_size": 5,
+  "max_length": 500
+}
