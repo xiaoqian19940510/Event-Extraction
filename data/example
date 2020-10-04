@@ -1,0 +1,54 @@
+[
+  {
+    "sentence": "He visited all his friends.",
+    "tokens": ["He", "visited", "all", "his", "friends", "."],
+    "pos-tag": ["PRP", "VBD", "PDT", "PRP$", "NNS", "."],
+    "golden_entity_mentions": [
+      {
+        "text": "He",
+        "entity_type": "PER:Individual",
+        "start": 0,
+        "end": 0
+      },
+      {
+        "text": "his",
+        "entity_type": "PER:Group",
+        "start": 3,
+        "end": 3
+      },
+      {
+        "text": "all his friends",
+        "entity_type": "PER:Group",
+        "start": 2,
+        "end": 5
+      }
+    ],
+    "golden_event_mentions": [
+      {
+        "trigger": {
+          "text": "visited",
+          "start": 1,
+          "end": 1
+        },
+        "arguments": [
+          {
+            "role": "Entity",
+            "entity_type": "PER:Individual",
+            "text": "He",
+            "start": 0,
+            "end": 0
+          },
+          {
+            "role": "Entity",
+            "entity_type": "PER:Group",
+            "text": "all his friends",
+            "start": 2,
+            "end": 5
+          }
+        ],
+        "event_type": "Contact:Meet"
+      }
+    ],
+    "parse": "(ROOT\n  (S\n    (NP (PRP He))\n    (VP (VBD visited)\n      (NP (PDT all) (PRP$ his) (NNS friends)))\n    (. .)))"
+  }
+]
