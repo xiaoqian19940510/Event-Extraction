@@ -1,0 +1,188 @@
+188	start organization	startorg	agent	agent
+1	start organization	startorg	org	organization
+2	start organization	startorg	place	place
+3	start organization	startorg	time	time
+4	end organization	endorg	org	organization
+5	end organization	endorg	place	place
+6	end organization	endorg	time	time
+7	declare bank ruptcy	declarebankruptcy	org	organization
+8	declare bank ruptcy	declarebankruptcy	place	place
+9	declare bank ruptcy	declarebankruptcy	time	time
+10	merge organization	mergeorg	org	organization
+11	merge organization	mergeorg	place	place
+12	merge organization	mergeorg	time	time
+13	attack	attack	attacker	attacker
+14	attack	attack	target	target
+15	attack	attack	instrument	instrument
+16	attack	attack	place	place
+17	attack	attack	time	time
+18	demonstrate	demonstrate	entity	entity
+19	demonstrate	demonstrate	place	place
+20	demonstrate	demonstrate	time	time
+21	meet	meet	entity	entity
+22	meet	meet	place	place
+23	meet	meet	time	time
+24	correspondence	correspondence	entity	entity
+25	correspondence	correspondence	place	place
+26	correspondence	correspondence	time	time
+27	broadcast	broadcast	entity	entity
+28	broadcast	broadcast	audience	audience
+29	broadcast	broadcast	place	place
+30	broadcast	broadcast	time	time
+31	contact	contact	entity	entity
+32	contact	contact	place	place
+33	contact	contact	time	time
+34	artifact	artifact	agent	agent
+35	artifact	artifact	artifact	artifact
+36	artifact	artifact	instrument	instrument
+37	artifact	artifact	place	place
+38	artifact	artifact	time	time
+39	be born	beborn	person	person
+40	be born	beborn	place	place
+41	be born	beborn	time	time
+42	marry	marry	person	person
+43	marry	marry	place	place
+44	marry	marry	time	time
+45	divorce	divorce	person	person
+46	divorce	divorce	place	place
+47	divorce	divorce	time	time
+48	injure	injure	agent	agent
+49	injure	injure	victim	victim
+50	injure	injure	instrument	instrument
+51	injure	injure	place	place
+52	injure	injure	time	time
+53	die	die	agent	agent
+54	die	die	victim	victim
+55	die	die	instrument	instrument
+56	die	die	place	place
+57	die	die	time	time
+58	transfer ownership	transferownership	giver	giver
+59	transfer ownership	transferownership	buyer	buyer
+60	transfer ownership	transferownership	beneficiary	beneficiary
+61	transfer ownership	transferownership	thing	thing
+62	transfer ownership	transferownership	place	place
+63	transfer ownership	transferownership	time	time
+64	transfer money	transfermoney	giver	giver
+65	transfer money	transfermoney	recipient	recipient
+66	transfer money	transfermoney	beneficiary	beneficiary
+67	transfer money	transfermoney	money	money
+68	transfer money	transfermoney	place	place
+69	transfer money	transfermoney	time	time
+70	transaction	transaction	giver	giver
+71	transaction	transaction	recipient	recipient
+72	transaction	transaction	beneficiary	beneficiary
+73	transaction	transaction	place	place
+74	transaction	transaction	time	time
+75	transport person	transportperson	agent	agent
+76	transport person	transportperson	person	person
+77	transport person	transportperson	instrument	instrument
+78	transport person	transportperson	origin	origin
+79	transport person	transportperson	place	place
+80	transport person	transportperson	time	time
+81	transport artifact	transportartifact	agent	agent
+82	transport artifact	transportartifact	artifact	artifact
+83	transport artifact	transportartifact	instrument	instrument
+84	transport artifact	transportartifact	origin	origin
+85	transport artifact	transportartifact	destination	destination
+86	transport artifact	transportartifact	time	time
+87	start position	startposition	entity	entity
+88	start position	startposition	person	person
+89	start position	startposition	position	position
+90	start position	startposition	place	place
+91	start position	startposition	time	time
+92	end position	endposition	entity	entity
+93	end position	endposition	person	person
+94	end position	endposition	position	position
+95	end position	endposition	place	place
+96	end position	endposition	time	time
+97	nominate	nominate	entity	entity
+98	nominate	nominate	person	person
+99	nominate	nominate	position	position
+100	nominate	nominate	place	place
+101	nominate	nominate	time	time
+102	elect	elect	entity	entity
+103	elect	elect	person	person
+104	elect	elect	position	position
+105	elect	elect	place	place
+106	elect	elect	time	time
+107	arrest jail	arrestjail	agent	agent
+108	arrest jail	arrestjail	person	person
+109	arrest jail	arrestjail	crime	crime
+110	arrest jail	arrestjail	place	place
+111	arrest jail	arrestjail	time	time
+112	release parole	releaseparole	agent	agent
+113	release parole	releaseparole	person	person
+114	release parole	releaseparole	crime	crime
+115	release parole	releaseparole	place	place
+116	release parole	releaseparole	time	time
+117	trial hearing	trialhearing	prosecutor	prosecutor
+118	trial hearing	trialhearing	adjudicator	adjudicator
+119	trial hearing	trialhearing	defendant	defendant
+120	trial hearing	trialhearing	crime	crime
+121	trial hearing	trialhearing	place	place
+122	trial hearing	trialhearing	time	time
+123	sentence	sentence	adjudicator	adjudicator
+124	sentence	sentence	defendant	defendant
+125	sentence	sentence	sentence	sentence
+126	sentence	sentence	crime	crime
+127	sentence	sentence	place	place
+128	sentence	sentence	time	time
+129	fine	fine	adjudicator	adjudicator
+130	fine	fine	entity	entity
+131	fine	fine	money	money
+132	fine	fine	crime	crime
+133	fine	fine	place	place
+134	fine	fine	time	time
+135	charge indict	chargeindict	prosecutor	prosecutor
+136	charge indict	chargeindict	adjudicator	adjudicator
+137	charge indict	chargeindict	defendant	defendant
+138	charge indict	chargeindict	crime	crime
+139	charge indict	chargeindict	place	place
+140	charge indict	chargeindict	time	time
+141	sue	sue	plaintiff	plaintiff
+142	sue	sue	adjudicator	adjudicator
+143	sue	sue	defendant	defendant
+144	sue	sue	crime	crime
+145	sue	sue	place	place
+146	sue	sue	time	time
+147	extradite	extradite	agent	agent
+148	extradite	extradite	person	person
+149	extradite	extradite	crime	crime
+150	extradite	extradite	origin	origin
+151	extradite	extradite	destination	destination
+152	extradite	extradite	time	time
+153	acquit	acquit	adjudicator	adjudicator
+154	acquit	acquit	defendant	defendant
+155	acquit	acquit	crime	crime
+156	acquit	acquit	place	place
+157	acquit	acquit	time	time
+158	convict	convict	adjudicator	adjudicator
+159	convict	convict	defendant	defendant
+160	convict	convict	crime	crime
+161	convict	convict	place	place
+162	convict	convict	time	time
+163	appeal	appeal	prosecutor	prosecutor
+164	appeal	appeal	adjudicator	adjudicator
+165	appeal	appeal	defendant	defendant
+166	appeal	appeal	crime	crime
+167	appeal	appeal	place	place
+168	appeal	appeal	time	time
+169	execute	execute	agent	agent
+170	execute	execute	person	person
+171	execute	execute	crime	crime
+172	execute	execute	place	place
+173	execute	execute	date	date
+174	pardon	pardon	adjudicator	adjudicator
+175	pardon	pardon	defendant	defendant
+176	pardon	pardon	crime	crime
+177	pardon	pardon	place	place
+178	pardon	pardon	time	time
+179	communicate	communicate	entity	entity
+180	communicate	communicate	place	place
+181	communicate	communicate	time	time
+182	try hold hearing	tryholdhearing	prosecutor	prosecutor
+183	try hold hearing	tryholdhearing	adjudicator	adjudicator
+184	try hold hearing	tryholdhearing	defendant	defendant
+185	try hold hearing	tryholdhearing	crime	crime
+186	try hold hearing	tryholdhearing	place	place
+187	try hold hearing	tryholdhearing	time	time

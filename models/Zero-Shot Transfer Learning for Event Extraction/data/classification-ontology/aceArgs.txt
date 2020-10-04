@@ -1,0 +1,33 @@
+1	life	be-born	born	born	born	born	person
+2	life	marry	marry	marry	marry	marry	person
+3	life	divorce	divorce	divorce	divorce	divorce	person
+4	life	injure	agent	victim	instrument	injure	injure
+5	life	die	agent	victim	instrument	die	die
+6	movement	transport	agent	artifact	vehicle	price	origin	destination
+7	transaction	transfer-ownership	buyer	seller	beneficiary	artifact	price
+8	transaction	transfer-money	giver	recipient	beneficiary	money
+9	business	start-org	agent	organization
+10	business	merge-org	organization
+11	business	declare-bankruptcy	organization
+12	business	end-org	organization
+13	conflict	attack	attacker	target	instrument
+14	conflict	demonstrate	entity
+15	contact	meet	entity
+16	contact	phone-write	entity
+17	personell	start-position	person	entity	position
+18	personell	end-position	person	entity	position
+19	personell	nominate	person	agent	position
+20	personell	elect	person	entity	position
+21	justice	arrest-jail	person	agent	crime
+22	justice	release-parole	person	entity	crime
+23	justice	trial-hearing	defendant	prosecutor	adjudicator	crime
+24	justice	charge-indict	defendant	prosecutor	adjudicator	crime
+25	justice	sue	plaintiff	defendant	adjudicator	crime
+26	justice	convict	defendant	adjudicator	crime
+27	justice	sentence	defendant	adjudicator	crime	sentence
+28	justice	fine	entity	adjudicator	money	crime
+29	justice	execute	person	agent	crime
+30	justice	extradite	agent	person	destination	origin	crime
+31	justice	acquit	defendant	adjudicator	crime
+32	justice	appeal	defendant	prosecutor	adjudicator	crime
+33	justice	pardon	defendant	adjudicator	crime
