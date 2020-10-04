@@ -1,0 +1,28 @@
+Destination	Transport,LOC Transport,FAC Transport,GPE Extradite,GPE
+Seller	Transfer-Ownership,ORG Transfer-Ownership,GPE Transfer-Ownership,PER
+Beneficiary	Transfer-Money,PER Transfer-Money,ORG Transfer-Money,GPE Transfer-Ownership,GPE Transfer-Ownership,PER
+Instrument	Die,VEH Attack,VEH Injure,WEA Die,WEA Attack,WEA Injure,VEH
+Vehicle	Transport,VEH Transport,WEA
+Defendant	Convict,PER Sue,PER Sue,GPE Sentence,ORG Sentence,PER Convict,GPE Trial-Hearing,ORG Acquit,PER Pardon,PER Charge-Indict,PER Convict,ORG Trial-Hearing,PER Sue,ORG Sentence,GPE Charge-Indict,ORG
+Plaintiff	Appeal,GPE Appeal,PER Sue,PER Sue,ORG Appeal,ORG
+Price	Transfer-Ownership,VALUE
+Artifact	Transfer-Ownership,FAC Transport,VEH Transfer-Ownership,LOC Transfer-Ownership,VEH Transfer-Ownership,ORG Transport,WEA Transport,PER Transfer-Ownership,WEA
+Attacker	Attack,GPE Attack,ORG Attack,PER
+Giver	Transfer-Money,PER Transfer-Money,ORG Transfer-Money,GPE
+Prosecutor	Charge-Indict,PER Charge-Indict,ORG Trial-Hearing,PER Trial-Hearing,ORG Charge-Indict,GPE
+Buyer	Transfer-Ownership,ORG Transfer-Ownership,GPE Transfer-Ownership,PER
+Org	Start-Org,ORG Declare-Bankruptcy,PER Merge-Org,ORG Declare-Bankruptcy,ORG End-Org,ORG
+Recipient	Transfer-Money,PER Transfer-Money,ORG Transfer-Money,GPE
+Target	Attack,ORG Attack,FAC Attack,VEH Attack,GPE Attack,PER Attack,LOC Attack,WEA
+Person	Release-Parole,PER Be-Born,PER Nominate,PER Elect,PER Marry,PER Divorce,PER Execute,PER Extradite,PER Start-Position,PER End-Position,PER Arrest-Jail,PER
+Place	Execute,GPE Demonstrate,GPE Fine,FAC Elect,GPE Die,LOC Arrest-Jail,GPE Charge-Indict,FAC Release-Parole,FAC Charge-Indict,GPE Divorce,GPE Start-Org,GPE Demonstrate,LOC Appeal,GPE Start-Org,FAC Fine,GPE Sue,LOC Meet,LOC Phone-Write,LOC Declare-Bankruptcy,GPE End-Position,FAC Charge-Indict,LOC Convict,FAC Demonstrate,FAC Start-Position,GPE Injure,LOC Appeal,FAC Start-Position,FAC Start-Org,LOC Phone-Write,FAC Attack,LOC Execute,FAC Sentence,GPE Be-Born,FAC Marry,FAC Arrest-Jail,FAC Sentence,FAC Transfer-Money,LOC End-Position,GPE Elect,LOC End-Org,GPE Trial-Hearing,LOC Release-Parole,GPE End-Org,FAC Transfer-Ownership,FAC Arrest-Jail,LOC Die,FAC Marry,GPE Pardon,GPE Meet,GPE Be-Born,GPE Transfer-Ownership,LOC Attack,FAC Attack,GPE Phone-Write,GPE Be-Born,LOC Injure,GPE Meet,FAC Sue,GPE Injure,FAC Die,GPE Trial-Hearing,FAC Transfer-Ownership,GPE Transfer-Money,GPE Convict,GPE Sentence,LOC Trial-Hearing,GPE
+Time	Transfer-Money,TIME End-Position,TIME Release-Parole,VALUE Convict,TIME Be-Born,TIME Sentence,TIME Start-Position,TIME Injure,TIME Pardon,TIME Start-Org,TIME Transfer-Ownership,TIME Attack,TIME Nominate,TIME Execute,TIME Phone-Write,TIME Divorce,TIME Meet,TIME Charge-Indict,TIME Release-Parole,TIME Elect,TIME Demonstrate,TIME Merge-Org,TIME Extradite,TIME End-Org,TIME Fine,TIME Transport,TIME Acquit,TIME Sue,TIME Die,TIME Arrest-Jail,TIME Trial-Hearing,TIME Appeal,TIME Marry,TIME Declare-Bankruptcy,TIME
+Position	Nominate,VALUE Start-Position,VALUE End-Position,VALUE Elect,PER Elect,VALUE Nominate,PER Start-Position,PER End-Position,PER
+Crime	Convict,VALUE Appeal,VALUE Arrest-Jail,VALUE Charge-Indict,VALUE Fine,VALUE Sentence,VALUE Trial-Hearing,VALUE Release-Parole,VALUE Sue,VALUE Acquit,VALUE Execute,VALUE
+Origin	Transport,LOC Transport,GPE Transport,FAC Extradite,GPE Extradite,FAC
+Sentence	Charge-Indict,VALUE Sentence,VALUE
+Money	Transfer-Money,VALUE Fine,VALUE
+Adjudicator	Convict,PER Sue,PER Pardon,PER Sentence,ORG Sentence,PER Acquit,ORG Sentence,GPE Trial-Hearing,ORG Acquit,PER Convict,ORG Pardon,ORG Appeal,ORG Fine,PER Charge-Indict,PER Trial-Hearing,PER Sue,ORG Appeal,PER Fine,ORG Charge-Indict,ORG
+Agent	Transport,ORG Execute,GPE Execute,PER Transport,GPE Start-Org,PER Die,ORG Arrest-Jail,GPE Die,GPE Execute,ORG Nominate,ORG Injure,PER Die,PER Nominate,PER Transport,PER Start-Org,GPE Arrest-Jail,ORG Nominate,GPE Start-Org,ORG Injure,GPE Arrest-Jail,PER Extradite,ORG
+Entity	Demonstrate,PER Attack,ORG Release-Parole,PER End-Position,ORG Elect,GPE End-Position,GPE Meet,PER Fine,PER Phone-Write,ORG Start-Position,GPE Elect,PER Demonstrate,ORG Phone-Write,PER Release-Parole,GPE Elect,ORG Fine,GPE Meet,ORG Meet,GPE Start-Position,ORG Release-Parole,ORG Fine,ORG
+Victim	Die,PER Injure,PER
