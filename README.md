@@ -982,7 +982,11 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
  
 动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
 
- ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure21-1.png)
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure21-2.png)
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure21-3.png)
  
 主要思想：我们提供了一个名为DCFEE的框架，该框架可以从被自动标记过的训练数据中抽取文档级事件。我们使用一个序列标记模型来自动抽取句子级事件，并且提出了一个关键事件检测模型和一个论元填充策略，进而从文档中提取整个事件。
 
@@ -1003,7 +1007,9 @@ Keywords: Automatically Labelled, Chinese Financial EE
  
 动机：在中文的事件抽取中，以前的方法非常依赖复杂的特征工程以及复杂的自然语言处理工具。本文提出了一种卷积双向LSTM神经网络，该神经网络将LSTM和CNN结合起来，可以捕获句子级和词汇信息，而无需任何人为提供的特征。
 
- ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure30-1.png)
+ 
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure30.png)
 
 主要思想：首先使用双向LSTM将整个句子中的单词的语义编码为句子级特征，不做任何句法分析。然后，我们利用卷积神经网络来捕获突出的局部词法特征来消除触发器的歧义，整个过程无需来自POS标签或NER的任何帮助。
 
