@@ -894,70 +894,159 @@ Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+   <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1032/" >Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP2019 </a> by<i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+任务:与其他研究不同，该任务被定义为：事件框架填充：也就是论元检测+识别
+ 
+不同点有：不需要触发词检测;文档级的抽取;论元有重叠
+
+动机:解码论元需要一定顺序，先后有关
+
+主要思想:发布数据集，具有特性：arguments-scattering and multi-event,先对事件是否触发进行预测；然后，按照一定顺序先后来分别解码论元
+
+数据集:ten years (2008-2018) Chinese financial announcements：ChFinAnn;Crawling from http://www.cninfo.com.cn/new/index
 </p></blockquote></details>
 
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692"> A Hybrid Character Representatin for Chinese Event Detection, IJCNLP 2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Xi Xiangyu ; Zhang Tong ; Ye Wei ; Zhang Jinglei ; Xie Rui ; Zhang Shikun
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by<i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+从资源不足以及注释不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+通过使用卷积神经网络，将所有实体信息片段、事件触发词、事件背景放入一个复杂的、结构化的多语言公共空间，然后我们可以从源语言注释中训练一个事件抽取器，并将它应用于目标语言。
+
+数据集：ACE2005
+
 </p></blockquote></details>
 
-
- <details/>
-<summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Event Detection with Trigger-Aware Lattice Neural Network, EMNLP 2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Ning Ding, Ziran Li, Zhiyuan Liu, Haitao Zheng, Zibo Lin
-</p></blockquote></details>
-
- <details/>
-<summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP 2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
-</p></blockquote></details>
 
 
 #### 2018
- <details/>
+<details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by<i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：我们提供了一个名为DCFEE的框架，该框架可以从被自动标记过的训练数据中抽取文档级事件。我们使用一个序列标记模型来自动抽取句子级事件，并且提出了一个关键事件检测模型和一个论元填充策略，进而从文档中提取整个事件。
+
+数据集：Chinese financial event dataset
+
+Keywords: Automatically Labelled, Chinese Financial EE
+
 </p></blockquote></details>
 
- <details/>
-<summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Nugget Proposal Networks for Chinese Event Detection, ACL 2018(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
-</p></blockquote></details>
+
+
 
 #### 2016
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">A convolution bilstm neural network model for chinese event extraction,NLPCC 2016(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P18-1145.pdf" >A convolution bilstm neural network model for chinese event extraction, NLPCC 2016 </a> by<i> Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/sanmusunrise/NPNs">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：在中文的事件抽取中，以前的方法非常依赖复杂的特征工程以及复杂的自然语言处理工具。本文提出了一种卷积双向LSTM神经网络，该神经网络将LSTM和CNN结合起来，可以捕获句子级和词汇信息，而无需任何人为提供的特征。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：首先使用双向LSTM将整个句子中的单词的语义编码为句子级特征，不做任何句法分析。然后，我们利用卷积神经网络来捕获突出的局部词法特征来消除触发器的歧义，整个过程无需来自POS标签或NER的任何帮助。
+
+数据集：ACE2005， KBP2017 Corpus
 
 </p></blockquote></details>
+
+
+
 
 
 
 ### 半监督\远程监督事件抽取
 
-#### 2019
+#### 2018
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/N18-2058/" >Semi-supervised event extraction with paraphrase clusters, NAACL 2018</a> by<i> Ferguson, James and Lockard, Colin and Weld, Daniel and Hajishirzi, Hannaneh
+(<a>Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件提取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+ 
+主要思想：
+我们通过详细的事件描述自动生成被标记过的训练数据，然后用这些数据进行事件触发词识别。具体来说，首先，将提及该事件的片段聚集在一起，形成一个聚类。然后用每个聚类中的简单示例来给整个聚类贴一个标签。最后，我们将新示例与原始训练集结合在一起，重新训练事件抽取器。
+
+
+数据集：ACE2005, TAC-KBP 2015
+
+Keywords: Semi-supervised
+
 </p></blockquote></details>
+
+
+
+
 
 ### 开放域事件抽取
 
+#### 2020
+ <details/>
+<summary/>
+  <a>Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 (<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
+动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件提取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
+ 
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+  
+主要思想：依靠公共新闻API的标题，我们提出一种方法来过滤不相关的标题并初步进行事件抽取。价格和文本均被反馈到3D卷积神经网络，以学习事件与市场动向之间的相关性。
+
+数据集：NYTf、FT、TG
+</p></blockquote></details>
+
+
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019(<a href="https://github.com/pytorch/fairseq">Github</a>)</summary><blockquote><p align="justify">
-The scarcity in annotated data poses a great challenge for event detection (ED). Cross-lingual ED aims to tackle this challenge by transferring knowledge between different languages to boost performance. However, previous cross-lingual methods for ED demonstrated a heavy dependency on parallel resources, which might limit their applicability. In this paper, we propose a new method for cross-lingual ED, demonstrating a minimal dependency on parallel resources. Specifically, to construct a lexical mapping between different languages, we devise a context-dependent translation method; to treat the word order difference problem, we propose a shared syntactic order event detector for multilingual co-training. The efficiency of our method is studied through extensive experiments on two standard datasets. Empirical results indicate that our method is effective in 1) performing cross-lingual transfer concerning different directions and 2) tackling the extremely annotation-poor scenario.
+  <a href="https://link.zhihu.com/?target=https%3A//www.aclweb.org/anthology/P19-1276/" >Open Domain Event Extraction Using Neural Latent Variable Models, ACL2019 </a> by<i> Xiao Liu and Heyan Huang and Yue Zhang
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/lx865712528/ACL2019-ODEE">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+我们考虑开放领域的事件提取，即从新闻集群中抽取无约束的事件类型的任务。结果表明，与最新的事件模式归纳方法相比，这种无监督模型具有更好的性能。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+以前关于生成模式归纳的研究非常依赖人工生成的指标特征，而我们引入了由神经网络产生的潜在变量来获得更好的表示能力。我们设计了一种新颖的图形模型，该模型具有潜在的事件类型矢量以及实体的文本冗余特征，而这些潜在的事件类型矢量来自全局参数化正态分布的新闻聚类。
+
+数据集：GNBusiness
+
 </p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by<i> Aida Mostafazadeh Davani etal.
+(<a href="https://link.zhihu.com/?target=https%3A//github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
+ 
+动机：
+将事件提取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
+
+ ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure1.png)
+
+主要思想：
+根据是否为仇恨罪标记每篇文章的任务被定义为多实例学习（MIL）问题。我们通过使用文章所有句子中嵌入的信息来确定文章是否报道了仇恨犯罪。在一组带注释的文章上测试了模型之后，我们将被训练过的模型应用于联邦调查局没有报道过的城市，并对这些城市中仇恨犯罪的发生频率进行了下界估计。
+
+</p></blockquote></details>
+
 
 
 ### 多语言事件抽取
