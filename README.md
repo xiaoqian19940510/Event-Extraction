@@ -227,6 +227,8 @@ ACE事件抽取任务的传统方法通常依赖被手动注释过的数据，�
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure16-1.png)
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figure16.png)
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/1.png)
+  
  
 主要思想：
 本文提出了一个基于预训练语言模型的框架，该框架包含一个作为基础的事件抽取模型以及一种生成被标记事件的方法。我们提出的事件抽取模型由触发词抽取器和论元抽取器组成，论元抽取器用前者的结果进行推理。此外，我们根据角色的重要性对损失函数重新进行加权，从而提高了论元抽取器的性能。
