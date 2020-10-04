@@ -4,7 +4,7 @@
 
 # Table of Contents 目录
 
--[Define(事件抽取的定义)](#define)
+- [Define(事件抽取的定义)](#define)
 - [Surveys(综述论文)](#surveys)
 - [Models（模型）](#Models)
 - [Datasets(数据集)](#Datasets)
