@@ -1,0 +1,34 @@
+
+
+data_dir: 'data_files/'
+ace05_event_dir: 'data_files/samples/'
+
+vocab_dir: 'data_files/vocab/'
+token_vocab_file: 'token_vocab.txt'
+char_vocab_file: 'char_vocab.txt'
+ent_type_vocab_file: 'ent_type_vocal.txt'
+ent_ref_vocab_file: 'ent_ref_vocab.txt' # co-reference
+tri_type_vocab_file: 'tri_type_vocab.txt'
+arg_type_vocab_file: 'arg_type_vocal.txt'
+action_vocab_file: 'action_vocab.txt'
+pos_vocab_file: 'pos_vocab.txt'
+#deptype_vocab_file: 'deptype_vocab.txt'
+#nertag_vocab_file: 'nertag_vocab.txt'
+#rel_vocab_file: 'rel_type_vocab.txt'
+
+pickle_dir: 'data_files/pickle/'
+vec_npy: 'data_files/pickle/word_vec.npy'
+inst_pl_file: 'data_files/pickle/data.pl'
+model_save_file: 'data_files/saved_models/model.ckpt'
+
+
+train_sent_file: 'data_files/bert_emb/train_bert.npy'
+dev_sent_file: 'data_files/bert_emb/dev_bert.npy'
+test_sent_file: 'data_files/bert_emb/test_bert.npy'
+
+embedding_dir: 'data_files/glove_emb/'
+embedding_file: 'glove.6B.100d.txt'
+embedding_type: 'glove'
+
+normalize_digits: false
+lower_case: false
