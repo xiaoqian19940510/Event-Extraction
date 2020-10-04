@@ -22,20 +22,20 @@
 
 ### Closed-domain
 
-Closed-domain event extraction uses predefined event schema to discover and extract desired events of particular type from text. An event schema contains several event types and their corresponding event structures. We use the ACE terminologies to introduce an event structure as follows:
-1
+Closed-domain事件抽取使用预定义的事件模式从文本中发现和提取所需的特定类型的事件。事件模式包含多个事件类型及其相应的事件结构。我们使用ACE术语来介绍如下事件结构:
+
 
 <details/>
 <summary/>
 <a >Event mention</summary><blockquote><p align="justify">
- a phrase or sentence describing an event, including a trigger and several arguments.
+描述事件的短语或句子，包括触发词和几个参数。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
 <a >Event trigger</summary><blockquote><p align="justify">
-the main word that most clearly expresses an event occurrence, typically a verb or a noun.
+最清楚地表达事件发生的主要词，尤指动词或名词。
 </p></blockquote></details>
 
 
@@ -43,92 +43,88 @@ the main word that most clearly expresses an event occurrence, typically a verb 
 <details/>
 <summary/>
 <a >Event argument</summary><blockquote><p align="justify">
-an entity mention, temporal expression or value that serves as a participant or attribute with a specific role in an event.
+ 一个实体,时间表达式，作为参与者的值和在事件中具有特定角色的属性。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
 <a >Argument role</summary><blockquote><p align="justify">
-the relationship between an argument to the event in which it participants.
+ 论元与它所参与的事件之间的关系。
 </p></blockquote></details>
 
 
-
-
-D.Ahn [the stages of event extraction] first proposed to divide the ACE event extraction task into four subtasks: trigger detection, event/trigger type identification, event argument detection, and argument role identification. 
+D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测、事件/触发词类型识别、事件参数检测和参数角色识别。
 
 <details/>
 <summary/>
 <a >Event mention</summary><blockquote><p align="justify">
-a phrase or sentence within which an event is described, including a trigger and arguments.
+ 描述事件的短语或句子，包括触发词和参数。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
 <a >Event trigger</summary><blockquote><p align="justify">
-the main word that most clearly expresses the occurrence of an event (An ACE event trigger is typically a verb or a noun).
+ 最清楚地表示事件发生的主要词(ACE事件触发词通常是动词或名词)。
 </p></blockquote></details>
 
 <details/>
 <summary/>
 <a >Event argument</summary><blockquote><p align="justify">
 an entity mention, temporal expression or value (e.g. Job-Title) that is involved in an event (viz., participants).
+ 在事件(即参与者)中涉及的实体提及、时间表达或值(例如工作头衔)。
 </p></blockquote></details>
 
 <details/>
 <summary/>
 <a >Argument role</summary><blockquote><p align="justify">
 the relationship between an argument to the event in which it participates.
+ 论元和事件同参与者之间的关系。
 </p></blockquote></details>
 
 
 
 ### Open domain
 
-Without predefined event schemas, open-domain event extraction aims at detecting events from texts and in most cases, also clustering similar events via extracted event key-words. Event keywords refer to those words/phrases mostly describing an event, and sometimes keywords are further divided into triggers and arguments.
-
-
+在没有预定义的事件模式的情况下，开放域事件提取的目的是从文本中检测事件，在大多数情况下，还可以通过提取的事件关键字聚类相似的事件。事件关键字指的是那些主要描述事件的词/短语，有时关键字还进一步分为触发器和参数。
 
 <details/>
 <summary/>
 <a >Story segmentation</summary><blockquote><p align="justify">
 detecting the boundaries of a story from news articles.
+ 从新闻中检测故事的边界。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
 <a >First story detection</summary><blockquote><p align="justify">
-detecting the story that discuss anew topic in the stream of news.
+ 检测新闻流中讨论新话题的故事。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
 <a >Topic detection</summary><blockquote><p align="justify">
-grouping the stories based on the topics they discuss.
+ 根据讨论的主题将故事分组。
 </p></blockquote></details>
 
 <details/>
 <summary/>
 <a >Topic tracking</summary><blockquote><p align="justify">
-detecting stories that discuss a previously known topic.
+ 检测讨论先前已知话题的故事。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
 <a >Story link detection</summary><blockquote><p align="justify">
-deciding whether a pair of stories discuss the same topic.
+决定两个故事是否讨论同一个主题。
 </p></blockquote></details>
 
 
-The first two tasks mainly focus on event detection; and the rest three tasks are for event clustering. While the relation between the five tasks is evident, each requires a distinct evaluation process and encourages different approaches to address the particular problem.
-
-
-
+前两个任务主要关注事件检测;其余三个任务用于事件集群。虽然这五项任务之间的关系很明显，但每一项任务都需要一个不同的评价过程，并鼓励采用不同的方法来解决特定问题。
 
 
 ## Surveys(综述论文)
@@ -148,7 +144,7 @@ The first two tasks mainly focus on event detection; and the rest three tasks ar
 <summary/>
 <a href="https://arxiv.org/pdf/2008.00364.pdf">An Overview of Event Extraction from Text，2019</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong:
 </a></summary><blockquote><p align="justify">
-One common application of text mining is event extraction,which encompasses deducing specific knowledge concerning incidents re-ferred to in texts. Event extraction can be applied to various types ofwritten text, e.g., (online) news messages, blogs, and manuscripts. Thisliterature survey reviews text mining techniques that are employed forvarious event extraction purposes. It provides general guidelines on howto choose a particular event extraction technique depending on the user,the available content, and the scenario of use.
+文本挖掘的一个常见应用是事件提取，它包括推导出与事件相关的特定知识，这些知识重新映射到文本中。事件提取可应用于各种类型的书面文本，如(在线)新闻消息、博客和手稿。本文献调查回顾了用于各种事件提取目的的文本挖掘技术。它提供了关于如何根据用户、可用内容和使用场景选择特定事件提取技术的一般指南。
 </p></blockquote></details>
 
 
@@ -163,7 +159,7 @@ One common application of text mining is event extraction,which encompasses dedu
 <details/>
 <summary/>
 <a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey of Textual Event Extraction from Social Networks，2017</a> by<i>Mohamed Mejri, Jalel Akaichi </a></summary><blockquote><p align="justify">
-。
+过去的十年中，在社交网络上挖掘文本内容以抽取相关数据和有用的知识已成为无所不在的任务。文本挖掘的一种常见应用是事件抽取，它被认为是一个复杂的任务，分为不同难度的多个子任务。在本文中，我们对现有的主要文本挖掘技术进行了概述，这些技术可用于许多不同的事件抽取目标。首先，我们介绍基于统计模型将数据转换为知识的主要数据驱动方法。其次，我们介绍了基于专家知识的知识驱动方法，通常通过基于模式的方法来抽取知识。然后，我们介绍结合了数据驱动和知识驱动方法的主要现有混合方法。我们以比较研究结束本文，该研究概括了每种提出的方法的主要特征。
 </p></blockquote></details>
 
 
@@ -171,29 +167,11 @@ One common application of text mining is event extraction,which encompasses dedu
 <details/>
 <summary/>
 <a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey of event extraction methods from text for decision support systems，2016</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Caron </a></summary><blockquote><p align="justify">
-。
-</p></blockquote></details>
-
-
-<details/>
-<summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey of Textual Event Extraction from Social Networks，2014</a> by<i>Vera DanilovaMikhail AlexandrovXavier Blanco </a></summary><blockquote><p align="justify">
-。
-</p></blockquote></details>
-
-### 事件检测综述
-
-<details/>
-<summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">A survey on multi-modal social event detection，2020</a> by<i>Han Zhou, Hongpeng Yin, Hengyi Zheng, Yanxia Li</a></summary><blockquote><p align="justify">
-回顾了事件特征学习和事件推理这两种研究方法。特别是，学习事件特征是必要的前提，因为它能够将社交媒体数据转换为计算机友好的数字形式。事件推理的目的是决定一个样本是否属于一个社会事件。然后，介绍了该社区的几个公共数据集，并给出了比较结果。在本文的最后，本文对如何促进多模式社会事件检测的发展进行了一般性的讨论。
-</p></blockquote></details>
-
-
-<details/>
-<summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">Review on event detection techniques in social multimedia，2016</a> by<i>Han Zhou, Hongpeng Yin, Hengyi Zheng, Yanxia Li</a></summary><blockquote><p align="justify">
-。
+事件抽取是一种可以追溯到20世纪80年代的专门的信息抽取流程，由于大数据的出现以及文本挖掘和自然语言处理等相关领域的发展，它得到了极大的普及。
+然而，到目前为止，对这一特殊领域的概述仍然是难以捉摸的。
+因此，我们总结了文本数据的事件提取技术，区分了数据驱动、知识驱动和混合方法，并对这些方法进行了定性评价。
+此外，还讨论了从文本语料库中抽取事件的常见决策支持应用。
+最后，对事件抽取系统的评价进行了阐述，并指出了当前的研究问题。
 </p></blockquote></details>
 
 
@@ -205,8 +183,6 @@ One common application of text mining is event extraction,which encompasses dedu
 
 
 ### 事件抽取
-
-
 
 
 #### 2020
