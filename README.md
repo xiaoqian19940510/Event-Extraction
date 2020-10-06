@@ -9,7 +9,6 @@
 - [Models](#models)
 - [Datasets](#datasets)
 - [Future Research Challenges](#future-research-challenges)
-- [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
 
 
@@ -1354,14 +1353,4 @@ pipeline方式存在错误信息的传递，如何减小错误信息传递
 
 无标注数据的评价指标设计
 
-
-
-# Tools and Repos
-[:arrow_up:](#table-of-contents)
-
-
-<details>
-<summary><a href="https://github.com/Tencent/NeuralNLP-NeuralClassifier">NeuralClassifier</a></summary><blockquote><p align="justify">
-腾讯的开源NLP项目
-</p></blockquote></details>
 
