@@ -4,20 +4,20 @@
 
 # Table of Contents 目录
 
-- [Define(事件抽取的定义)](#define)
-- [Surveys(综述论文)](#surveys)
-- [Models（模型）](#Models)
-- [Datasets(数据集)](#Datasets)
-- [Evaluation Metrics（评价指标）](#Evaluation-Metrics)
-- [Future Research Challenges（未来研究挑战）](#Future-Research-Challenges)
-- [Tools and Repos（工具与资源）](#tools-and-repos)
+- [Define](#define)
+- [Surveys](#surveys)
+- [Models](#models)
+- [Datasets](#datasets)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Future Research Challenges](#future-research-challenges)
+- [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
 
 ---
 
 
-## Define(事件抽取的定义)
-[:arrow_up:](#define)
+# Define
+[:arrow_up:](#table-of-contents)
 
 ### Closed-domain
 
@@ -123,8 +123,8 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 前两个任务主要关注事件检测;其余三个任务用于事件集群。虽然这五项任务之间的关系很明显，但每一项任务都需要一个不同的评价过程，并鼓励采用不同的方法来解决特定问题。
 
 
-## Surveys(综述论文)
-[:arrow_up:](#surveys)
+# Surveys
+[:arrow_up:](#table-of-contents)
 
 ### 事件抽取综述
 
@@ -174,7 +174,7 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 
 
-## Models（模型）
+# Models
 [:arrow_up:](#table-of-contents)
 
 
@@ -1276,7 +1276,7 @@ Keywords: Data Generation, Distant Supervision
 
 
 
-## Data（数据）
+# Data
 [:arrow_up:](#table-of-contents)
 
 #### English Corpus
@@ -1332,7 +1332,7 @@ ACE 2005多语种训练语料库包含了用于2005年自动内容抽取(ACE)技
 
 
 
-## Future Research Challenges（未来研究挑战）
+# Future Research Challenges
 [:arrow_up:](#table-of-contents)
 
 
@@ -1356,7 +1356,7 @@ pipeline方式存在错误信息的传递，如何减小错误信息传递
 
 
 
-## Tools and Repos（工具与资源）
+# Tools and Repos
 [:arrow_up:](#table-of-contents)
 
 
