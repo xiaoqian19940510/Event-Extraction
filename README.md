@@ -8,12 +8,10 @@
 - [Surveys](#surveys)
 - [Models](#models)
 - [Datasets](#datasets)
-- [Evaluation Metrics](#evaluation-metrics)
 - [Future Research Challenges](#future-research-challenges)
 - [Tools and Repos](#tools-and-repos)
 </p></blockquote></details>
 
----
 
 
 # Define
