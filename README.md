@@ -127,7 +127,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a href="https://doi.org/10.11896/j.issn.1002-137X.2019.08.002">元事件抽取研究综述，2019.</a> by <i>GAO Li-zheng, ZHOU Gang, LUO Jun-yong, LAN Ming-jing
+<a href="https://doi.org/10.11896/j.issn.1002-137X.2019.08.002">元事件抽取研究综述, 2019</a> by <i>GAO Li-zheng, ZHOU Gang, LUO Jun-yong, LAN Ming-jing
 </a></summary><blockquote><p align="justify">
 事件抽取是信息抽取领域的一个重要研究方向,在情报收集、知识提取、文档摘要、知识问答等领域有着广泛应用。写了一篇对当前事件抽取领域研究得较多的元事件抽取任务的综述。首先,简要介绍了元事件和元事件抽取的基本概念,以及元事件抽取的主要实现方法。然后,重点阐述了元事件抽取的主要任务,详细介绍了元事件检测过程,并对其他相关任务进行了概述。最后,总结了元事件抽取面临的问题,在此基础上展望了元事件抽取的发展趋势。
 </p></blockquote></details>
@@ -135,7 +135,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a href="http://ceur-ws.org/Vol-779/derive2011_submission_1.pdf">An Overview of Event Extraction from Text，2019.</a> by <i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong:
+<a href="http://ceur-ws.org/Vol-779/derive2011_submission_1.pdf">An Overview of Event Extraction from Text, 2019</a> by <i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong:
 </a></summary><blockquote><p align="justify">
 文本挖掘的一个常见应用是事件抽取，它包括推导出与事件相关的特定知识，这些知识重新映射到文本中。事件抽取可处理各种类型的文本，如(在线)新闻消息、博客和手稿。本文献回顾了用于各种事件抽取目的的文本挖掘技术。它提供了关于如何根据用户、可用内容和使用场景选择特定事件抽取技术的一般指南。
 </p></blockquote></details>
@@ -143,7 +143,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a href="https://doi.org/10.1109/ACCESS.2019.2956831">A Survey of Event Extraction from Text，2019</a> by <i>Wei Xiang, Bang Wang </a></summary><blockquote><p align="justify">
+<a href="https://doi.org/10.1109/ACCESS.2019.2956831">A Survey of Event Extraction from Text, 2019</a> by <i>Wei Xiang, Bang Wang </a></summary><blockquote><p align="justify">
 事件抽取的任务定义、数据源和性能评估，还为其解决方案方法提供了分类。在每个解决方案组中，提供了最具代表性的方法的详细分析，特别是它们的起源、基础、优势和弱点。最后，对未来的研究方向进行了展望。
 </p></blockquote></details>
 
@@ -151,7 +151,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a href="http://ceur-ws.org/Vol-1988/LPKM2017_paper_15.pdf">A Survey of Textual Event Extraction from Social Networks，2017</a> by <i>Mohamed Mejri, Jalel Akaichi </a></summary><blockquote><p align="justify">
+<a href="http://ceur-ws.org/Vol-1988/LPKM2017_paper_15.pdf">A Survey of Textual Event Extraction from Social Networks, 2017</a> by <i>Mohamed Mejri, Jalel Akaichi </a></summary><blockquote><p align="justify">
 过去的十年中，在社交网络上挖掘文本内容以抽取相关数据和有用的知识已成为无所不在的任务。文本挖掘的一种常见应用是事件抽取，它被认为是一个复杂的任务，分为不同难度的多个子任务。在本文中，我们对现有的主要文本挖掘技术进行了概述，这些技术可用于许多不同的事件抽取目标。首先，我们介绍基于统计模型将数据转换为知识的主要数据驱动方法。其次，我们介绍了基于专家知识的知识驱动方法，通常通过基于模式的方法来抽取知识。然后，我们介绍结合了数据驱动和知识驱动方法的主要现有混合方法。最后，我们比较社交网络事件抽取研究，概括了每种提出的方法的主要特征。
 </p></blockquote></details>
 
@@ -159,7 +159,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a href="https://doi.org/10.1016/j.dss.2016.02.006">A Survey of event extraction methods from text for decision support systems，2016</a> by <i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Caron </a></summary><blockquote><p align="justify">
+<a href="https://doi.org/10.1016/j.dss.2016.02.006">A Survey of event extraction methods from text for decision support systems, 2016</a> by <i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Caron </a></summary><blockquote><p align="justify">
 事件抽取是一种可以追溯到20世纪80年代的专门的信息抽取流程，由于大数据的出现以及文本挖掘和自然语言处理等相关领域的发展，事件抽取技术得到了极大的普及。
 然而，到目前为止，对这一特殊领域的概述仍然是难以捉摸的。
 因此，我们总结了文本数据的事件抽取技术，划分成数据驱动、知识驱动和混合方法三类，并对这些方法进行了定性评价。
@@ -181,7 +181,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 #### 2020
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1912.01586">Reading the Manual: Event Extraction as Definition Comprehension, EMNLP 2020. </a> by <i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme.
+  <a href="https://arxiv.org/abs/1912.01586">Reading the Manual: Event Extraction as Definition Comprehension, EMNLP 2020</a> by <i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme.
 </summary><blockquote><p align="justify">
 动机：提出一种新颖的事件抽取方法，为模型提供带有漂白语句（实体用通用的方式指代）的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
  
@@ -197,7 +197,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
  <details/>
 <summary/>
-  <a href="http://arxiv.org/abs/1912.11334">Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 by<i> Chau, Minh Triet and Esteves, Diego and Lehmann, Jens
+  <a href="http://arxiv.org/abs/1912.11334">Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 </a> by <i> Chau, Minh Triet and Esteves, Diego and Lehmann, Jens
 (<a href="https://github.com/minhtriet/gas_market">Github</a>)</summary><blockquote><p align="justify">
 动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件抽取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
  
@@ -218,8 +218,8 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/p19-1522" >Exploring Pre-trained Language Models for Event Extraction and Generation, ACL 2019</a> by<i> Yang, Sen and Feng, Dawei and Qiao, Linbo and Kan, Zhigang and Li, Dongsheng
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://doi.org/10.18653/v1/p19-1522" >Exploring Pre-trained Language Models for Event Extraction and Generation, ACL 2019</a> by <i> Yang, Sen and Feng, Dawei and Qiao, Linbo and Kan, Zhigang and Li, Dongsheng
+</summary><blockquote><p align="justify">
  
 动机：
 ACE事件抽取任务的传统方法通常依赖被手动注释过的数据，但是手动注释数据非常耗费精力并且也限制了数据集的规模。我们提出了一个方法来克服这个问题。
@@ -240,7 +240,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/p19-1276" >Open Domain Event Extraction Using Neural Latent Variable Models, ACL2019 </a> by<i> Xiao Liu and Heyan Huang and Yue Zhang
+  <a href="https://doi.org/10.18653/v1/p19-1276" >Open Domain Event Extraction Using Neural Latent Variable Models, ACL2019</a> by <i> Xiao Liu and Heyan Huang and Yue Zhang
 (<a href="https://github.com/lx865712528/ACL2019-ODEE">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -260,7 +260,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://doi.org/10.18653/v1/p19-3006" >Rapid Customization for Event Extraction, ACL 2019 </a> by<i> Yee Seng Chan, Joshua Fasching, Haoling Qiu, Bonan Min
+  <a href="https://doi.org/10.18653/v1/p19-3006" >Rapid Customization for Event Extraction, ACL 2019</a> by <i> Yee Seng Chan, Joshua Fasching, Haoling Qiu, Bonan Min
 (<a href="https://github.com/BBN-E/Rapid-customization-events-acl19">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -278,8 +278,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by<i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019</a> by <i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+</summary><blockquote><p align="justify">
  
 动机：
 从资源不足以及注释不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
@@ -297,8 +297,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-   <a href="https://www.aclweb.org/anthology/D19-1032/" >Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP2019 </a> by<i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
-(<a>Github</a>)</summary><blockquote><p align="justify">
+   <a href="https://www.aclweb.org/anthology/D19-1032/" >Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP2019</a> by <i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
+</summary><blockquote><p align="justify">
  
 任务:与其他研究不同，该任务被定义为：事件框架填充：也就是论元检测+识别
  
@@ -316,7 +316,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1585" >Entity, Relation, and Event Extraction with Contextualized Span Representations, CCL 2016 </a> by<i> David Wadden, Ulme Wennberg, Yi Luan, Hannaneh Hajishirzi
+  <a href="https://www.aclweb.org/anthology/D19-1585" >Entity, Relation, and Event Extraction with Contextualized Span Representations, CCL 2016</a> by <i> David Wadden, Ulme Wennberg, Yi Luan, Hannaneh Hajishirzi
 (<a href="https://github.com/dwadden/dygiepp">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -352,8 +352,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1041/" >Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction, EMNLP 2019 </a> by<i> Rujun Han, Qiang Ning, Nanyun Peng
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1041/" >Joint Event and Temporal Relation Extraction with Shared Representations and Structured Prediction, EMNLP 2019</a> by <i> Rujun Han, Qiang Ning, Nanyun Peng
+</summary><blockquote><p align="justify">
  
 动机：
 事件之间的时间关系的提取是一项重要的自然语言理解（NLU）任务，可以使许多下游任务受益。我们提出了一种事件和时间关系的联合抽取模型，该模型可以进行共享表示学习和结构化预测。
@@ -373,8 +373,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1027/" >Open Event Extraction from Online Text using a Generative Adversarial Network, EMNLP 2019 </a> by<i> Rui Wang, Deyu Zhou, Yulan He
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1027/" >Open Event Extraction from Online Text using a Generative Adversarial Network, EMNLP 2019</a> by <i> Rui Wang, Deyu Zhou, Yulan He
+</summary><blockquote><p align="justify">
  
 动机：
 提取开放域事件的结构化表示的方法通常假定文档中的所有单词都是从单个事件中生成的，因此他们通常不适用于诸如新闻文章之类的长文本。为了解决这些局限性，我们提出了一种基于生成对抗网络的事件抽取模型，称为对抗神经事件模型（AEM）。
@@ -392,7 +392,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by<i> Aida Mostafazadeh Davani etal.
+  <a href="https://arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by <i> Aida Mostafazadeh Davani etal.
 (<a href="https://github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -408,7 +408,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 
  <details/>
 <summary/>
-  <a href="https://www.ijcai.org/proceedings/2019/753" >Extracting entities and events as a single task using a transition-based neural model, IJCAI 2019 </a> by<i> Zhang, Junchi and Qin, Yanxia and Zhang, Yue and Liu, Mengchi and Ji, Donghong
+  <a href="https://www.ijcai.org/proceedings/2019/753" >Extracting entities and events as a single task using a transition-based neural model, IJCAI 2019</a> by <i> Zhang, Junchi and Qin, Yanxia and Zhang, Yue and Liu, Mengchi and Ji, Donghong
 (<a href="https://github.com/zjcerwin/TransitionEvent">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -428,8 +428,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/N19-1145/" >Biomedical Event Extraction based on Knowledge-driven Tree-LSTM, CCL 2016 </a> by<i> Diya Li, Lifu Huang, Heng Ji, Jiawei Han
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/N19-1145/" >Biomedical Event Extraction based on Knowledge-driven Tree-LSTM, CCL 2016</a> by <i> Diya Li, Lifu Huang, Heng Ji, Jiawei Han
+</summary><blockquote><p align="justify">
  
 动机：
 生物医学领域的事件抽取比一般新闻领域的事件抽取更具挑战性，因为它需要更广泛地获取领域特定的知识并加深对复杂情境的理解。为了更好地对上下文信息和外部背景知识进行编码，我们提出了一种新颖的知识库（KB）驱动的树结构长短期记忆网络（Tree-LSTM）框架。
@@ -450,8 +450,8 @@ Keywords: Knowledge-driven Tree-LSTM
 
  <details/>
 <summary/>
- <a href="https://ieeexplore.ieee.org/document/8643786" >Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet, EMNLP 2019 short</a> by<i> Wei Li , Dezhi Cheng, Lei He, Yuanzhuo Wang, Xiaolong Jin
-(<a>Github</a>)</summary><blockquote><p align="justify">
+ <a href="https://ieeexplore.ieee.org/document/8643786" >Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet, EMNLP 2019 short</a> by <i> Wei Li , Dezhi Cheng, Lei He, Yuanzhuo Wang, Xiaolong Jin
+</summary><blockquote><p align="justify">
  
 动机：事件抽取对于许多实际应用非常有用，例如新闻摘要和信息检索。但是目前很流行的自动上下文抽取（ACE）事件抽取程序仅定义了非常有限且粗糙的事件模式，这可能不适合实际应用。 FrameNet是一种语言语料库，它定义了完整的语义框架和框架间的关系。由于FrameNet中的框架与ACE中的事件架构共享高度相似的结构，并且许多框架实际上表达了事件，因此，我们建议基于FrameNet重新定义事件架构。
 
@@ -467,8 +467,8 @@ Keywords: Knowledge-driven Tree-LSTM
 
  <details/>
 <summary/>
-  <a >One for All: Neural Joint Modeling of Entities and Events, AAAI 2019 </a> by<i> Trung Minh Nguyen∗ Alt Inc.
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a >One for All: Neural Joint Modeling of Entities and Events, AAAI 2019</a> by <i> Trung Minh Nguyen∗ Alt Inc.
+</summary><blockquote><p align="justify">
  
 事件抽取之前的工作主要关注于对事件触发器和参数角色的预测，将实体提及视为由人工注释器提供的。
 这是不现实的，因为实体提到通常是由一些现有工具包预测的，它们的错误可能会传播到事件触发器和参数角色识别。
@@ -491,8 +491,8 @@ Keywords: Knowledge-driven Tree-LSTM
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/pdf/1712.03665.pdf" >Scale up event extraction learning via automatic training data generation, AAAI 2018</a> by<i> Zeng, Ying and Feng, Yansong and Ma, Rong and Wang, Zheng and Yan, Rui and Shi, Chongde and Zhao, Dongyan
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/pdf/1712.03665.pdf" >Scale up event extraction learning via automatic training data generation, AAAI 2018</a> by <i> Zeng, Ying and Feng, Yansong and Ma, Rong and Wang, Zheng and Yan, Rui and Shi, Chongde and Zhao, Dongyan
+</summary><blockquote><p align="justify">
  
 动机：现有的训练数据必须通过专业领域知识以及大量的参与者来手动生成，这样生成的数据规模很小，严重影响训练出来的模型的质量。因此我们开发了一种自动生成事件抽取训练数据的方法。
 
@@ -509,8 +509,8 @@ Keywords: Data Generation, Distant Supervision
 
 <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by<i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by <i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+</summary><blockquote><p align="justify">
  
 动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
 
@@ -526,8 +526,8 @@ Keywords: Automatically Labelled, Chinese Financial EE
 
 <details/>
 <summary/>
-  <a href="https://shalei120.github.io/docs/sha2018Joint.pdf" >Jointly Extraction Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction, AAAI 2018 </a> by<i> Sha, Lei and Qian, Feng and Chang, Baobao and Sui, Zhifang
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://shalei120.github.io/docs/sha2018Joint.pdf" >Jointly Extraction Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction, AAAI 2018 </a> by <i> Sha, Lei and Qian, Feng and Chang, Baobao and Sui, Zhifang
+</summary><blockquote><p align="justify">
  
 动机：传统的事件抽取很大程度上依赖词汇和句法特征，需要大量的人工工程，并且模型通用性不强。另一方面，深度神经网络可以自动学习底层特征，但是现有的网络却没有充分利用句法关系。因此本文在对每个单词建模时，使用依赖桥来增强它的信息表示。说明在RNN模型中同时应用树结构和序列结构比只使用顺序RNN具有更好的性能。另外，利用张量层来同时捕获论元之间的关系以及其在事件中的角色。实验表明，模型取得了很好地效果。
 
@@ -548,7 +548,7 @@ Keywords: dbRNN
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018 </a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+  <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018</a> by <i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
 (<a href="https://github.com/wilburOne/ZeroShotEvent">Github</a>)</summary><blockquote><p align="justify">
 动机：以前大多数受监督的事件抽取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
  
@@ -565,8 +565,8 @@ Keywords: Zero-Shot Transfer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by<i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by <i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+</summary><blockquote><p align="justify">
  
 动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
 
@@ -587,8 +587,8 @@ Keywords: Automatically Labelled, Chinese Financial EE
 
  <details/>
 <summary/>
-  <a href="https://blender.cs.illinois.edu/paper/imitation2019.pdf" >Joint Entity and Event Extraction with Generative Adversarial Imitation Learning, CCL 2016 </a> by<i> Tongtao Zhang and Heng Ji and Avirup Sil
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://blender.cs.illinois.edu/paper/imitation2019.pdf" >Joint Entity and Event Extraction with Generative Adversarial Imitation Learning, CCL 2016 </a> by <i> Tongtao Zhang and Heng Ji and Avirup Sil
+</summary><blockquote><p align="justify">
  
 动机:我们提出了一种基于生成对抗的模仿学习的实体与事件抽取框架，这种学习是一种使用生成对抗网络（GAN）的逆强化学习方法。该框架的实际表现优于目前最先进的方法。
 
@@ -603,7 +603,7 @@ Keywords: Automatically Labelled, Chinese Financial EE
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D18-1156" >Joint Multiple Event Extraction via Attention-based Graph Information Aggregration, EMNLP 2018 </a> by<i> Liu, Xiao and Luo, Zhunchen and Huang, Heyan
+  <a href="https://www.aclweb.org/anthology/D18-1156" >Joint Multiple Event Extraction via Attention-based Graph Information Aggregration, EMNLP 2018 </a> by <i> Liu, Xiao and Luo, Zhunchen and Huang, Heyan
 (<a href="https://github.com/lx865712528/EMNLP2018-JMEE/">Github</a>)</summary><blockquote><p align="justify">
  
 动机：比提取单个事件更困难。在以往的工作中，由于捕获远距离的依赖关系效率很低，因此通过顺序建模的方法在对事件之间的联系进行建模很难成功。本文提出了一种新的框架来解决这个问题。
@@ -623,8 +623,8 @@ Keywords: JMEE
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/N18-2058/" >Semi-supervised event extraction with paraphrase clusters, NAACL 2018</a> by<i> Ferguson, James and Lockard, Colin and Weld, Daniel and Hajishirzi, Hannaneh
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/N18-2058/" >Semi-supervised event extraction with paraphrase clusters, NAACL 2018</a> by <i> Ferguson, James and Lockard, Colin and Weld, Daniel and Hajishirzi, Hannaneh
+</summary><blockquote><p align="justify">
  
 动机：
 受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件抽取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
@@ -644,8 +644,8 @@ Keywords: Semi-supervised
 
  <details/>
 <summary/>
-  <a href="https://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-081.pdf" >Jointly multiple events extraction via attention-based graph information aggregation, EMNLP 2018 </a> by<i> Xiao Liu, Zhunchen Luo‡ and Heyan Huang
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-081.pdf" >Jointly multiple events extraction via attention-based graph information aggregation, EMNLP 2018 </a> by <i> Xiao Liu, Zhunchen Luo‡ and Heyan Huang
+</summary><blockquote><p align="justify">
  
 任务:
 触发词分类；论元分类
@@ -670,7 +670,7 @@ Keywords: Semi-supervised
 #### 2017
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by<i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
+  <a href="https://www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by <i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
 (<a href="https://github.com/acl2017submission/event-data">Github</a>)</summary><blockquote><p align="justify">
  
 动机：手动标记的训练数据成本太高，事件类型覆盖率低且规模有限，这种监督的方法很难从知识库中抽取大量事件。
@@ -691,8 +691,8 @@ Keywords: Data Generation, Distant Supervision
 #### 2016
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P16-1116" >RBPB Regularization Based Pattern Balancing Method for Event Extraction,ACL2016 </a> by<i> Sha, Lei and Liu, Jing and Lin, Chin-Yew and Li, Sujian and Chang, Baobao and Sui, Zhifang
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P16-1116" >RBPB Regularization Based Pattern Balancing Method for Event Extraction,ACL2016 </a> by <i> Sha, Lei and Liu, Jing and Lin, Chin-Yew and Li, Sujian and Chang, Baobao and Sui, Zhifang
+</summary><blockquote><p align="justify">
 动机：在最近的工作中，当确定事件类型（触发器分类）时，大多数方法要么是仅基于模式（pattern），要么是仅基于特征。此外，以往的工作在识别和文类论元的时候，忽略了论元之间的关系，只是孤立的考虑每个候选论元。
  
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/32.png)
@@ -708,8 +708,8 @@ Keywords: Embedding & Pattern features, Regularization method
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/C16-1114" >Leveraging Multilingual Training for Limited Resource Event Extraction, COLING 2016 </a> by<i> Hsi, Andrew and Yang, Yiming and Carbonell, Jaime and Xu, Ruochen
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/C16-1114" >Leveraging Multilingual Training for Limited Resource Event Extraction, COLING 2016 </a> by <i> Hsi, Andrew and Yang, Yiming and Carbonell, Jaime and Xu, Ruochen
+</summary><blockquote><p align="justify">
  
 动机：迄今为止，利用跨语言培训来提高性能的工作非常有限。因此我们提出了一种新的事件抽取方法。
 
@@ -727,8 +727,8 @@ Keywords: Training on multiple languages using a combination of both language-de
 
  <details/>
 <summary/>
-  <a href="https://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-081.pdf" >Event Extraction via Bidirectional Long Short-Term Memory Tensor Neural Network, CCL 2016 </a> by<i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.cips-cl.org/static/anthology/CCL-2016/CCL-16-081.pdf" >Event Extraction via Bidirectional Long Short-Term Memory Tensor Neural Network, CCL 2016 </a> by <i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
+</summary><blockquote><p align="justify">
  
 动机：
 
@@ -744,7 +744,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P18-1145.pdf" >A convolution bilstm neural network model for chinese event extraction, NLPCC 2016 </a> by<i> Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
+  <a href="https://www.aclweb.org/anthology/P18-1145.pdf" >A convolution bilstm neural network model for chinese event extraction, NLPCC 2016 </a> by <i> Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
 (<a href="https://github.com/sanmusunrise/NPNs">Github</a>)</summary><blockquote><p align="justify">
  
 动机：在中文的事件抽取中，以前的方法非常依赖复杂的特征工程以及复杂的自然语言处理工具。本文提出了一种卷积双向LSTM神经网络，该神经网络将LSTM和CNN结合起来，可以捕获句子级和词汇信息，而无需任何人为提供的特征。
@@ -763,8 +763,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P16-1025/" >Liberal Event Extraction and Event Schema Induction, AACL 2016 </a> by<i> Lifu Huang, Taylor Cassidy, Xiaocheng Feng, Heng Ji, Clare R. Voss, Jiawei Han, Avirup Sil
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P16-1025/" >Liberal Event Extraction and Event Schema Induction, AACL 2016 </a> by <i> Lifu Huang, Taylor Cassidy, Xiaocheng Feng, Heng Ji, Clare R. Voss, Jiawei Han, Avirup Sil
+</summary><blockquote><p align="justify">
  
 动机：结合了象征式的（例如抽象含义表示）和分布式的语义来检测和表示事件结构，并采用同一个类型框架来同时提取事件类型和论元角色并发现事件模式。这种模式的提取性能可以与被预定义事件类型标记过的大量数据训练的监督模型相媲美。 
 
@@ -786,7 +786,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/N16-1049/" >Joint Learning Templates and Slots for Event Schema Induction, NAACL 2016 </a> by<i> Lei Sha, Sujian Li, Baobao Chang, Zhifang Sui
+  <a href="https://www.aclweb.org/anthology/N16-1049/" >Joint Learning Templates and Slots for Event Schema Induction, NAACL 2016 </a> by <i> Lei Sha, Sujian Li, Baobao Chang, Zhifang Sui
 (<a href="https://github.com/shenglih/normalized_cut/tree/master">Github</a>)</summary><blockquote><p align="justify">
  
 动机：我们提出了一个联合实体驱动模型，这种模型可以根据同一句子中模板和各种信息槽（例如attribute slot和participate slot）的限制，同时学习模板和信息槽。这样的模型会得到比以前的方法更好的结果。
@@ -801,8 +801,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/N16-1034" >Joint Event Extraction via Recurrent Neural Networks, NAACL 2016 </a> by<i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/N16-1034" >Joint Event Extraction via Recurrent Neural Networks, NAACL 2016 </a> by <i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
+</summary><blockquote><p align="justify">
  
 任务:给定实体标签；通过序列标注识别触发词和论元
 
@@ -824,8 +824,8 @@ Keywords: RNN, Joint Event Extraction
 #### 2015
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P15-1017" >Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks, ACL2015 </a> by<i> Yubo Chen, Liheng Xu, Kang Liu, Daojian Zeng and Jun Zhao 
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P15-1017" >Event Extraction via Dynamic Multi-Pooling Convolutional Neural Networks, ACL2015 </a> by <i> Yubo Chen, Liheng Xu, Kang Liu, Daojian Zeng and Jun Zhao 
+</summary><blockquote><p align="justify">
 任务：给定候选实体的位置；完成触发词识别，触发词分类，论元识别，论元分类
  
 动机：在于一个句子中可能会有多个事件，如果只用一个池化将导致多个事件的句子级特征没有区别。因此引入动态多池化
@@ -845,8 +845,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P15-1019/" >Generative Event Schema Induction with Entity Disambiguation, AACL2015 </a> by<i> Kiem-Hieu Nguyen, Xavier Tannier, Olivier Ferret, Romaric Besançon
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P15-1019/" >Generative Event Schema Induction with Entity Disambiguation, AACL2015 </a> by <i> Kiem-Hieu Nguyen, Xavier Tannier, Olivier Ferret, Romaric Besançon
+</summary><blockquote><p align="justify">
 动机：以往文献中的方法仅仅使用中心词来代表实体，然而除了中心词，别的元素也包含了很多重要的信息。这篇论文提出了一种事件模式归纳的生成模型来解决这个问题。
  
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/33-1.png)
@@ -871,8 +871,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2020
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020</a> by<i> Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020</a> by <i> Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
+</summary><blockquote><p align="justify">
  
  事件检测(ED)是事件抽取的一个子任务，涉及到识别触发器和对提到的事件进行分类。
 现有的方法主要依赖于监督学习，并需要大规模的标记事件数据集，不幸的是，这些数据集在许多实际应用中并不容易获得。
@@ -885,8 +885,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
  <details/>
 <summary/>
-   <a href="https://arxiv.org/abs/1907.11692">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020</a> by<i> 	Viet Dac Lai, Franck Dernoncourt, Thien Huu Nguyen
-(<a>Github</a>)</summary><blockquote><p align="justify">
+   <a href="https://arxiv.org/abs/1907.11692">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020</a> by <i> 	Viet Dac Lai, Franck Dernoncourt, Thien Huu Nguyen
+</summary><blockquote><p align="justify">
  现有的事件分类(EC)的工作主要集中在传统的监督学习设置，其中模型无法提取的事件提到新的/看不见的事件类型。
 尽管EC模型能够将其操作扩展到未观察到的事件类型，但在这一领域还没有研究过少量的射击学习。
 为了填补这一空白，在本研究中，我们调查了在少镜头学习设置下的事件分类。
@@ -899,8 +899,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
  <details/>
 <summary/>
-   <a href="https://arxiv.org/abs/1907.11692">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, LREC 2020</a> by<i> Bonan Min, Yee Seng Chan, Lingjun Zhao
-(<a>Github</a>)</summary><blockquote><p align="justify">
+   <a href="https://arxiv.org/abs/1907.11692">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, LREC 2020</a> by <i> Bonan Min, Yee Seng Chan, Lingjun Zhao
+</summary><blockquote><p align="justify">
 
 在大量的文本中自动分析事件对于情境意识和决策是至关重要的。
 以前的方法将事件抽取视为“一刀切”，并预先定义了本体。
@@ -919,8 +919,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2018
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018</a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018</a> by <i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+</summary><blockquote><p align="justify">
  
  以前的大多数事件抽取研究都严重依赖于从注释的事件提到中衍生出来的特性，因此如果不进行注释就不能应用于新的事件类型。
 在这项工作中，我们重新审视事件抽取，并将其建模为一个接地问题。
@@ -940,8 +940,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2019
  <details/>
 <summary/>
-   <a href="https://www.aclweb.org/anthology/D19-1032/" >Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP2019 </a> by<i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
-(<a>Github</a>)</summary><blockquote><p align="justify">
+   <a href="https://www.aclweb.org/anthology/D19-1032/" >Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction, EMNLP2019 </a> by <i> Shun Zheng, Wei Cao, Wei Xu, Jiang Bian
+</summary><blockquote><p align="justify">
  
 任务:与其他研究不同，该任务被定义为：事件框架填充：也就是论元检测+识别
  
@@ -957,8 +957,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by<i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by <i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+</summary><blockquote><p align="justify">
  
 动机：
 从资源不足以及注释不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
@@ -977,8 +977,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2018
 <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by<i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by <i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
+</summary><blockquote><p align="justify">
  
 动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
 
@@ -1002,7 +1002,7 @@ Keywords: Automatically Labelled, Chinese Financial EE
 #### 2016
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P18-1145.pdf" >A convolution bilstm neural network model for chinese event extraction, NLPCC 2016 </a> by<i> Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
+  <a href="https://www.aclweb.org/anthology/P18-1145.pdf" >A convolution bilstm neural network model for chinese event extraction, NLPCC 2016 </a> by <i> Lin, Hongyu and Lu, Yaojie and Han, Xianpei and Sun, Le
 (<a href="https://github.com/sanmusunrise/NPNs">Github</a>)</summary><blockquote><p align="justify">
  
 动机：在中文的事件抽取中，以前的方法非常依赖复杂的特征工程以及复杂的自然语言处理工具。本文提出了一种卷积双向LSTM神经网络，该神经网络将LSTM和CNN结合起来，可以捕获句子级和词汇信息，而无需任何人为提供的特征。
@@ -1027,8 +1027,8 @@ Keywords: Automatically Labelled, Chinese Financial EE
 #### 2018
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/N18-2058/" >Semi-supervised event extraction with paraphrase clusters, NAACL 2018</a> by<i> Ferguson, James and Lockard, Colin and Weld, Daniel and Hajishirzi, Hannaneh
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/N18-2058/" >Semi-supervised event extraction with paraphrase clusters, NAACL 2018</a> by <i> Ferguson, James and Lockard, Colin and Weld, Daniel and Hajishirzi, Hannaneh
+</summary><blockquote><p align="justify">
  
 动机：
 受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件抽取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
@@ -1068,7 +1068,7 @@ Keywords: Semi-supervised
 #### 2019
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P19-1276/" >Open Domain Event Extraction Using Neural Latent Variable Models, ACL2019 </a> by<i> Xiao Liu and Heyan Huang and Yue Zhang
+  <a href="https://www.aclweb.org/anthology/P19-1276/" >Open Domain Event Extraction Using Neural Latent Variable Models, ACL2019 </a> by <i> Xiao Liu and Heyan Huang and Yue Zhang
 (<a href="https://github.com/lx865712528/ACL2019-ODEE">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -1084,7 +1084,7 @@ Keywords: Semi-supervised
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by<i> Aida Mostafazadeh Davani etal.
+  <a href="https://arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by <i> Aida Mostafazadeh Davani etal.
 (<a href="https://github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -1104,8 +1104,8 @@ Keywords: Semi-supervised
 #### 2019
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by<i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1030/" >Cross-lingual Structure Transfer for Relation and Event Extraction, EMNLP 2019) </a> by <i> Ananya Subburathinam, Di Lu, Heng Ji, Jonathan May, Shih-Fu Chang, Avirup Sil, Clare Voss
+</summary><blockquote><p align="justify">
  
 动机：
 从资源不足以及注释不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
@@ -1124,8 +1124,8 @@ Keywords: Semi-supervised
 #### 2016
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/C16-1114" >Leveraging Multilingual Training for Limited Resource Event Extraction, COLING 2016 </a> by<i> Hsi, Andrew and Yang, Yiming and Carbonell, Jaime and Xu, Ruochen
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/C16-1114" >Leveraging Multilingual Training for Limited Resource Event Extraction, COLING 2016 </a> by <i> Hsi, Andrew and Yang, Yiming and Carbonell, Jaime and Xu, Ruochen
+</summary><blockquote><p align="justify">
  
 动机：迄今为止，利用跨语言培训来提高性能的工作非常有限。因此我们提出了一种新的事件抽取方法。
 
@@ -1149,8 +1149,8 @@ Keywords: Training on multiple languages using a combination of both language-de
 #### 2019
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P19-1522" >Exploring Pre-trained Language Models for Event Extraction and Geenration, ACL 2019</a> by<i> Yang, Sen and Feng, Dawei and Qiao, Linbo and Kan, Zhigang and Li, Dongsheng
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/P19-1522" >Exploring Pre-trained Language Models for Event Extraction and Geenration, ACL 2019</a> by <i> Yang, Sen and Feng, Dawei and Qiao, Linbo and Kan, Zhigang and Li, Dongsheng
+</summary><blockquote><p align="justify">
  
 动机：
 ACE事件抽取任务的传统方法通常依赖被手动注释过的数据，但是手动注释数据非常耗费精力并且也限制了数据集的规模。我们提出了一个方法来克服这个问题。
@@ -1170,8 +1170,8 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1027/" >Open Event Extraction from Online Text using a Generative Adversarial Network, EMNLP 2019 </a> by<i> Rui Wang, Deyu Zhou, Yulan He
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1027/" >Open Event Extraction from Online Text using a Generative Adversarial Network, EMNLP 2019 </a> by <i> Rui Wang, Deyu Zhou, Yulan He
+</summary><blockquote><p align="justify">
  
 动机：
 提取开放域事件的结构化表示的方法通常假定文档中的所有单词都是从单个事件中生成的，因此他们通常不适用于诸如新闻文章之类的长文本。为了解决这些局限性，我们提出了一种基于生成对抗网络的事件抽取模型，称为对抗神经事件模型（AEM）。
@@ -1188,7 +1188,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by<i> Aida Mostafazadeh Davani etal.
+  <a href="https://arxiv.org/pdf/1909.02126.pdf" >Reporting the unreported: Event Extraction for Analyzing the Local Representation of Hate Crimes, EMNLP 2019</a> by <i> Aida Mostafazadeh Davani etal.
 (<a href="https://github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
@@ -1205,7 +1205,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 #### 2017
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by<i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
+  <a href="https://www.aclweb.org/anthology/P17-1038" >Automatically Labeled Data Generation for Large Scale Event Extraction, ACL 2017 </a> by <i> Chen, Yubo and Liu, Shulin and Zhang, Xiang and Liu, Kang and Zhao, Jun
 (<a href="https://github.com/acl2017submission/event-data">Github</a>)</summary><blockquote><p align="justify">
  
 动机：手动标记的训练数据成本太高，事件类型覆盖率低且规模有限，这种监督的方法很难从知识库中抽取大量事件。
@@ -1228,8 +1228,8 @@ Keywords: Data Generation, Distant Supervision
 #### 2019
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/D19-1068/" >Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019</a> by<i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/D19-1068/" >Neural Cross-Lingual Event Detection with Minimal Parallel Resources, EMNLP2019</a> by <i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
+</summary><blockquote><p align="justify">
  
 注释数据的缺乏给事件检测带来了巨大的挑战。
 跨语言教育旨在解决这一挑战，通过在不同语言之间传递知识，提高性能。
@@ -1245,8 +1245,8 @@ Keywords: Data Generation, Distant Supervision
 
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1905.05529" >Entity-relation extraction as multi-turn question answering, ACL2019</a> by<i> Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li, Arianna Yuan, Duo Chai, Mingxin Zhou, Jiwei Li
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/1905.05529" >Entity-relation extraction as multi-turn question answering, ACL2019</a> by <i> Xiaoya Li, Fan Yin, Zijun Sun, Xiayu Li, Arianna Yuan, Duo Chai, Mingxin Zhou, Jiwei Li
+</summary><blockquote><p align="justify">
 提出了一种新的实体-关系抽取的范式。
 我们把任务作为多向问答的问题,也就是说,实体和关系的提取转化为确定答案的任务从上下文。
 这种多轮QA形式化有几个关键的优点:首先，问题查询为我们想要识别的实体/关系类编码重要的信息;
@@ -1264,8 +1264,8 @@ Keywords: Data Generation, Distant Supervision
 #### 2019
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1706.04115" >Zero-shot relation extraction via reading comprehension, CoNLL 2017</a> by<i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
-(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/1706.04115" >Zero-shot relation extraction via reading comprehension, CoNLL 2017</a> by <i> Jian Liu, Yubo Chen, Kang Liu, Jun Zhao
+</summary><blockquote><p align="justify">
  
 通过将一个或多个自然语言问题与每个关系槽相关联，可以将关系提取简化为回答简单的阅读理解问题。
 减少有几个好处:我们可以(1)学习relation-extraction模型通过扩展最近神经阅读理解技术,(2)为这些模型相结合构建大训练集关系专用众包与远方监督问题,甚至(3)zero-shot学习通过提取新关系类型,只有指定的测试时间,我们没有标签的训练例子。
