@@ -213,6 +213,25 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 
 
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/2004.13625">Event Extraction by Answering (Almost) Natural Questions, EMNLP 2020 </a> by <i> Xinya Du and Claire Cardie(<a href="https://github.com/xinyadu/eeqa">Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：事件提取问题需要检测事件触发并提取其相应的参数。
+事件参数提取中的现有工作通常严重依赖于作为预处理/并发步骤的实体识别，这导致了众所周知的错误传播问题。
+为了避免这个问题，我们引入了一种新的事件抽取范式，将其形式化为问答(QA)任务，该任务以端到端的方式提取事件论元。
+实证结果表明，我们的框架优于现有的方法;
+此外，它还能够提取训练时未见角色的事件论元。
+
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/0.png)
+
+数据集：ACE
+</p></blockquote></details>
+
+
+
+
+
 #### 2019
 
 
@@ -802,7 +821,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
  <details/>
 <summary/>
   <a href="https://www.aclweb.org/anthology/N16-1034" >Joint Event Extraction via Recurrent Neural Networks, NAACL 2016 </a> by <i> Chen, Yubo and Liu, Shulin and He, Shizhu and Liu, Kang and Zhao, Jun
-</summary><blockquote><p align="justify">
+(<a href="https://github.com/anoperson/jointEE-NN">Github</a>)</summary><blockquote><p align="justify">
  
 任务:给定实体标签；通过序列标注识别触发词和论元
 
