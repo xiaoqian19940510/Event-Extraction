@@ -81,7 +81,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
 ### Open domain
 
-在没有预定义的事件模式的情况下，开放域事件提取的目的是从文本中检测事件，在大多数情况下，还可以通过提取的事件关键词聚类相似的事件。事件关键词指的是那些主要描述事件的词/短语，有时关键词还进一步分为触发器和参数。
+在没有预定义的事件模式的情况下，开放域事件抽取的目的是从文本中检测事件，在大多数情况下，还可以通过提取的事件关键词聚类相似的事件。事件关键词指的是那些主要描述事件的词/短语，有时关键词还进一步分为触发器和参数。
 
 <details/>
 <summary/>
@@ -162,7 +162,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 <a href="https://doi.org/10.1016/j.dss.2016.02.006">A Survey of event extraction methods from text for decision support systems，2016</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Caron </a></summary><blockquote><p align="justify">
 事件抽取是一种可以追溯到20世纪80年代的专门的信息抽取流程，由于大数据的出现以及文本挖掘和自然语言处理等相关领域的发展，事件抽取技术得到了极大的普及。
 然而，到目前为止，对这一特殊领域的概述仍然是难以捉摸的。
-因此，我们总结了文本数据的事件提取技术，划分成数据驱动、知识驱动和混合方法三类，并对这些方法进行了定性评价。
+因此，我们总结了文本数据的事件抽取技术，划分成数据驱动、知识驱动和混合方法三类，并对这些方法进行了定性评价。
 此外，还讨论了从文本语料库中抽取事件的常见决策支持应用。
 最后，对事件抽取系统的评价进行了阐述，并指出了当前的研究问题。
 </p></blockquote></details>
@@ -183,7 +183,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 <summary/>
   <a href="https://arxiv.org/abs/1912.01586">Reading the Manual: Event Extraction as Definition Comprehension, EMNLP 2020 by<i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme
 (<a>(<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
-动机：提出一种新颖的事件提取方法，为模型提供带有漂白语句（实体用通用的方式指代）的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
+动机：提出一种新颖的事件抽取方法，为模型提供带有漂白语句（实体用通用的方式指代）的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/1.png)
   
@@ -199,7 +199,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 <summary/>
   <a>Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 by<i> Chau, Minh Triet and Esteves, Diego and Lehmann, Jens
 (<a>(<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
-动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件提取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
+动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件抽取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/2-1.png)
 
@@ -244,7 +244,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 (<a href="https://link.zhihu.com/?target=https%3A//github.com/lx865712528/ACL2019-ODEE">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-我们考虑开放领域的事件提取，即从新闻集群中抽取无约束的事件类型的任务。结果表明，与最新的事件模式归纳方法相比，这种无监督模型具有更好的性能。
+我们考虑开放领域的事件抽取，即从新闻集群中抽取无约束的事件类型的任务。结果表明，与最新的事件模式归纳方法相比，这种无监督模型具有更好的性能。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/15-1.png)
  
@@ -325,7 +325,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/11.png)
  
 主要思想：
-（1）将事件提取作为附加任务执行，并在事件触发词与其论元的关系图形中进行跨度更新。
+（1）将事件抽取作为附加任务执行，并在事件触发词与其论元的关系图形中进行跨度更新。
 （2）在多句子BERT编码的基础上构建跨度表示形式。
 
 数据集：ACE2005
@@ -396,7 +396,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 (<a href="https://link.zhihu.com/?target=https%3A//github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-将事件提取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
+将事件抽取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/7.png)
 
@@ -470,12 +470,12 @@ Keywords: Knowledge-driven Tree-LSTM
   <a >One for All: Neural Joint Modeling of Entities and Events, AAAI 2019 </a> by<i> Trung Minh Nguyen∗ Alt Inc.
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
-事件提取之前的工作主要关注于对事件触发器和参数角色的预测，将实体提及视为由人工注释器提供的。
+事件抽取之前的工作主要关注于对事件触发器和参数角色的预测，将实体提及视为由人工注释器提供的。
 这是不现实的，因为实体提到通常是由一些现有工具包预测的，它们的错误可能会传播到事件触发器和参数角色识别。
 最近很少有研究通过联合预测实体提及、事件触发器和参数来解决这个问题。
 然而，这种工作仅限于使用离散的工程特征来表示单个任务及其交互的上下文信息。
 在这项工作中，我们提出了一个新的模型来联合执行实体提及，事件触发和论点的预测基于共享的隐藏表示从深度学习。
-实验证明了该方法的优点，导致了最先进的性能事件提取。
+实验证明了该方法的优点，导致了最先进的性能事件抽取。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/3.png)
 
@@ -550,7 +550,7 @@ Keywords: dbRNN
 <summary/>
   <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018 </a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
 (<a href="https://github.com/wilburOne/ZeroShotEvent">Github</a>)</summary><blockquote><p align="justify">
-动机：以前大多数受监督的事件提取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
+动机：以前大多数受监督的事件抽取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
  
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/22.png)
  
@@ -596,7 +596,7 @@ Keywords: Automatically Labelled, Chinese Financial EE
  
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/20-2.png)
  
-主要思想：在本文中，我们提出了一种动态机制——逆强化学习，直接评估实体和事件提取中实例的正确和错误标签。 我们为案例分配明确的分数，或者根据强化学习（RL）给予奖励，并采用来自生成对抗网络（GAN）的鉴别器来估计奖励价值。
+主要思想：在本文中，我们提出了一种动态机制——逆强化学习，直接评估实体和事件抽取中实例的正确和错误标签。 我们为案例分配明确的分数，或者根据强化学习（RL）给予奖励，并采用来自生成对抗网络（GAN）的鉴别器来估计奖励价值。
 
 </p></blockquote></details>
 
@@ -627,7 +627,7 @@ Keywords: JMEE
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件提取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
+受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件抽取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
 
  
 主要思想：
@@ -874,7 +874,7 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
   <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020</a> by<i> Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
- 事件检测(ED)是事件提取的一个子任务，涉及到识别触发器和对提到的事件进行分类。
+ 事件检测(ED)是事件抽取的一个子任务，涉及到识别触发器和对提到的事件进行分类。
 现有的方法主要依赖于监督学习，并需要大规模的标记事件数据集，不幸的是，这些数据集在许多实际应用中并不容易获得。
 在这篇论文中，我们考虑并重新制定了一个有限标记数据的教育任务作为一个少镜头的学习问题。
 我们提出了一个基于动态记忆的原型网络(DMB-PN)，它利用动态记忆网络(DMN)不仅可以更好地学习事件类型的原型，还可以为提到事件生成更健壮的句子编码。
@@ -903,7 +903,7 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 (<a>Github</a>)</summary><blockquote><p align="justify">
 
 在大量的文本中自动分析事件对于情境意识和决策是至关重要的。
-以前的方法将事件提取视为“一刀切”，并预先定义了本体。
+以前的方法将事件抽取视为“一刀切”，并预先定义了本体。
 所建立的提取模型用于提取本体中的类型。
 这些方法不能很容易地适应新的事件类型或感兴趣的新领域。
 为了满足以事件为中心的个性化信息需求，本文引入了少镜头事件提及检索(EMR)任务:给定一个由少量事件提及组成的用户提供的查询，返回在语料库中找到的相关事件提及。
@@ -922,8 +922,8 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
   <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018</a> by<i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
- 以前的大多数事件提取研究都严重依赖于从注释的事件提到中衍生出来的特性，因此如果不进行注释就不能应用于新的事件类型。
-在这项工作中，我们重新审视事件提取，并将其建模为一个接地问题。
+ 以前的大多数事件抽取研究都严重依赖于从注释的事件提到中衍生出来的特性，因此如果不进行注释就不能应用于新的事件类型。
+在这项工作中，我们重新审视事件抽取，并将其建模为一个接地问题。
 我们设计一个可转让的神经结构,映射事件提到和类型共同到一个共享语义空间使用神经网络结构和组成,每个事件提到的类型可以由所有候选人的最亲密的类型。
 通过利用(1)一组现有事件类型可用的手工注释和(2)现有事件本体，我们的框架应用于新的事件类型而不需要额外的注释。
 在现有事件类型(如ACE、ERE)和新事件类型(如FrameNet)上的实验证明了我们的方法的有效性。
@@ -1031,7 +1031,7 @@ Keywords: Automatically Labelled, Chinese Financial EE
 (<a>Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件提取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
+受监督的事件抽取系统由于缺乏可用的训练数据而其准确性受到限制。我们提出了一种通过对额外的训练数据进行重复抽样来使事件抽取系统自我训练的方法。这种方法避免了训练数据缺乏导致的问题。
 
 主要思想：
 我们通过详细的事件描述自动生成被标记过的训练数据，然后用这些数据进行事件触发词识别。具体来说，首先，将提及该事件的片段聚集在一起，形成一个聚类。然后用每个聚类中的简单示例来给整个聚类贴一个标签。最后，我们将新示例与原始训练集结合在一起，重新训练事件抽取器。
@@ -1053,7 +1053,7 @@ Keywords: Semi-supervised
  <details/>
 <summary/>
   <a>Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 (<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
-动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件提取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
+动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件抽取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/2-1.png)
   
@@ -1072,7 +1072,7 @@ Keywords: Semi-supervised
 (<a href="https://link.zhihu.com/?target=https%3A//github.com/lx865712528/ACL2019-ODEE">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-我们考虑开放领域的事件提取，即从新闻集群中抽取无约束的事件类型的任务。结果表明，与最新的事件模式归纳方法相比，这种无监督模型具有更好的性能。
+我们考虑开放领域的事件抽取，即从新闻集群中抽取无约束的事件类型的任务。结果表明，与最新的事件模式归纳方法相比，这种无监督模型具有更好的性能。
 
 主要思想：
 以前关于生成模式归纳的研究非常依赖人工生成的指标特征，而我们引入了由神经网络产生的潜在变量来获得更好的表示能力。我们设计了一种新颖的图形模型，该模型具有潜在的事件类型矢量以及实体的文本冗余特征，而这些潜在的事件类型矢量来自全局参数化正态分布的新闻聚类。
@@ -1088,7 +1088,7 @@ Keywords: Semi-supervised
 (<a href="https://link.zhihu.com/?target=https%3A//github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-将事件提取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
+将事件抽取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/7.png)
 
@@ -1192,7 +1192,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 (<a href="https://link.zhihu.com/?target=https%3A//github.com/aiida-/HateCrime">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-将事件提取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
+将事件抽取和多实例学习应用于本地新闻文章的语料库，可以用来预测仇恨犯罪的发生。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/7.png)
 
