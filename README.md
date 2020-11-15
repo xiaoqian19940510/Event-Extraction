@@ -181,13 +181,13 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 #### 2020
  <details/>
 <summary/>
-  <a >Event Extraction as Definitation Comprehension, arxiv 2020 by<i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme
+  <a href="https://arxiv.org/abs/1912.01586">Reading the Manual: Event Extraction as Definition Comprehension, EMNLP 2020 by<i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme
 (<a>(<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
-动机：提出一种新颖的事件提取方法，为模型提供带有漂白语句的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
+动机：提出一种新颖的事件提取方法，为模型提供带有漂白语句（实体用通用的方式指代）的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/1.png)
   
-主要思想：提出了一种新的事件抽取方法，该方法考虑了通过漂白语句的注释准则；提出了一个多跨度的选择模型，该模型演示了事件抽取方法的可行性以及零样本或少样本设置的可行性。
+主要思想：提出了一种新的事件抽取方法，该方法考虑了通过将文本中的实体用指代的方式表示，如人用someone表示，以这种方式构造语料库；提出了一个多跨度的选择模型，该模型演示了事件抽取方法的可行性以及零样本或少样本设置的可行性。
 
 数据集：ACE 2005
 
