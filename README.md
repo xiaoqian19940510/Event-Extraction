@@ -182,7 +182,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
  <details/>
 <summary/>
   <a href="https://arxiv.org/abs/1912.01586">Reading the Manual: Event Extraction as Definition Comprehension, EMNLP 2020 by<i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme
-(<a>Github</a>)</summary><blockquote><p align="justify">
+</summary><blockquote><p align="justify">
 动机：提出一种新颖的事件抽取方法，为模型提供带有漂白语句（实体用通用的方式指代）的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/1.png)
