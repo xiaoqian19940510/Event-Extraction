@@ -182,7 +182,7 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
  <details/>
 <summary/>
   <a href="https://arxiv.org/abs/1912.01586">Reading the Manual: Event Extraction as Definition Comprehension, EMNLP 2020 by<i> Yunmo Chen, Tongfei Chen, Seth Ebner, Benjamin Van Durme
-(<a>(<a href="https://link.zhihu.com/?target=https%3A//github.com/231sm/Low_Resource_KBP">Github</a>)</summary><blockquote><p align="justify">
+(<a>Github</a>)</summary><blockquote><p align="justify">
 动机：提出一种新颖的事件抽取方法，为模型提供带有漂白语句（实体用通用的方式指代）的模型。漂白语句是指基于注释准则、描述事件发生的通常情况的机器可读的自然语言句子。实验结果表明，模型能够提取封闭本体下的事件，并且只需阅读新的漂白语句即可将其推广到未知的事件类型。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/1.png)
@@ -197,8 +197,8 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 
  <details/>
 <summary/>
-  <a>Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 by<i> Chau, Minh Triet and Esteves, Diego and Lehmann, Jens
-(<a>(<a href="https://github.com/">Github</a>)</summary><blockquote><p align="justify">
+  <a href="http://arxiv.org/abs/1912.11334">Open-domain Event Extraction and Embedding for Natural Gas Market Prediction, arxiv 2020 by<i> Chau, Minh Triet and Esteves, Diego and Lehmann, Jens
+(<a href="https://github.com/minhtriet/gas_market">Github</a>)</summary><blockquote><p align="justify">
 动机：以前的方法大多数都将价格视为可推断的时间序列，那些分析价格和新闻之间的关系的方法是根据公共新闻数据集相应地修正其价格数据、手动注释标题或使用现成的工具。与现成的工具相比，我们的事件抽取方法不仅可以检测现象的发生，还可以由公共来源检测变化的归因和特征。
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/2-1.png)
