@@ -1,5 +1,5 @@
 # Event-Extraction（事件抽取资料综述总结）更新中...
-近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法
+近年来事件抽取方法总结，包括中文事件抽取、开放域事件抽取、事件数据生成、跨语言事件抽取、小样本事件抽取、零样本事件抽取等类型，DMCNN、FramNet、DLRNN、DBRNN、GCN、DAG-GRU、JMEE、PLMEE等方法。
 
 
 # Table of Contents
@@ -31,7 +31,7 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 <details/>
 <summary/>
 <a >事件触发词</summary><blockquote><p align="justify">
-最清楚地表达事件发生的主要词，尤指动词或名词。
+最清楚地表达事件发生的主要词，一般指动词或名词。
 </p></blockquote></details>
 
 
@@ -46,16 +46,16 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 <details/>
 <summary/>
 <a >论元角色</summary><blockquote><p align="justify">
- 论元与它所参与的事件之间的关系。
+论元与它所参与的事件之间的关系。
 </p></blockquote></details>
 
 
-D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测、事件/触发词类型识别、事件参数检测和参数角色识别。
+D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测、事件/触发词类型识别、事件论元检测和参数角色识别。
 
 <details/>
 <summary/>
 <a >事件提及</summary><blockquote><p align="justify">
- 描述事件的短语或句子，包括触发词和参数。
+ 描述事件的短语或句子，包括触发词和论元。
 </p></blockquote></details>
 
 
@@ -67,7 +67,7 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a >事件论文</summary><blockquote><p align="justify">
+<a >事件论元</summary><blockquote><p align="justify">
  在事件(即参与者)中涉及的实体提及、时间表达或值(例如工作头衔)。
 </p></blockquote></details>
 
@@ -81,7 +81,7 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 ### Open domain
 
-在没有预定义的事件模式的情况下，开放域事件提取的目的是从文本中检测事件，在大多数情况下，还可以通过提取的事件关键字聚类相似的事件。事件关键字指的是那些主要描述事件的词/短语，有时关键字还进一步分为触发器和参数。
+在没有预定义的事件模式的情况下，开放域事件提取的目的是从文本中检测事件，在大多数情况下，还可以通过提取的事件关键词聚类相似的事件。事件关键词指的是那些主要描述事件的词/短语，有时关键词还进一步分为触发器和参数。
 
 <details/>
 <summary/>
@@ -127,42 +127,42 @@ D.Ahn首先提出将ACE事件提取任务分成四个子任务:触发词检测�
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">元事件抽取研究综述，2019</a> by<i>GAO Li-zheng, ZHOU Gang, LUO Jun-yong, LAN Ming-jing
+<a href="https://doi.org/10.11896/j.issn.1002-137X.2019.08.002">元事件抽取研究综述，2019</a> by<i>GAO Li-zheng, ZHOU Gang, LUO Jun-yong, LAN Ming-jing
 </a></summary><blockquote><p align="justify">
-事件抽取是信息抽取领域的一个重要研究方向,在情报收集、知识提取、文档摘要、知识问答等领域有着广泛应用。对当前事件抽取领域研究得较多的元事件抽取进行了综述。首先,简要介绍了元事件和元事件抽取的基本概念,以及元事件抽取的主要实现方法。然后,重点阐述了元事件抽取的主要任务,详细介绍了元事件检测过程,并对其他相关任务进行了概述。最后,总结了元事件抽取面临的问题,在此基础上展望了元事件抽取的发展趋势。
+事件抽取是信息抽取领域的一个重要研究方向,在情报收集、知识提取、文档摘要、知识问答等领域有着广泛应用。写了一篇对当前事件抽取领域研究得较多的元事件抽取任务的综述。首先,简要介绍了元事件和元事件抽取的基本概念,以及元事件抽取的主要实现方法。然后,重点阐述了元事件抽取的主要任务,详细介绍了元事件检测过程,并对其他相关任务进行了概述。最后,总结了元事件抽取面临的问题,在此基础上展望了元事件抽取的发展趋势。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">An Overview of Event Extraction from Text，2019</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong:
+<a href="http://ceur-ws.org/Vol-779/derive2011_submission_1.pdf">An Overview of Event Extraction from Text，2019</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong:
 </a></summary><blockquote><p align="justify">
-文本挖掘的一个常见应用是事件提取，它包括推导出与事件相关的特定知识，这些知识重新映射到文本中。事件提取可应用于各种类型的书面文本，如(在线)新闻消息、博客和手稿。本文献调查回顾了用于各种事件提取目的的文本挖掘技术。它提供了关于如何根据用户、可用内容和使用场景选择特定事件提取技术的一般指南。
+文本挖掘的一个常见应用是事件抽取，它包括推导出与事件相关的特定知识，这些知识重新映射到文本中。事件抽取可处理各种类型的文本，如(在线)新闻消息、博客和手稿。本文献回顾了用于各种事件抽取目的的文本挖掘技术。它提供了关于如何根据用户、可用内容和使用场景选择特定事件抽取技术的一般指南。
 </p></blockquote></details>
 
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey of Event Extraction from Text，2019</a> by<i>Wei Xiang, Bang Wang </a></summary><blockquote><p align="justify">
-事件提取的任务定义、数据源和性能评估，还为其解决方案方法提供了分类。在每个解决方案组中，提供了最具代表性的方法的详细分析，特别是它们的起源、基础、优势和弱点。最后，对未来的研究方向进行了展望。
-</p></blockquote></details>
-
-
-
-<details/>
-<summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey of Textual Event Extraction from Social Networks，2017</a> by<i>Mohamed Mejri, Jalel Akaichi </a></summary><blockquote><p align="justify">
-过去的十年中，在社交网络上挖掘文本内容以抽取相关数据和有用的知识已成为无所不在的任务。文本挖掘的一种常见应用是事件抽取，它被认为是一个复杂的任务，分为不同难度的多个子任务。在本文中，我们对现有的主要文本挖掘技术进行了概述，这些技术可用于许多不同的事件抽取目标。首先，我们介绍基于统计模型将数据转换为知识的主要数据驱动方法。其次，我们介绍了基于专家知识的知识驱动方法，通常通过基于模式的方法来抽取知识。然后，我们介绍结合了数据驱动和知识驱动方法的主要现有混合方法。我们以比较研究结束本文，该研究概括了每种提出的方法的主要特征。
+<a href="https://doi.org/10.1109/ACCESS.2019.2956831">A Survey of Event Extraction from Text，2019</a> by<i>Wei Xiang, Bang Wang </a></summary><blockquote><p align="justify">
+事件抽取的任务定义、数据源和性能评估，还为其解决方案方法提供了分类。在每个解决方案组中，提供了最具代表性的方法的详细分析，特别是它们的起源、基础、优势和弱点。最后，对未来的研究方向进行了展望。
 </p></blockquote></details>
 
 
 
 <details/>
 <summary/>
-<a href="https://arxiv.org/pdf/2008.00364.pdf">A Survey of event extraction methods from text for decision support systems，2016</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Caron </a></summary><blockquote><p align="justify">
-事件抽取是一种可以追溯到20世纪80年代的专门的信息抽取流程，由于大数据的出现以及文本挖掘和自然语言处理等相关领域的发展，它得到了极大的普及。
+<a href="http://ceur-ws.org/Vol-1988/LPKM2017_paper_15.pdf">A Survey of Textual Event Extraction from Social Networks，2017</a> by<i>Mohamed Mejri, Jalel Akaichi </a></summary><blockquote><p align="justify">
+过去的十年中，在社交网络上挖掘文本内容以抽取相关数据和有用的知识已成为无所不在的任务。文本挖掘的一种常见应用是事件抽取，它被认为是一个复杂的任务，分为不同难度的多个子任务。在本文中，我们对现有的主要文本挖掘技术进行了概述，这些技术可用于许多不同的事件抽取目标。首先，我们介绍基于统计模型将数据转换为知识的主要数据驱动方法。其次，我们介绍了基于专家知识的知识驱动方法，通常通过基于模式的方法来抽取知识。然后，我们介绍结合了数据驱动和知识驱动方法的主要现有混合方法。最后，我们比较社交网络事件抽取研究，概括了每种提出的方法的主要特征。
+</p></blockquote></details>
+
+
+
+<details/>
+<summary/>
+<a href="https://doi.org/10.1016/j.dss.2016.02.006">A Survey of event extraction methods from text for decision support systems，2016</a> by<i>Frederik Hogenboom, Flavius Frasincar, Uzay Kaymak, Franciska de Jong, Emiel Caron </a></summary><blockquote><p align="justify">
+事件抽取是一种可以追溯到20世纪80年代的专门的信息抽取流程，由于大数据的出现以及文本挖掘和自然语言处理等相关领域的发展，事件抽取技术得到了极大的普及。
 然而，到目前为止，对这一特殊领域的概述仍然是难以捉摸的。
-因此，我们总结了文本数据的事件提取技术，区分了数据驱动、知识驱动和混合方法，并对这些方法进行了定性评价。
+因此，我们总结了文本数据的事件提取技术，划分成数据驱动、知识驱动和混合方法三类，并对这些方法进行了定性评价。
 此外，还讨论了从文本语料库中抽取事件的常见决策支持应用。
 最后，对事件抽取系统的评价进行了阐述，并指出了当前的研究问题。
 </p></blockquote></details>
