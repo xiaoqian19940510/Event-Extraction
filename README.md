@@ -241,14 +241,14 @@ D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测�
 </summary><blockquote><p align="justify">
  
 动机：
-ACE事件抽取任务的传统方法通常依赖被手动注释过的数据，但是手动注释数据非常耗费精力并且也限制了数据集的规模。我们提出了一个方法来克服这个问题。
+ACE事件抽取任务的传统方法通常依赖被手工标注过的数据，但是手工标注数据非常耗费精力并且也限制了数据集的规模。我们提出了一个方法来克服这个问题。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/16-1.png)
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/16.png)
   
  
 主要思想：
-本文提出了一个基于预训练语言模型的框架，该框架包含一个作为基础的事件抽取模型以及一种生成被标记事件的方法。我们提出的事件抽取模型由触发词抽取器和论元抽取器组成，论元抽取器用前者的结果进行推理。此外，我们根据角色的重要性对损失函数重新进行加权，从而提高了论元抽取器的性能。
+本文提出了一个基于预训练语言模型的框架，该框架包含一个作为基础的事件抽取模型以及一种生成被标注事件的方法。我们提出的事件抽取模型由触发词抽取器和论元抽取器组成，论元抽取器用前者的结果进行推理。此外，我们根据角色的重要性对损失函数重新进行加权，从而提高了论元抽取器的性能。
 
 数据集：ACE2005
 
@@ -288,7 +288,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/14.png)
 
 主要思想：
-为了能够提抽新类型的事件，我们提出了一种新颖的方法：让用户通过探索无注释的语料库来查找，扩展和过滤事件触发词。然后，系统将自动生成相应级别的事件注释，并训练神经网络模型以查找相应事件。
+为了能够抽取新类型的事件，我们提出了一种新颖的方法：让用户通过探索无标注的语料库来查找，扩展和过滤事件触发词。然后，系统将自动生成相应级别的事件标注，并训练神经网络模型以查找相应事件。
 
 数据集：ACE2005
 
@@ -301,7 +301,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 </summary><blockquote><p align="justify">
  
 动机：
-从资源不足以及注释不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
+从资源不足以及标注不足的语料库中进行复杂语义结构的识别（例如事件和实体关系）是很困难的，这已经变成了一个很有挑战性的信息抽取任务。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/13.png)
 
@@ -339,7 +339,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 (<a href="https://github.com/dwadden/dygiepp">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-许多信息提取任务（例如被命名的实体的识别，关系提取，事件抽取和共指消解）都可以从跨句子的全局上下文或无局部依赖性的短语中获益。
+许多信息提取任务（例如命名实体识别，关系抽取，事件抽取和共指消解）都可以从跨句子的全局上下文或无局部依赖性的短语中获益。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/11.png)
  
@@ -375,15 +375,15 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 </summary><blockquote><p align="justify">
  
 动机：
-事件之间的时间关系的提取是一项重要的自然语言理解（NLU）任务，可以使许多下游任务受益。我们提出了一种事件和时间关系的联合抽取模型，该模型可以进行共享表示学习和结构化预测。
+事件之间的时序关系的提取是一项重要的自然语言理解（NLU）任务，可以使许多下游任务受益。我们提出了一种事件和事件时序关系的联合抽取模型，该模型可以进行共享表示学习和结构化预测。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/9.png)
  
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/9-2.png)
  
 主要思想：
-（1）提出了一个同时进行事件和时间关系抽取的联合模型。这样做的好处是：如果我们使用非事件之间的NONE关系训练关系分类器，则它可能具有修正事件抽取错误的能力。
-（2）通过在事件抽取和时间关系抽取模块之间首次共享相同的上下文嵌入和神经表示学习器来改进事件的表示。
+（1）提出了一个同时进行事件和事件时序关系抽取的联合模型。这样做的好处是：如果我们使用非事件之间的NONE关系训练关系分类器，则它可能具有修正事件抽取错误的能力。
+（2）通过在事件抽取和时序关系抽取模块之间首次共享相同的上下文嵌入和神经表示学习器来改进事件的表示。
 
 数据集：TB-Dense and MATRES datasets
 
@@ -402,7 +402,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
 
 
 主要思想：
-AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜在事件的模式。鉴别符用于区分原始文档和从潜在事件中重建的文档。鉴别器的副产品是鉴别器网络生成的特征允许事件抽取的可视化。
+AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜在事件的模式，鉴别器用于区分原始文档和从潜在事件中重建的文档，鉴别器网络生成的特征允许事件抽取的可视化。
 
 数据集：Twitter, and Google datasets
 
@@ -420,7 +420,7 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/7.png)
 
 主要思想：
-根据是否为仇恨罪标记每篇文章的任务被定义为多实例学习（MIL）问题。我们通过使用文章所有句子中嵌入的信息来确定文章是否报道了仇恨犯罪。在一组带注释的文章上测试了模型之后，我们将被训练过的模型应用于联邦调查局没有报道过的城市，并对这些城市中仇恨犯罪的发生频率进行了下界估计。
+根据是否为仇恨罪标记每篇文章的任务被定义为多实例学习（MIL）问题。我们通过使用文章所有句子中嵌入的信息来确定文章是否报道了仇恨犯罪。在一组带标注的文章上测试了模型之后，我们将被训练过的模型应用于联邦调查局没有报道过的城市，并对这些城市中仇恨犯罪的发生频率进行了下界估计。
 
 </p></blockquote></details>
 
@@ -431,12 +431,12 @@ AEM使用Dirichlet先验对事件建模，并使用生成器网络来捕获潜�
 (<a href="https://github.com/zjcerwin/TransitionEvent">Github</a>)</summary><blockquote><p align="justify">
  
 动机：
-事件抽取任务包括许多子任务：实体抽取，事件触发词抽取，元素角色抽取。传统的方法是使用pipeline的方式解决这些任务，没有利用到任务间相互关联的信息。已有一些联合学习的模型对这些任务进行处理，然而由于技术上的挑战，还没有模型将其看作一个单一的任务，预测联合的输出结构。本文提出了一个transition-based的神经网络框架，以state-transition的过程，递进地预测复杂的联合结构。
+事件抽取任务包括许多子任务：实体抽取，事件触发词抽取，论元角色抽取。传统的方法是使用pipeline的方式解决这些任务，没有利用到任务间相互关联的信息。已有一些联合学习的模型对这些任务进行处理，然而由于技术上的挑战，还没有模型将其看作一个单一的任务，预测联合的输出结构。本文提出了一个transition-based的神经网络框架，以state-transition的过程，递进地预测复杂的联合结构。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/6.png)
 
 主要思想：
-使用transition-based的框架，通过使用递增的output-building行为的state-transition过程，构建一个复杂的输出结构。在本文中我们设计了一个transition系统以解决EE问题，从左至右递增地构建出结构，不使用可分的子任务结构。本文还是第一个使transition-based模型，并将之用于实体和事件的联合抽取任务的研究。模型实现了对3个子任务完全的联合解码，实现了更好的信息组合。
+使用transition-based的框架，通过使用递增的output-building行为的state-transition过程，构建一个复杂的输出结构。在本文中我们设计了一个transition系统以解决事件抽取问题，从左至右递增地构建出结构，不使用可分的子任务结构。本文还是第一个使transition-based模型，并将之用于实体和事件的联合抽取任务的研究。模型实现了对3个子任务完全的联合解码，实现了更好的信息组合。
 
 数据集：ACE2005
 
@@ -458,7 +458,7 @@ Keywords: Context-aware word representation, LSTM, Tensor layer
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/5.png)
 
 主要思想：
-该框架合并了两种功能：（1）抓取上下文背景的依赖结构（2）（2）通过实体链接从外部本体获得实体属性（类型和类别描述）。
+该框架合并了两种功能：（1）抓取上下文背景的依赖结构（2）通过实体链接从外部本体获得实体属性（类型和类别描述）。
 
 数据集：Genia dataset
 
@@ -472,13 +472,13 @@ Keywords: Knowledge-driven Tree-LSTM
  <a href="https://ieeexplore.ieee.org/document/8643786" >Joint Event Extraction Based on Hierarchical Event Schemas From FrameNet, EMNLP 2019 short</a> by <i> Wei Li , Dezhi Cheng, Lei He, Yuanzhuo Wang, Xiaolong Jin
 </summary><blockquote><p align="justify">
  
-动机：事件抽取对于许多实际应用非常有用，例如新闻摘要和信息检索。但是目前很流行的自动上下文抽取（ACE）事件抽取程序仅定义了非常有限且粗糙的事件模式，这可能不适合实际应用。 FrameNet是一种语言语料库，它定义了完整的语义框架和框架间的关系。由于FrameNet中的框架与ACE中的事件架构共享高度相似的结构，并且许多框架实际上表达了事件，因此，我们建议基于FrameNet重新定义事件架构。
+动机：事件抽取对于许多实际应用非常有用，例如新闻摘要和信息检索。但是目前很流行的ACE事件抽取仅定义了非常有限且粗糙的事件模式，这可能不适合实际应用。 FrameNet是一种语言语料库，它定义了完整的语义框架和框架间的关系。由于FrameNet中的框架与ACE中的事件架构共享高度相似的结构，并且许多框架实际上表达了事件，因此，我们建议基于FrameNet重新定义事件架构。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/4-1.png)
  
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/4.png)
   
-主要思想：（1）提取FrameNet中表示事件的所有框架，并利用框架与框架之间的关系建立事件模式的层次结构。（2）适当利用全局信息（例如事件间关系）和事件抽取必不可少的局部特征（例如词性标签和依赖项标签）。基于一种利用事件抽取结果的多文档摘要无监督抽取方法，我们实行了一种图排序。
+主要思想：（1）提取FrameNet中表示事件的所有框架，并利用框架与框架之间的关系建立事件模式的层次结构。（2）适当利用全局信息（例如事件间关系）和事件抽取必不可少的局部特征（例如词性标签和依赖项标签）。基于一种利用事件抽取结果的多文档摘要无监督抽取方法，我们使用了一种图排序方法。
 
 数据集：ACE 2005，FrameNet 1.7 corpus
 </p></blockquote></details>
@@ -489,12 +489,12 @@ Keywords: Knowledge-driven Tree-LSTM
   <a >One for All: Neural Joint Modeling of Entities and Events, AAAI 2019</a> by <i> Trung Minh Nguyen∗ Alt Inc.
 </summary><blockquote><p align="justify">
  
-事件抽取之前的工作主要关注于对事件触发器和参数角色的预测，将实体提及视为由人工注释器提供的。
-这是不现实的，因为实体提到通常是由一些现有工具包预测的，它们的错误可能会传播到事件触发器和参数角色识别。
-最近很少有研究通过联合预测实体提及、事件触发器和参数来解决这个问题。
+事件抽取之前的工作主要关注于对事件触发器和论元角色的预测，将实体提及视为由人工标注提供的。
+这是不现实的，因为实体提及通常是由一些现有工具包预测的，它们的错误可能会传播到事件触发器和论元角色识别。
+最近很少有研究通过联合预测实体提及、事件触发器和论元来解决这个问题。
 然而，这种工作仅限于使用离散的工程特征来表示单个任务及其交互的上下文信息。
-在这项工作中，我们提出了一个新的模型来联合执行实体提及，事件触发和论点的预测基于共享的隐藏表示从深度学习。
-实验证明了该方法的优点，导致了最先进的性能事件抽取。
+在这项工作中，我们提出了一个基于共享的隐层表示的新的模型来联合执行实体提及，事件触发和论元的预测。
+实验证明了该方法的优点，实现了最先进性能的事件抽取。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/3.png)
 
@@ -517,7 +517,7 @@ Keywords: Knowledge-driven Tree-LSTM
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/25.png)
 
-主要思想：我们提出了一种基于神经网络和线性规划的事件抽取框架，该模型不依赖显式触发器，而是使用一组关键论元来表征事件类型。这样就去不需要明确识别事件的触发因素，进而降低了人力参与的需求。
+主要思想：我们提出了一种基于神经网络和线性规划的事件抽取框架，该模型不依赖显式触发器，而是使用一组关键论元来表征事件类型。这样就不需要明确识别事件的触发因素，进而降低了人力参与的需求。
 
 数据集：Wikipedia article
 
@@ -531,10 +531,10 @@ Keywords: Data Generation, Distant Supervision
   <a href="https://www.aclweb.org/anthology/P18-4009" >DCFFE: A Document-level Chinese Financial Event Extraction System based on Automatically Labelled Training Data, ACL 2018 </a> by <i> Yang, Hang and Chen, Yubo and Liu, Kang and Xiao, Yang and Zhao, Jun
 </summary><blockquote><p align="justify">
  
-动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标记过程的成本很高，因此标记数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
+动机：在某些特定领域，例如金融，医疗和司法领域，由于数据标注过程的成本很高，因此标注数据不足。此外，当前大多数方法都关注于从一个句子中提取事件，但通常在一个文档中，一个事件由多个句子表示。我们提出一种方法来解决这个问题。
 
  
-主要思想：我们提供了一个名为DCFEE的框架，该框架可以从被自动标记过的训练数据中抽取文档级事件。我们使用一个序列标记模型来自动抽取句子级事件，并且提出了一个关键事件检测模型和一个论元填充策略，进而从文档中提取整个事件。
+主要思想：我们提供了一个名为DCFEE的框架，该框架可以从被自动标注过的训练数据中抽取文档级事件。我们使用一个序列标注模型来自动抽取句子级事件，并且提出了一个关键事件检测模型和一个论元填充策略，进而从文档中提取整个事件。
 
 数据集：Chinese financial event dataset
 
@@ -555,7 +555,7 @@ Keywords: Automatically Labelled, Chinese Financial EE
   ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/23.png)
 
 主要思想：
-（1）实现了事件触发词以及Argument的联合抽取，避开了Pipeline方法中错误的触发词识别结果会在网络中传播的问题；同时联合抽取的过程中，有可能通过元素抽取的步骤反过来纠正事件检测的结果。
+（1）实现了事件触发词以及论元的联合抽取，避开了Pipeline方法中错误的触发词识别结果会在网络中传播的问题；同时联合抽取的过程中，有可能通过元素抽取的步骤反过来纠正事件检测的结果。
 （2）将元素的互信息作为影响元素抽取结果的因素。
 （3）在构建模型的过程中使用了句法信息。
 
@@ -569,7 +569,7 @@ Keywords: dbRNN
 <summary/>
   <a href="https://www.aclweb.org/anthology/P18-1201" >Zero-Shot Transfer Learning for Event Extraction, ACL2018</a> by <i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
 (<a href="https://github.com/wilburOne/ZeroShotEvent">Github</a>)</summary><blockquote><p align="justify">
-动机：以前大多数受监督的事件抽取方法都依赖手动注释派生的特征，因此，如果没有额外的注释工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
+动机：以前大多数受监督的事件抽取方法都依赖手工标注派生的特征，因此，如果没有额外的标注工作，这些方法便无法应对于新的事件类型。我们设计了一个新的框架来解决这个问题。
  
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/22.png)
  
@@ -625,7 +625,7 @@ Keywords: Automatically Labelled, Chinese Financial EE
   <a href="https://www.aclweb.org/anthology/D18-1156" >Joint Multiple Event Extraction via Attention-based Graph Information Aggregration, EMNLP 2018 </a> by <i> Liu, Xiao and Luo, Zhunchen and Huang, Heyan
 (<a href="https://github.com/lx865712528/EMNLP2018-JMEE/">Github</a>)</summary><blockquote><p align="justify">
  
-动机：比提取单个事件更困难。在以往的工作中，由于捕获远距离的依赖关系效率很低，因此通过顺序建模的方法在对事件之间的联系进行建模很难成功。本文提出了一种新的框架来解决这个问题。
+动机：比抽取单个事件更困难。在以往的工作中，由于捕获远距离的依赖关系效率很低，因此通过顺序建模的方法在对事件之间的联系进行建模很难成功。本文提出了一种新的框架来解决这个问题。
 
  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/19-1.png)
  
