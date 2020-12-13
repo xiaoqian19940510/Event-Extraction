@@ -18,8 +18,7 @@
 
 ### Closed-domain
 
-Closed-domain事件抽取使用预定义的事件模式从文本中发现和提取所需的特定类型的事件。事件模式包含多个事件类型及其相应的事件结构。我们使用ACE术语来介绍如下事件结构:
-
+Closed-domain事件抽取使用预定义的事件模式从文本中发现和提取所需的特定类型的事件。事件模式包含多个事件类型及其相应的事件结构。D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测、事件/触发词类型识别、事件论元检测和参数角色识别。我们使用ACE术语来介绍如下事件结构:
 
 <details/>
 <summary/>
@@ -49,33 +48,6 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 论元与它所参与的事件之间的关系。
 </p></blockquote></details>
 
-
-D.Ahn首先提出将ACE事件抽取任务分成四个子任务:触发词检测、事件/触发词类型识别、事件论元检测和参数角色识别。
-
-<details/>
-<summary/>
-<a >事件提及</summary><blockquote><p align="justify">
- 描述事件的短语或句子，包括触发词和论元。
-</p></blockquote></details>
-
-
-<details/>
-<summary/>
-<a >事件触发词</summary><blockquote><p align="justify">
- 最清楚地表示事件发生的主要词(ACE事件触发词通常是动词或名词)。
-</p></blockquote></details>
-
-<details/>
-<summary/>
-<a >事件论元</summary><blockquote><p align="justify">
- 在事件(即参与者)中涉及的实体提及、时间表达或值(例如工作头衔)。
-</p></blockquote></details>
-
-<details/>
-<summary/>
-<a >论元角色</summary><blockquote><p align="justify">
- 论元和事件同参与者之间的关系。
-</p></blockquote></details>
 
 
 
