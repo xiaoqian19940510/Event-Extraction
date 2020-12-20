@@ -862,7 +862,7 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2020
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020</a> by <i> Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
+  <a href="https://dl.acm.org/doi/10.1145/3336191.3371796">Meta-Learning with Dynamic-Memory-Based Prototypical Network for Few-Shot Event Detection, WSDM 2020</a> by <i> Shumin Deng, Ningyu Zhang, Jiaojian Kang, Yichi Zhang, Wei Zhang, Huajun Chen
 </summary><blockquote><p align="justify">
  
 事件检测(ED)是事件抽取的一个子任务，涉及到识别触发器和对提到的事件进行分类。
