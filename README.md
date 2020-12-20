@@ -876,7 +876,7 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
  <details/>
 <summary/>
-   <a href="https://arxiv.org/abs/1907.11692">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020</a> by <i> 	Viet Dac Lai, Franck Dernoncourt, Thien Huu Nguyen
+   <a href="https://arxiv.org/abs/2002.05295">Exploiting the Matching Information in the Support Set for Few Shot Event Classification, PAKDD 2020</a> by <i> 	Viet Dac Lai, Franck Dernoncourt, Thien Huu Nguyen
 </summary><blockquote><p align="justify">
  现有的事件分类(EC)的工作主要集中在传统的监督学习设置，其中模型无法提取的事件提到新的/看不见的事件类型。
 尽管EC模型能够将其操作扩展到未观察到的事件类型，但在这一领域还没有研究过少样本习。
@@ -890,7 +890,7 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 
  <details/>
 <summary/>
-   <a href="https://arxiv.org/abs/1907.11692">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, LREC 2020</a> by <i> Bonan Min, Yee Seng Chan, Lingjun Zhao
+   <a href="https://www.aclweb.org/anthology/2020.lrec-1.216/">Towards Few-Shot Event Mention Retrieval : An Evaluation Framework and A Siamese Network Approach, LREC 2020</a> by <i> Bonan Min, Yee Seng Chan, Lingjun Zhao
 </summary><blockquote><p align="justify">
 
 在大量的文本中自动分析事件对于情境意识和决策是至关重要的。
@@ -909,7 +909,7 @@ keywords: DMCNN, CNN, Dynamic Multi-Pooling
 #### 2018
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/1907.11692">Zero-Shot Transfer Learning for Event Extraction, ACL 2018</a> by <i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
+  <a href="https://www.aclweb.org/anthology/P18-1201/">Zero-Shot Transfer Learning for Event Extraction, ACL 2018</a> by <i> Lifu Huang, Heng Ji, Kyunghyun Cho, Ido Dagan, Sebastian Riedel, Clare R. Voss
 </summary><blockquote><p align="justify">
  
  以前的大多数事件抽取研究都严重依赖于从标注的事件提及中衍生出来的特性，因此如果不进行注释就不能应用于新的事件类型。
