@@ -171,7 +171,7 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
  <details/>
 <summary/>
-  <a href="https://www.aclweb.org/anthology/2021.eacl-main.52/">{GRIT:} Generative Role-filler Transformers for Document-level Event Entity Extraction, EACL 2021 </a> by <i> Xinya Du, Alexander M. Rush and Claire Cardie(<a>Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://www.aclweb.org/anthology/2021.eacl-main.52/">GRIT: Generative Role-filler Transformers for Document-level Event Entity Extraction, EACL 2021 </a> by <i> Xinya Du, Alexander M. Rush and Claire Cardie(<a>Github</a>)</summary><blockquote><p align="justify">
   
 主要思想：
 事件参数提取是事件提取中的一项基本任务，在资源匮乏的情况下尤其具有挑战性。
