@@ -151,6 +151,83 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
 
 #### 2021
+
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/2021.naacl-main.6/">Event Time Extraction and Propagation via Graph Attention Networks, NAACL-HLT 2021 </a> by <i> Haoyang Wen, Yanru Qu, Heng Ji, Qiang Ning, Jiawei Han, Avi Sil, Hanghang Tong and Dan Roth(<a>Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：
+将事件固定在一个精确的时间轴上对自然语言理解很重要，但在最近的研究中受到的关注有限。
+由于语言固有的模糊性和信息在相互关联的事件上传播的要求，这个问题具有挑战性。
+本文首先提出了一种用于实体槽填充的四元组时态表示方法，使我们能够更方便地表示模糊时间跨度。
+然后，我们提出了一种基于图注意网络的方法，在由共享实体参数和时间关系构造的文档级事件图上传播时间信息。
+为了更好地评估我们的方法，我们在ACE2005语料库上提出了一个具有挑战性的新基准，其中78%以上的事件在其本地上下文中没有明确提到时间跨度。
+该方法比上下文化的嵌入方法的匹配率提高了7.0%，比句子级人工事件时间参数标注方法的匹配率提高了16.3%。
+
+
+数据集：ACE
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://www.aclweb.org/anthology/2021.eacl-main.52/">{GRIT:} Generative Role-filler Transformers for Document-level Event Entity Extraction, EACL 2021 </a> by <i> Xinya Du, Alexander M. Rush and Claire Cardie(<a>Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：
+事件参数提取是事件提取中的一项基本任务，在资源匮乏的情况下尤其具有挑战性。
+我们从两个方面来解决现有研究在资源匮乏情况下存在的问题。
+从模型的角度来看，现有的方法往往存在参数共享不足的问题，没有考虑角色的语义，不利于处理稀疏数据。
+而从数据的角度来看，现有的方法大多侧重于数据生成和数据增强。
+然而，这些方法严重依赖外部资源，创建外部资源比获取未标记的数据更加费力。
+在本文中,我们提出DualQA,小说的框架,这事件模型参数提取的任务问题回答缓解数据稀疏的问题,利用事件参数识别的二元性问“什么扮演的角色”,以及事件的角色识别这是问“角色”,
+相互完善。
+在两个数据集上的实验结果证明了我们的方法的有效性，特别是在资源极低的情况下。
+
+
+数据集：MUC-4
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17720">What the Role is vs. What Plays the Role: Semi-Supervised Event Argument Extraction via Dual Question Answering, AAAI 2021 </a> by <i> Yang Zhou, Yubo Chen, Jun Zhao, Yin Wu, Jiexin Xu and JinLong Li(<a>Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：
+事件参数提取是事件提取中的一项基本任务，在资源匮乏的情况下尤其具有挑战性。
+我们从两个方面来解决现有研究在资源匮乏情况下存在的问题。
+从模型的角度来看，现有的方法往往存在参数共享不足的问题，没有考虑角色的语义，不利于处理稀疏数据。
+而从数据的角度来看，现有的方法大多侧重于数据生成和数据增强。
+然而，这些方法严重依赖外部资源，创建外部资源比获取未标记的数据更加费力。
+在本文中,我们提出DualQA,小说的框架,这事件模型参数提取的任务问题回答缓解数据稀疏的问题,利用事件参数识别的二元性问“什么扮演的角色”,以及事件的角色识别这是问“角色”,
+相互完善。
+在两个数据集上的实验结果证明了我们的方法的有效性，特别是在资源极低的情况下。
+
+
+数据集：ACE, FewFC
+</p></blockquote></details>
+
+
+
+ <details/>
+<summary/>
+  <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17478">GATE: Graph Attention Transformer Encoder for Cross-lingual Relation and Event Extraction, AAAI 2021 </a> by <i> Wasi Uddin Ahmad, Nanyun Peng and KaiWei Chang(<a>Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：
+跨语言关系和事件提取的最新进展是使用具有通用依赖解析的图卷积网络(GCNs)来学习与语言无关的句子表示，这样在一种语言上训练的模型可以应用于其他语言。
+然而，GCNs很难对具有长期依赖关系的词进行建模，或者不能在依赖树中直接连接。
+为了解决这些问题，我们建议利用自我注意机制，明确融合结构信息来学习不同句法距离单词之间的依赖关系。
+我们引入了GATE，一种图注意转换器编码器，并在关系和事件提取任务中测试了它的跨语言可移植性。
+我们在ACE05数据集上执行实验，该数据集包括三种类型不同的语言:英语、汉语和阿拉伯语。
+评价结果表明，GATE算法的性能优于最近提出的三种方法。
+我们的详细分析显示，由于对语法依赖的依赖，GATE产生了有助于跨语言迁移的健壮表示。
+
+
+数据集：ACE
+</p></blockquote></details>
+
+
+
+
  <details/>
 <summary/>
   <a>Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
