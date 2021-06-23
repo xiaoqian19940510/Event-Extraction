@@ -150,6 +150,29 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 ### 事件抽取
 
 
+#### 2021
+ <details/>
+<summary/>
+  <a>Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：事件提取是自然语言处理的一项基本任务。
+找到事件参数(如事件参与者)的角色是提取事件的关键。
+然而，在真实的事件描述中这样做是具有挑战性的，因为一个论点的作用在不同的语境中往往是不同的。
+虽然多个参数之间的关系和交互对于解决参数角色是有用的，但是这些信息很大程度上被现有的方法忽略了。
+本文通过显式地利用事件参数的关系，提出了一种更好的事件提取方法。
+我们通过一个精心设计的面向任务的对话系统来实现这一点。
+为了对参数关系进行建模，我们采用了强化学习和增量学习的方法，通过一个多轮、迭代的过程提取多个参数。
+我们的方法利用对同一句子中已经提取的论据的知识来确定那些很难单独决定的论据的作用。
+然后，它使用新获得的信息来改进以前提取的参数的决策。
+这种双向反馈的过程允许我们利用论证关系，有效地解决论证角色，导致更好的句子理解和事件提取。
+实验结果表明，在事件分类、参数角色和参数识别方面，该方法始终优于目前最先进的7种事件提取方法。
+
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/Framework.png)
+
+数据集：ACE
+</p></blockquote></details>
+
+
 #### 2020
  <details/>
 <summary/>
@@ -1214,10 +1237,10 @@ Keywords: Data Generation, Distant Supervision
 
 ### 阅读理解式事件抽取
 
-####2021
+#### 2021
  <details/>
 <summary/>
-  <a href="https://arxiv.org/abs/2004.13625">Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
+  <a>Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
   
 主要思想：事件提取是自然语言处理的一项基本任务。
 找到事件参数(如事件参与者)的角色是提取事件的关键。
