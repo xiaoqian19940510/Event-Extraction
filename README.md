@@ -230,7 +230,7 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
  <details/>
 <summary/>
-  <a>Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/2106.12384">Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
   
 主要思想：事件提取是自然语言处理的一项基本任务。
 找到事件参数(如事件参与者)的角色是提取事件的关键。
@@ -1317,7 +1317,7 @@ Keywords: Data Generation, Distant Supervision
 #### 2021
  <details/>
 <summary/>
-  <a>Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
+  <a href="https://arxiv.org/abs/2106.12384">Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
   
 主要思想：事件提取是自然语言处理的一项基本任务。
 找到事件参数(如事件参与者)的角色是提取事件的关键。
