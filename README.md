@@ -259,6 +259,20 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 </p></blockquote></details>
 
 
+
+ <details/>
+<summary/>
+  <a href="https://arxiv.org/abs/2107.01583">CasEE: A Joint Learning Framework with Cascade Decoding for Overlapping Event Extraction, Findings of ACL 2021 </a> by <i> Jiawei Sheng, Shu Guo, Bowen Yu, Qian Li, Yiming Hei, Lihong Wang, Tingwen Liu, Hongbo Xu(<a href="https://github.com/JiaweiSheng">Github</a>)</summary><blockquote><p align="justify">
+  
+事件提取(EE)是一项重要的信息提取任务，旨在提取文本中的事件信息。现有的方法大多假设事件出现在没有重叠的句子中，不适用于复杂的重叠事件抽取。本研究系统地研究了现实事件重叠问题，即一个词可以作为具有多种类型或不同角色的触发器。为了解决上述问题，我们提出了一种新的基于级联解码的重叠事件提取联合学习框架，称为CasEE。特别是，CasEE依次执行类型检测、触发器提取和参数提取，其中重叠的目标根据特定的前一个预测分别提取。所有子任务在一个框架中共同学习，以捕获子任务之间的依赖关系。对公共事件提取基准FewFC的评估表明，与以前的竞争方法相比，CasEE在重叠事件提取方面取得了显著改进。
+
+
+
+数据集： FewFC
+</p></blockquote></details>
+
+
+
 #### 2020
  <details/>
 <summary/>
