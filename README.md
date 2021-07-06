@@ -99,6 +99,15 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
 <details/>
 <summary/>
+<a href="https://arxiv.org/abs/2107.02126">Deep Learning Schema-based Event Extraction: Literature Review and Current Trends, 2019</a> by <i>Qian Li, Hao Peng, Jianxin Li, Yiming Hei, Rui Sun, Jiawei Sheng, Shu Guo, Lihong Wang, Philip S. Yu
+</a></summary><blockquote><p align="justify">
+基于模式的事件提取是及时理解事件本质内容的关键技术。随着深度学习技术的快速发展，基于深度学习的事件提取技术成为研究热点。文献中提出了大量的方法、数据集和评价指标，因此需要进行全面和更新的调查。本文通过回顾最新的方法填补了这一空白，重点关注基于深度学习的模型。我们总结了基于模式的事件提取的任务定义、范式和模型，然后详细讨论每一个。我们引入了支持预测和评估指标测试的基准数据集。本调查还提供了不同技术之间的综合比较。最后，总结了今后的研究方向。
+</p></blockquote></details>
+
+
+
+<details/>
+<summary/>
 <a href="https://doi.org/10.11896/j.issn.1002-137X.2019.08.002">元事件抽取研究综述, 2019</a> by <i>GAO Li-zheng, ZHOU Gang, LUO Jun-yong, LAN Ming-jing
 </a></summary><blockquote><p align="justify">
 事件抽取是信息抽取领域的一个重要研究方向,在情报收集、知识提取、文档摘要、知识问答等领域有着广泛应用。写了一篇对当前事件抽取领域研究得较多的元事件抽取任务的综述。首先,简要介绍了元事件和元事件抽取的基本概念,以及元事件抽取的主要实现方法。然后,重点阐述了元事件抽取的主要任务,详细介绍了元事件检测过程,并对其他相关任务进行了概述。最后,总结了元事件抽取面临的问题,在此基础上展望了元事件抽取的发展趋势。
