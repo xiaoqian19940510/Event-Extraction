@@ -239,6 +239,20 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
  <details/>
 <summary/>
+  <a href="https://arxiv.org/abs/2108.10038">Event Extraction by Associating Event Types and Argument Roles, arXiv 2021 </a> by <i> Qian Li, Shu Guo, Jia Wu, Jianxin Li, Jiawei Sheng, Lihong Wang, Xiaohan Dong, and Hao Peng </summary><blockquote><p align="justify">
+  
+从文本中获取结构化事件知识的事件抽取可分为事件类型分类和元素抽取(即识别不同角色模式下的触发器和参数)两个子任务。由于不同的事件类型总是有不同的抽取模式(即角色模式)，以往关于情感表达的研究通常遵循一个孤立的学习范式，对不同的事件类型独立地进行元素抽取。它忽略了事件类型和参数角色之间有意义的关联，导致较少频繁的类型/角色的性能相对较差。本文提出了一种新的情感表达任务神经关联框架。给定一个文档，首先通过构建文档级图来关联不同类型的句子节点进行类型分类，然后采用图注意网络来学习句子嵌入。然后，通过构建参数角色的通用模式来实现元素提取，使用参数继承机制来增强提取元素的角色优先级。因此，我们的模型考虑了情感表达过程中的类型和角色关联，实现了它们之间的隐式信息共享。实验结果表明，我们的方法在两个子任务中都优于最先进的情感表达方法。特别是对于训练数据较少的类型/角色，其性能优于现有方法。
+
+  ![image](https://github.com/xiaoqian19940510/Event-Extraction/blob/master/figures/Framework.png)
+
+数据集：ACE
+</p></blockquote></details>
+
+
+
+
+ <details/>
+<summary/>
   <a href="https://arxiv.org/abs/2106.12384">Reinforcement Learning-based Dialogue Guided Event Extraction to Exploit Argument Relations, arXiv 2021 </a> by <i> Qian Li, Hao Peng, Jianxin Li, Yuanxing Ning, Lihong Wang, Philip S. Yu, and Zheng Wang(<a href="https://github.com/xiaoqian19940510/TASLP-EAREE">Github</a>)</summary><blockquote><p align="justify">
   
 主要思想：事件提取是自然语言处理的一项基本任务。
