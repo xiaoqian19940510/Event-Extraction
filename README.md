@@ -163,6 +163,21 @@ Closed-domain事件抽取使用预定义的事件模式从文本中发现和提�
 
  <details/>
 <summary/>
+  <a href="https://arxiv.org/abs/2105.09458">MLBiNet: A Cross-Sentence Collective Event Detection Network, ACL 2021 </a> by <i> Dongfang Lou, Zhilin Liao, Shumin Deng, Ningyu Zhang, Huajun Chen(<a href="https://github.com/zjunlp/DocED">Github</a>)</summary><blockquote><p align="justify">
+  
+主要思想：
+考虑了多个事件集体检测的问题，特别是在跨句子的任务设定中。该任务的关键在于如何对语义信息和事件的相互依赖在文档级别进行编码和建模。
+在本文中，我们将这个问题重新表述为Seq2Seq的任务，并提出了一个多层双向的网络（MLBiNet）来同时捕捉事件和语义信息的文档级关联。
+具体来说，在解码事件标签向量序列时，首先设计了一个双向编码器来模拟句子内的事件相互依赖；其次，采用信息聚合模块来聚合句子级别的语义和事件标签信息；最后，通过堆叠多个双向解码器并提供跨句子信息，形成多层双向标记架构，以在句子之间迭代传播信息。
+实验表明与当前最先进的结果相比，我们的方法显着提高了性能。
+
+
+数据集：ACE
+</p></blockquote></details>
+
+
+ <details/>
+<summary/>
   <a href="https://www.aclweb.org/anthology/2021.naacl-main.6/">Event Time Extraction and Propagation via Graph Attention Networks, NAACL-HLT 2021 </a> by <i> Haoyang Wen, Yanru Qu, Heng Ji, Qiang Ning, Jiawei Han, Avi Sil, Hanghang Tong and Dan Roth(<a>Github</a>)</summary><blockquote><p align="justify">
   
 主要思想：
